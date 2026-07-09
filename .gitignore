@@ -1,0 +1,52 @@
+# --- Internal design docs (kept local, not published) ---
+docs/
+
+# --- Secrets / env ---
+.env
+.env.*
+!.env.example
+secrets.*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Tooling caches ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Local runtime stores (event log, seen-keys, behavior model, checkpoints) ---
+# NOTE: committed digests live in digests/ and ARE tracked; the SQLite
+# domain stores are local runtime state and are NOT committed.
+*.db
+*.sqlite
+*.sqlite3
+data/
+.lodestar/
+
+# --- Model / embedding caches (if local embeddings are ever used) ---
+.cache/
+models/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
