@@ -1,0 +1,6 @@
+# arXiv categories to sweep and the per-run candidate cap.
+categories:
+  - cs.AI
+  - cs.CL
+  - cs.LG
+cap: 15

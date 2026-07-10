@@ -1,0 +1,10 @@
+# Exa web search: the standing query and the credible-domain allowlist.
+query: "notable new developments in AI agents, LLM tooling, and agent frameworks"
+domains:
+  - anthropic.com
+  - openai.com
+  - deepmind.google
+  - blog.langchain.dev
+  - huggingface.co
+  - ai.meta.com
+  - mistral.ai

@@ -1,8 +1,8 @@
-"""Configuration and repo-relative paths.
+"""Configuration, repo-relative paths, and versioned YAML source config.
 
 The constitution is loaded from the repo root and (in later phases) prepended
-verbatim to every LLM context. For now it is loaded so the synthesizer can
-judge relevance against it.
+verbatim to every LLM context. Source configuration lives in `config/*.yaml`
+so changes are visible in git and need no code change.
 """
 
 from __future__ import annotations
@@ -10,12 +10,13 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
+import yaml
+
 # src/lodestar/config.py -> parents[2] is the repo root.
 REPO_ROOT = Path(__file__).resolve().parents[2]
+CONFIG_DIR = REPO_ROOT / "config"
 
 # Model IDs — verified at build against the current Anthropic model line.
-# Haiku-class handles the high-volume per-item work; a stronger model is used
-# for synthesis/judge in later phases.
 HAIKU_MODEL = os.environ.get("LODESTAR_HAIKU_MODEL", "claude-haiku-4-5-20251001")
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
@@ -23,3 +24,22 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
 def load_constitution() -> str:
     return (REPO_ROOT / "constitution.md").read_text(encoding="utf-8")
+
+
+def _load_yaml(name: str, default: dict) -> dict:
+    path = CONFIG_DIR / name
+    if not path.exists():
+        return default
+    return yaml.safe_load(path.read_text(encoding="utf-8")) or default
+
+
+def arxiv_config() -> dict:
+    return _load_yaml("arxiv.yaml", {"categories": ["cs.AI", "cs.CL", "cs.LG"], "cap": 15})
+
+
+def github_watchlist() -> list[str]:
+    return _load_yaml("watchlist.yaml", {"repos": []}).get("repos", [])
+
+
+def exa_config() -> dict:
+    return _load_yaml("domains.yaml", {"query": "", "domains": []})

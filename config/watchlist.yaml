@@ -1,0 +1,8 @@
+# GitHub repos to watch for new releases. Edit freely — versioned in git.
+repos:
+  - langchain-ai/langgraph
+  - langchain-ai/langchain
+  - anthropics/anthropic-sdk-python
+  - openai/openai-python
+  - modelcontextprotocol/python-sdk
+  - vllm-project/vllm
