@@ -1,0 +1,41 @@
+name: daily-digest
+
+on:
+  schedule:
+    # 06:17 UTC daily. Odd minute on purpose (scheduled runs are delayed at the
+    # top of the hour). Adjust once you settle a timezone / preferred time.
+    - cron: "17 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install
+        run: pip install -e .
+
+      - name: Build digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m lodestar.main
+
+      - name: Commit digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add digests latest.md
+          git diff --staged --quiet || git commit -m "Daily digest $(date -u +%Y-%m-%d)"
+          git push
