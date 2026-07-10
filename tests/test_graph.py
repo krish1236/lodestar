@@ -1,7 +1,7 @@
 """The graph shell wires together and runs, with the pass-through nodes intact.
 
-Sources are monkeypatched to avoid network; this checks graph *structure and
-flow*, not live fetching.
+The adapter registry is patched to a single fake source so the test is
+network-free and checks graph *structure and flow*, not live fetching.
 """
 
 from lodestar import graph as g
@@ -9,9 +9,19 @@ from lodestar.models import Finding
 from lodestar.sources.base import FetchResult
 
 
-def test_graph_runs_end_to_end(monkeypatch, tmp_path):
+class _FakeAdapter:
+    name = "fake"
+
+    def __init__(self, finding: Finding):
+        self._finding = finding
+
+    def fetch(self, cap: int) -> FetchResult:
+        return FetchResult(findings=[self._finding])
+
+
+def test_graph_runs_end_to_end(monkeypatch):
     fake = Finding(
-        source="hackernews",
+        source="fake",
         external_id="1",
         url="https://example.com/x",
         title="A substantive thing",
@@ -19,13 +29,11 @@ def test_graph_runs_end_to_end(monkeypatch, tmp_path):
         credibility_signals={"points": 99},
     )
 
-    # No network, no LLM, no disk writes outside tmp.
-    monkeypatch.setattr(
-        g.HackerNewsAdapter, "fetch", lambda self, cap: FetchResult(findings=[fake])
-    )
+    # One fake source; no network, no LLM, no disk writes outside the capture.
+    monkeypatch.setattr(g, "_adapters", lambda: [(_FakeAdapter(fake), 5)])
     monkeypatch.setattr(g, "load_constitution", lambda: "mission")
     monkeypatch.setattr(g, "add_why", lambda findings, constitution: findings)
-    written = {}
+    written: dict = {}
     monkeypatch.setattr(g, "write_digest", lambda md, date: written.update(md=md, date=date))
 
     final = g.build_graph().invoke({"run_date": "2026-01-01", "findings": [], "errors": []})
