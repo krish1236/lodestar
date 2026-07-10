@@ -1,6 +1,4 @@
-"""Phase 0 entry point: the whole thin slice, end to end.
-
-    load constitution -> fetch HN -> add "why" -> render -> write files
+"""Entry point: build the graph and run one daily pass.
 
 Run with `python -m lodestar.main` or the `lodestar` console script.
 """
@@ -9,31 +7,18 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 
-from .config import load_constitution
-from .digest import render, write_digest
-from .sources.hackernews import HackerNewsAdapter
-
-# Small cap for the skeleton — one source, a handful of front-page items.
-CAP = 10
+from .graph import build_graph
 
 
 def run() -> None:
     run_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    constitution = load_constitution()
+    graph = build_graph()
+    final = graph.invoke({"run_date": run_date, "findings": [], "errors": []})
 
-    result = HackerNewsAdapter().fetch(CAP)
-    from .synthesize import add_why
-
-    findings = add_why(result.findings, constitution)
-
-    markdown = render(findings, run_date, result.errors)
-    write_digest(markdown, run_date)
-
-    print(
-        f"[lodestar] {run_date}: wrote {len(findings)} item(s), "
-        f"{len(result.errors)} source error(s)."
-    )
-    for e in result.errors:
+    findings = final.get("findings", [])
+    errors = final.get("errors", [])
+    print(f"[lodestar] {run_date}: wrote {len(findings)} item(s), {len(errors)} source error(s).")
+    for e in errors:
         print(f"  ERROR [{e.source}]: {e.message}")
 
 
