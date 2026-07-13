@@ -23,6 +23,7 @@ from .config import (
     load_constitution,
     prefilter_config,
 )
+from .credibility import mark_trusted
 from .digest import render, write_digest
 from .memory import seen_keys, watermark
 from .prefilter import prefilter
@@ -53,7 +54,8 @@ def _adapters() -> list[tuple[SourceAdapter, int]]:
 def _make_gather(adapter: SourceAdapter, cap: int):
     def _node(state: RunState) -> dict:
         result = adapter.fetch(cap)
-        return {"findings": result.findings, "errors": result.errors}
+        findings = mark_trusted(result.findings)  # derived allowlist signal
+        return {"findings": findings, "errors": result.errors}
 
     _node.__name__ = f"gather_{adapter.name}"
     return _node
