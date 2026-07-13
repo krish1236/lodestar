@@ -24,5 +24,9 @@ class Finding:
     credibility_signals: dict = field(default_factory=dict)
     # One-line "why this matters for you", filled by the synthesizer (LLM).
     why: str | None = None
+    # LLM relevance in [0,1] (Phase 1.6) and the final rank score (relevance x
+    # credibility booster). Set during synthesis.
+    relevance: float | None = None
+    rank_score: float | None = None
     # Source-specific payload, kept for provenance.
     raw: dict = field(default_factory=dict)
