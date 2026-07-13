@@ -41,7 +41,7 @@ def render(findings: list[Finding], run_date: str, errors: list[SourceError]) ->
         lines.append("")
 
     stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    lines.append(f"_Generated {stamp} · Hacker News · Phase 0 skeleton_")
+    lines.append(f"_Generated {stamp} · Lodestar_")
     return "\n".join(lines) + "\n"
 
 

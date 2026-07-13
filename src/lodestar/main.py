@@ -15,9 +15,13 @@ def run() -> None:
     graph = build_graph()
     final = graph.invoke({"run_date": run_date, "findings": [], "errors": []})
 
-    findings = final.get("findings", [])
+    fetched = final.get("findings", [])
+    surfaced = final.get("deduped", fetched)
     errors = final.get("errors", [])
-    print(f"[lodestar] {run_date}: wrote {len(findings)} item(s), {len(errors)} source error(s).")
+    print(
+        f"[lodestar] {run_date}: fetched {len(fetched)}, "
+        f"surfaced {len(surfaced)} new item(s), {len(errors)} source error(s)."
+    )
     for e in errors:
         print(f"  ERROR [{e.source}]: {e.message}")
 

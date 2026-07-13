@@ -24,4 +24,5 @@ class RunState(TypedDict, total=False):
     constitution: str
     findings: Annotated[list[Finding], operator.add]  # fan-out target -> reducer
     errors: Annotated[list[SourceError], operator.add]  # fan-out target -> reducer
+    deduped: list[Finding]  # single writer (dedup) — the reduced set downstream uses
     digest_md: str  # single writer (synthesize)

@@ -23,6 +23,7 @@ from .config import (
     load_constitution,
 )
 from .digest import render, write_digest
+from .memory import seen_keys, watermark
 from .sources.arxiv import ArxivAdapter
 from .sources.base import SourceAdapter
 from .sources.exa import ExaAdapter
@@ -61,7 +62,13 @@ def load_context(state: RunState) -> dict:
 
 
 def dedup(state: RunState) -> dict:
-    return {}  # pass-through — real exact/semantic dedup in Phase 1.3
+    # Watermark (efficiency) then seen-keys (correctness). Writes the reduced
+    # set to `deduped` — it must NOT return `findings`, which is reducer-backed
+    # and would append rather than replace.
+    raw = state.get("findings", [])
+    fresh = watermark.filter_newer(raw, watermark.load())
+    deduped = seen_keys.filter_new(fresh, seen_keys.load())
+    return {"deduped": deduped}
 
 
 def verify(state: RunState) -> dict:
@@ -73,14 +80,19 @@ def judge(state: RunState) -> dict:
 
 
 def synthesize(state: RunState) -> dict:
-    findings = add_why(state.get("findings", []), state.get("constitution", ""))
+    findings = add_why(state.get("deduped", []), state.get("constitution", ""))
     markdown = render(findings, state["run_date"], state.get("errors", []))
     return {"digest_md": markdown}
 
 
 def consolidate(state: RunState) -> dict:
     write_digest(state["digest_md"], state["run_date"])
-    return {}  # Phase 1.7 emits events + updates seen-keys here
+    # Persist durable state: mark surfaced items seen, advance watermarks from
+    # everything fetched. (Phase 1.7 also emits events here.)
+    deduped = state.get("deduped", [])
+    seen_keys.append(deduped)
+    watermark.save(watermark.advance(state.get("findings", []), watermark.load()))
+    return {}
 
 
 def build_graph():
