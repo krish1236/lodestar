@@ -49,3 +49,7 @@ def prefilter_config() -> dict:
     return _load_yaml(
         "prefilter.yaml", {"keywords": [], "filtered_sources": [], "caps": {}}
     )
+
+
+def trusted_sources() -> dict:
+    return _load_yaml("trusted_sources.yaml", {"orgs": [], "domains": [], "authors": []})

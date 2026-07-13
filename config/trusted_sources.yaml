@@ -1,0 +1,26 @@
+# Credibility-boost allowlist (a boost input, NOT a filter — see Topic 7/9).
+# Membership sets credibility_signals.trusted = true; ranking uses it to lift,
+# never to exclude. Edit freely — versioned in git.
+
+orgs: # GitHub org logins treated as first-party / high-trust
+  - openai
+  - anthropics
+  - langchain-ai
+  - google-deepmind
+  - google-research
+  - modelcontextprotocol
+  - meta-llama
+  - mistralai
+  - huggingface
+  - vllm-project
+
+domains: # first-party / high-signal domains
+  - anthropic.com
+  - openai.com
+  - deepmind.google
+  - blog.langchain.dev
+  - huggingface.co
+  - ai.meta.com
+  - mistral.ai
+
+authors: [] # known high-signal handles (HN usernames, etc.)
