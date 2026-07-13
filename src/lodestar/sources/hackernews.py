@@ -12,7 +12,23 @@ from ..models import Finding
 from .base import FetchResult, SourceError
 
 ALGOLIA_SEARCH = "https://hn.algolia.com/api/v1/search"
+HN_USER = "https://hacker-news.firebaseio.com/v0/user/{user}.json"
 HN_ITEM = "https://news.ycombinator.com/item?id="
+
+
+def _karma_map(authors: list[str]) -> dict[str, dict]:
+    """One /user lookup per unique author — karma + account age (the cleanest
+    credibility signal across all our sources)."""
+    out: dict[str, dict] = {}
+    for author in {a for a in authors if a}:
+        try:
+            resp = httpx.get(HN_USER.format(user=author), timeout=10.0)
+            resp.raise_for_status()
+            data = resp.json() or {}
+            out[author] = {"karma": data.get("karma"), "account_created": data.get("created")}
+        except Exception:
+            continue  # missing karma is non-fatal
+    return out
 
 
 class HackerNewsAdapter:
@@ -49,4 +65,9 @@ class HackerNewsAdapter:
                     raw=hit,
                 )
             )
+
+        karma = _karma_map([f.author for f in findings])
+        for f in findings:
+            if f.author in karma:
+                f.credibility_signals.update(karma[f.author])
         return FetchResult(findings=findings)

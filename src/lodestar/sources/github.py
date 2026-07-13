@@ -16,9 +16,11 @@ from ..models import Finding
 from .base import FetchResult, SourceError
 
 RELEASES = "https://api.github.com/repos/{repo}/releases"
+REPO = "https://api.github.com/repos/{repo}"
 
 
-def parse(repo: str, releases: list[dict]) -> list[Finding]:
+def parse(repo: str, releases: list[dict], meta: dict | None = None) -> list[Finding]:
+    meta = meta or {}
     findings: list[Finding] = []
     for rel in releases:
         if rel.get("draft"):
@@ -34,7 +36,7 @@ def parse(repo: str, releases: list[dict]) -> list[Finding]:
                 published_at=rel.get("published_at", ""),
                 author=(rel.get("author") or {}).get("login"),
                 summary=(rel.get("body") or "")[:500] or None,
-                credibility_signals={"prerelease": rel.get("prerelease", False)},
+                credibility_signals={"prerelease": rel.get("prerelease", False), **meta},
                 raw={"repo": repo, "tag": tag},
             )
         )
@@ -57,6 +59,7 @@ class GitHubAdapter:
         errors: list[SourceError] = []
         for repo in self.repos:
             try:
+                meta = self._repo_meta(repo, headers)
                 resp = httpx.get(
                     RELEASES.format(repo=repo),
                     headers=headers,
@@ -64,7 +67,23 @@ class GitHubAdapter:
                     timeout=20.0,
                 )
                 resp.raise_for_status()
-                findings.extend(parse(repo, resp.json()))
+                findings.extend(parse(repo, resp.json(), meta))
             except Exception as exc:  # fault isolation, per repo
                 errors.append(SourceError(self.name, f"{repo}: {exc}"))
         return FetchResult(findings=findings[:cap], errors=errors)
+
+    @staticmethod
+    def _repo_meta(repo: str, headers: dict) -> dict:
+        """Stars + owner type/login — raw credibility signals (one call/repo)."""
+        try:
+            resp = httpx.get(REPO.format(repo=repo), headers=headers, timeout=15.0)
+            resp.raise_for_status()
+            d = resp.json()
+            owner = d.get("owner") or {}
+            return {
+                "stars": d.get("stargazers_count"),
+                "owner_type": owner.get("type"),
+                "owner_login": owner.get("login"),
+            }
+        except Exception:
+            return {}

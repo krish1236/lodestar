@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import os
 from datetime import datetime, timedelta, timezone
+from urllib.parse import urlsplit
 
 import httpx
 
@@ -23,15 +24,17 @@ _LOOKBACK_DAYS = 3
 def parse(results: list[dict]) -> list[Finding]:
     findings: list[Finding] = []
     for r in results:
+        url = r.get("url", "")
         findings.append(
             Finding(
                 source="exa",
-                external_id=r.get("id") or r.get("url", ""),
-                url=r.get("url", ""),
+                external_id=r.get("id") or url,
+                url=url,
                 title=(r.get("title") or "(untitled)").strip(),
                 published_at=r.get("publishedDate", ""),
                 author=r.get("author"),
                 summary=(r.get("text") or None),
+                credibility_signals={"domain": urlsplit(url).netloc.lower().removeprefix("www.")},
                 raw={"score": r.get("score")},
             )
         )
