@@ -1,10 +1,12 @@
-"""Render findings to Markdown and write them to disk.
+"""Render the sectioned digest to Markdown and write it to disk.
 
-Phase 0 writes two files:
+Layout (Topic 7): an optional overview, a cross-source Highlights section, then
+per-source sections (Papers / Releases / Discussion). Each item shows its
+credibility signals and the one-line "why this matters."
+
+Writes:
   - digests/YYYY-MM-DD.md  — the permanent, dated archive (raw episodic store)
   - latest.md              — a stable pointer to the newest digest
-
-The architecture write-up stays in README.md.
 """
 
 from __future__ import annotations
@@ -16,33 +18,53 @@ from .models import Finding
 from .sources.base import SourceError
 
 
-def render(findings: list[Finding], run_date: str, errors: list[SourceError]) -> str:
-    lines = [f"# Daily Digest — {run_date}", ""]
+def _item_line(f: Finding) -> str:
+    meta: list[str] = []
+    if f.author:
+        meta.append(f"@{f.author}")
+    if (pts := f.credibility_signals.get("points")) is not None:
+        meta.append(f"{pts} pts")
+    if (stars := f.credibility_signals.get("stars")) is not None:
+        meta.append(f"★{stars}")
+    if (karma := f.credibility_signals.get("karma")) is not None:
+        meta.append(f"{karma} karma")
+    if f.credibility_signals.get("trusted"):
+        meta.append("trusted")
+    suffix = f" · {' · '.join(meta)}" if meta else ""
+    lines = [f"- [{f.title}]({f.url}){suffix}"]
+    if f.why:
+        lines.append(f"  - {f.why}")
+    return "\n".join(lines)
 
-    if not findings:
-        lines.append("_Quiet day — nothing surfaced._")
-    for f in findings:
-        meta = []
-        if f.author:
-            meta.append(f"@{f.author}")
-        points = f.credibility_signals.get("points")
-        if points is not None:
-            meta.append(f"{points} pts")
-        suffix = f" · {' · '.join(meta)}" if meta else ""
-        lines.append(f"- [{f.title}]({f.url}){suffix}")
-        if f.why:
-            lines.append(f"  - {f.why}")
 
-    lines.append("")
+def render(
+    run_date: str,
+    overview: str | None,
+    highlights: list[Finding],
+    sections: dict[str, list[Finding]],
+    errors: list[SourceError],
+) -> str:
+    out = [f"# Daily Digest — {run_date}", ""]
+    if overview:
+        out += [f"> {overview}", ""]
+
+    total = sum(len(v) for v in sections.values())
+    if not total:
+        out.append("_Quiet day — nothing on-mission surfaced._")
+        out.append("")
+
+    if highlights:
+        out += ["## Highlights", ""] + [_item_line(f) for f in highlights] + [""]
+    for section, items in sections.items():
+        out += [f"## {section}", ""] + [_item_line(f) for f in items] + [""]
+
     if errors:
-        lines.append("---")
-        for e in errors:
-            lines.append(f"> ⚠️ source `{e.source}` unavailable: {e.message}")
-        lines.append("")
+        out += ["---"] + [f"> ⚠️ source `{e.source}` unavailable: {e.message}" for e in errors]
+        out += [""]
 
     stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    lines.append(f"_Generated {stamp} · Lodestar_")
-    return "\n".join(lines) + "\n"
+    out.append(f"_Generated {stamp} · Lodestar_")
+    return "\n".join(out) + "\n"
 
 
 def write_digest(markdown: str, run_date: str) -> None:

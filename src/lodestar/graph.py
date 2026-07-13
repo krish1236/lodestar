@@ -27,13 +27,14 @@ from .credibility import mark_trusted
 from .digest import render, write_digest
 from .memory import seen_keys, watermark
 from .prefilter import prefilter
+from .ranking import build_sections, rank
 from .sources.arxiv import ArxivAdapter
 from .sources.base import SourceAdapter
 from .sources.exa import ExaAdapter
 from .sources.github import GitHubAdapter
 from .sources.hackernews import HackerNewsAdapter
 from .state import RunState
-from .synthesize import add_why
+from .synthesize import overview, score_relevance
 
 # Per-source candidate caps (Phase 1.4 refines the cheap pre-filter for arXiv).
 _DEFAULT_CAP = 10
@@ -91,8 +92,14 @@ def judge(state: RunState) -> dict:
 
 
 def synthesize(state: RunState) -> dict:
-    findings = add_why(state.get("deduped", []), state.get("constitution", ""))
-    markdown = render(findings, state["run_date"], state.get("errors", []))
+    constitution = state.get("constitution", "")
+    scored = score_relevance(state.get("deduped", []), constitution)  # Haiku, per item
+    ranked = rank(scored)  # formula: relevance gate x credibility boost
+    highlights, sections = build_sections(ranked)
+    markdown = render(
+        state["run_date"], overview(highlights, constitution), highlights, sections,
+        state.get("errors", []),
+    )
     return {"digest_md": markdown}
 
 

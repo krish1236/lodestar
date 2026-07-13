@@ -17,7 +17,9 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 CONFIG_DIR = REPO_ROOT / "config"
 
 # Model IDs — verified at build against the current Anthropic model line.
+# Haiku-class for high-volume per-item work; Sonnet-class for the single overview.
 HAIKU_MODEL = os.environ.get("LODESTAR_HAIKU_MODEL", "claude-haiku-4-5-20251001")
+SONNET_MODEL = os.environ.get("LODESTAR_SONNET_MODEL", "claude-sonnet-5")
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
