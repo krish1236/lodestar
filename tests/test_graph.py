@@ -31,11 +31,17 @@ def test_graph_runs_end_to_end(monkeypatch, tmp_path):
     )
 
     # One fake source; no network, no LLM, state isolated to tmp.
+    def _fake_score(findings, constitution):
+        for f in findings:
+            f.relevance = 0.9
+        return findings
+
     monkeypatch.setattr(g, "_adapters", lambda: [(_FakeAdapter(fake), 5)])
     monkeypatch.setattr(seen_keys, "SEEN_PATH", tmp_path / "seen.txt")
     monkeypatch.setattr(watermark, "WM_PATH", tmp_path / "wm.json")
     monkeypatch.setattr(g, "load_constitution", lambda: "mission")
-    monkeypatch.setattr(g, "add_why", lambda findings, constitution: findings)
+    monkeypatch.setattr(g, "score_relevance", _fake_score)
+    monkeypatch.setattr(g, "overview", lambda highlights, constitution: None)
     written: dict = {}
     monkeypatch.setattr(g, "write_digest", lambda md, date: written.update(md=md, date=date))
 
