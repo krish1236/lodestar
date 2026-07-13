@@ -43,3 +43,9 @@ def github_watchlist() -> list[str]:
 
 def exa_config() -> dict:
     return _load_yaml("domains.yaml", {"query": "", "domains": []})
+
+
+def prefilter_config() -> dict:
+    return _load_yaml(
+        "prefilter.yaml", {"keywords": [], "filtered_sources": [], "caps": {}}
+    )

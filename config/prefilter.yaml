@@ -1,0 +1,63 @@
+# Cheap, deterministic pre-filter (runs before the LLM stages).
+#
+# Only high-volume / low-curation sources are keyword-filtered; curated sources
+# (GitHub watchlist, Exa domain-scoped) are already on-mission and pass through.
+
+filtered_sources:
+  - arxiv
+  - hackernews
+
+# An item from a filtered source is kept only if its title/summary contains one
+# of these terms (case-insensitive substring). Keep this aligned with the
+# constitution's interest profile.
+keywords:
+  - agent
+  - agentic
+  - llm
+  - language model
+  - gpt
+  - claude
+  - anthropic
+  - openai
+  - gemini
+  - mistral
+  - rag
+  - retrieval
+  - embedding
+  - mcp
+  - model context protocol
+  - tool use
+  - tool-calling
+  - function calling
+  - multi-agent
+  - orchestrat
+  - langchain
+  - langgraph
+  - fine-tun
+  - inference
+  - transformer
+  - context window
+  - prompt
+  - reasoning
+  - eval
+  - benchmark
+  - vector
+  - semantic
+  - memory
+  - autonomous
+  - copilot
+  - assistant
+  - foundation model
+  - alignment
+  - hallucinat
+  - chain-of-thought
+  - vllm
+  - quantization
+  - distillation
+
+# Per-source cap applied after keyword filtering.
+caps:
+  arxiv: 12
+  hackernews: 8
+  github: 12
+  exa: 10
