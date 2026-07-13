@@ -5,6 +5,7 @@ network-free and checks graph *structure and flow*, not live fetching.
 """
 
 from lodestar import graph as g
+from lodestar.memory import seen_keys, watermark
 from lodestar.models import Finding
 from lodestar.sources.base import FetchResult
 
@@ -19,7 +20,7 @@ class _FakeAdapter:
         return FetchResult(findings=[self._finding])
 
 
-def test_graph_runs_end_to_end(monkeypatch):
+def test_graph_runs_end_to_end(monkeypatch, tmp_path):
     fake = Finding(
         source="fake",
         external_id="1",
@@ -29,8 +30,10 @@ def test_graph_runs_end_to_end(monkeypatch):
         credibility_signals={"points": 99},
     )
 
-    # One fake source; no network, no LLM, no disk writes outside the capture.
+    # One fake source; no network, no LLM, state isolated to tmp.
     monkeypatch.setattr(g, "_adapters", lambda: [(_FakeAdapter(fake), 5)])
+    monkeypatch.setattr(seen_keys, "SEEN_PATH", tmp_path / "seen.txt")
+    monkeypatch.setattr(watermark, "WM_PATH", tmp_path / "wm.json")
     monkeypatch.setattr(g, "load_constitution", lambda: "mission")
     monkeypatch.setattr(g, "add_why", lambda findings, constitution: findings)
     written: dict = {}

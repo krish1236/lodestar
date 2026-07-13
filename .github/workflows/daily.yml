@@ -36,6 +36,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add digests latest.md
+          git add digests latest.md state
           git diff --staged --quiet || git commit -m "Daily digest $(date -u +%Y-%m-%d)"
           git push
