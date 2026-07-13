@@ -21,9 +21,11 @@ from .config import (
     exa_config,
     github_watchlist,
     load_constitution,
+    prefilter_config,
 )
 from .digest import render, write_digest
 from .memory import seen_keys, watermark
+from .prefilter import prefilter
 from .sources.arxiv import ArxivAdapter
 from .sources.base import SourceAdapter
 from .sources.exa import ExaAdapter
@@ -71,6 +73,13 @@ def dedup(state: RunState) -> dict:
     return {"deduped": deduped}
 
 
+def prefilter_node(state: RunState) -> dict:
+    # Cheap keyword/recency filter + per-source caps before the LLM stages.
+    # Overwrites `deduped` (single-writer key, safe to replace).
+    kept = prefilter(state.get("deduped", []), prefilter_config())
+    return {"deduped": kept}
+
+
 def verify(state: RunState) -> dict:
     return {}  # pass-through — adversarial verifier in Phase 2.1
 
@@ -105,6 +114,7 @@ def build_graph():
 
     for name, fn in [
         ("dedup", dedup),
+        ("prefilter", prefilter_node),
         ("verify", verify),
         ("judge", judge),
         ("synthesize", synthesize),
@@ -117,7 +127,8 @@ def build_graph():
         g.add_edge("load_context", f"gather_{adapter.name}")  # fan-out
         g.add_edge(f"gather_{adapter.name}", "dedup")  # fan-in (reducer merges)
 
-    g.add_edge("dedup", "verify")
+    g.add_edge("dedup", "prefilter")
+    g.add_edge("prefilter", "verify")
     g.add_edge("verify", "judge")
     g.add_edge("judge", "synthesize")  # Phase 2.2 makes this a conditional edge
     g.add_edge("synthesize", "consolidate")
