@@ -5,7 +5,7 @@ network-free and checks graph *structure and flow*, not live fetching.
 """
 
 from lodestar import graph as g
-from lodestar.memory import seen_keys, watermark
+from lodestar.memory import behavior_model, events, seen_keys, watermark
 from lodestar.models import Finding
 from lodestar.sources.base import FetchResult
 
@@ -39,6 +39,8 @@ def test_graph_runs_end_to_end(monkeypatch, tmp_path):
     monkeypatch.setattr(g, "_adapters", lambda: [(_FakeAdapter(fake), 5)])
     monkeypatch.setattr(seen_keys, "SEEN_PATH", tmp_path / "seen.txt")
     monkeypatch.setattr(watermark, "WM_PATH", tmp_path / "wm.json")
+    monkeypatch.setattr(events, "EVENTS_PATH", tmp_path / "events.jsonl")
+    monkeypatch.setattr(behavior_model, "BM_PATH", tmp_path / "bm.json")
     monkeypatch.setattr(g, "load_constitution", lambda: "mission")
     monkeypatch.setattr(g, "score_relevance", _fake_score)
     monkeypatch.setattr(g, "overview", lambda highlights, constitution: None)

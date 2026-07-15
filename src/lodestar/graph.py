@@ -25,7 +25,7 @@ from .config import (
 )
 from .credibility import mark_trusted
 from .digest import render, write_digest
-from .memory import seen_keys, watermark
+from .memory import behavior_model, events, seen_keys, watermark
 from .prefilter import prefilter
 from .ranking import build_sections, rank
 from .sources.arxiv import ArxivAdapter
@@ -100,16 +100,20 @@ def synthesize(state: RunState) -> dict:
         state["run_date"], overview(highlights, constitution), highlights, sections,
         state.get("errors", []),
     )
-    return {"digest_md": markdown}
+    return {"digest_md": markdown, "surfaced": ranked}
 
 
 def consolidate(state: RunState) -> dict:
     write_digest(state["digest_md"], state["run_date"])
-    # Persist durable state: mark surfaced items seen, advance watermarks from
-    # everything fetched. (Phase 1.7 also emits events here.)
+    # Persist durable state: mark everything considered seen, advance watermarks,
+    # emit events, and fold the behavior-model aggregate.
+    run_id = state["run_date"]
     deduped = state.get("deduped", [])
+    surfaced = state.get("surfaced", [])
     seen_keys.append(deduped)
     watermark.save(watermark.advance(state.get("findings", []), watermark.load()))
+    events.emit_run(run_id, surfaced, len(state.get("findings", [])), len(state.get("errors", [])))
+    behavior_model.update(surfaced, run_id)
     return {}
 
 
