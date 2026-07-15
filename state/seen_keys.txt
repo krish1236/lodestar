@@ -21,3 +21,4 @@ https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.115.1
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.115.0
 https://github.com/openai/openai-python/releases/tag/v2.45.0
 https://get-inscribe.com/blog/apple-speech-api-benchmark.html
+https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing

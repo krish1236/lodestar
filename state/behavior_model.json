@@ -1,7 +1,9 @@
 {
-  "by_source": {},
-  "last_run_id": null,
-  "runs": 0,
+  "by_source": {
+    "hackernews": 1
+  },
+  "last_run_id": "2026-07-15",
+  "runs": 1,
   "topics": {},
-  "updated": null
+  "updated": "2026-07-15"
 }
