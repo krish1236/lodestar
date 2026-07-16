@@ -177,7 +177,9 @@ Deferred on purpose: semantic memory and embeddings, the adversarial verifier an
 
 ## Status
 
-Design complete; Phase 0 in progress. This README describes the target architecture — sections marked `[v2]` land in later phases. The daily digest will overwrite this file once the pipeline runs; the design overview is preserved in the repository history.
+Phase 1 in progress — the daily pipeline runs on schedule over arXiv, Hacker News, and GitHub releases (Exa web once a key is added), with never-lossy dedup, credibility-weighted sectioned ranking, and an append-only event log. Sections marked `[v2]` (verifier, judged loop, semantic memory) land in later phases.
+
+**Today's digest** is written to [`latest.md`](latest.md) and archived under [`digests/`](digests/); per-run metrics land in [`runs/`](runs/). This README stays the architecture overview.
 
 ## License
 
