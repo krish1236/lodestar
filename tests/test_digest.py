@@ -19,7 +19,7 @@ def _f(**kw) -> Finding:
 
 def test_render_overview_highlights_sections_and_meta():
     f = _f(author="alice", credibility_signals={"points": 42, "trusted": True}, why="because X")
-    md = render("2026-01-01", "today's theme", [f], {"Discussion": [f]}, [])
+    md = render("2026-01-01", "today's theme", [f], {"Discussion": [f]}, {"hackernews": 1}, [])
     assert "today's theme" in md
     assert "## Highlights" in md and "## Discussion" in md
     assert "A substantive thing" in md
@@ -28,9 +28,14 @@ def test_render_overview_highlights_sections_and_meta():
 
 
 def test_render_quiet_day():
-    assert "Quiet day" in render("2026-01-01", None, [], {}, [])
+    assert "Quiet day" in render("2026-01-01", None, [], {}, {}, [])
+
+
+def test_render_coverage_line_distinguishes_quiet_from_broken():
+    md = render("2026-01-01", None, [], {}, {"arxiv": 12, "github": 4}, [])
+    assert "Coverage:" in md and "arxiv 12" in md
 
 
 def test_render_surfaces_source_errors():
-    md = render("2026-01-01", None, [], {}, [SourceError("hackernews", "boom")])
+    md = render("2026-01-01", None, [], {}, {}, [SourceError("hackernews", "boom")])
     assert "hackernews" in md and "boom" in md

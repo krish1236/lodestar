@@ -42,6 +42,7 @@ def render(
     overview: str | None,
     highlights: list[Finding],
     sections: dict[str, list[Finding]],
+    coverage: dict[str, int],
     errors: list[SourceError],
 ) -> str:
     out = [f"# Daily Digest — {run_date}", ""]
@@ -58,9 +59,13 @@ def render(
     for section, items in sections.items():
         out += [f"## {section}", ""] + [_item_line(f) for f in items] + [""]
 
-    if errors:
-        out += ["---"] + [f"> ⚠️ source `{e.source}` unavailable: {e.message}" for e in errors]
-        out += [""]
+    out.append("---")
+    # Coverage line: distinguishes a genuinely quiet day from a broken one.
+    if coverage:
+        cov = " · ".join(f"{s} {n}" for s, n in sorted(coverage.items()))
+        out.append(f"_Coverage: {cov}_")
+    for e in errors:
+        out.append(f"> ⚠️ source `{e.source}` unavailable: {e.message}")
 
     stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
     out.append(f"_Generated {stamp} · Lodestar_")

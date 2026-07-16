@@ -14,6 +14,8 @@ No checkpointer — a daily run is short and idempotent (deferred, per design).
 
 from __future__ import annotations
 
+from collections import Counter
+
 from langgraph.graph import END, START, StateGraph
 
 from .config import (
@@ -96,9 +98,10 @@ def synthesize(state: RunState) -> dict:
     scored = score_relevance(state.get("deduped", []), constitution)  # Haiku, per item
     ranked = rank(scored)  # formula: relevance gate x credibility boost
     highlights, sections = build_sections(ranked)
+    coverage = dict(Counter(f.source for f in state.get("findings", [])))
     markdown = render(
         state["run_date"], overview(highlights, constitution), highlights, sections,
-        state.get("errors", []),
+        coverage, state.get("errors", []),
     )
     return {"digest_md": markdown, "surfaced": ranked}
 
