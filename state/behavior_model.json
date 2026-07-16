@@ -1,9 +1,10 @@
 {
   "by_source": {
+    "arxiv": 12,
     "hackernews": 1
   },
-  "last_run_id": "2026-07-15",
-  "runs": 1,
+  "last_run_id": "2026-07-16",
+  "runs": 2,
   "topics": {},
-  "updated": "2026-07-15"
+  "updated": "2026-07-16"
 }

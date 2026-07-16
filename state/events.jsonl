@@ -1,2 +1,15 @@
 {"external_id": "48905248", "rank_score": 0.6184980277004833, "run_id": "2026-07-15", "source": "hackernews", "ts": "2026-07-15T07:01:31+00:00", "type": "item_shown", "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing"}
 {"errors": 0, "fetched": 35, "run_id": "2026-07-15", "surfaced": 1, "ts": "2026-07-15T07:01:31+00:00", "type": "run_completed"}
+{"external_id": "oai:arXiv.org:2607.13037v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13037"}
+{"external_id": "oai:arXiv.org:2607.13049v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13049"}
+{"external_id": "oai:arXiv.org:2607.13069v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13069"}
+{"external_id": "oai:arXiv.org:2607.13073v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13073"}
+{"external_id": "oai:arXiv.org:2607.13104v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13104"}
+{"external_id": "oai:arXiv.org:2607.13115v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13115"}
+{"external_id": "oai:arXiv.org:2607.13157v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13157"}
+{"external_id": "oai:arXiv.org:2607.13172v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13172"}
+{"external_id": "oai:arXiv.org:2607.13220v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13220"}
+{"external_id": "oai:arXiv.org:2607.13230v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13230"}
+{"external_id": "oai:arXiv.org:2607.13239v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13239"}
+{"external_id": "oai:arXiv.org:2607.13285v1", "rank_score": 0.5, "run_id": "2026-07-16", "source": "arxiv", "ts": "2026-07-16T07:06:36+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.13285"}
+{"errors": 0, "fetched": 35, "run_id": "2026-07-16", "surfaced": 12, "ts": "2026-07-16T07:06:36+00:00", "type": "run_completed"}
