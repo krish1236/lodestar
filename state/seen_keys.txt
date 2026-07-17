@@ -34,3 +34,11 @@ https://arxiv.org/abs/2607.13220
 https://arxiv.org/abs/2607.13230
 https://arxiv.org/abs/2607.13239
 https://arxiv.org/abs/2607.13285
+https://arxiv.org/abs/2607.13344
+https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.14
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.117.0
+https://github.com/openai/openai-python/releases/tag/v2.46.0
+https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook
+https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6
+https://lmstudio.ai/blog/introducing-lm-studio-bionic
+https://blog.lyc8503.net/en/post/llm-classifier
