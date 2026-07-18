@@ -22,3 +22,5 @@
 {"external_id": "48939662", "rank_score": 0.65, "run_id": "2026-07-17", "source": "hackernews", "ts": "2026-07-17T07:03:33+00:00", "type": "item_shown", "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic"}
 {"external_id": "48936880", "rank_score": 0.6082431408407964, "run_id": "2026-07-17", "source": "hackernews", "ts": "2026-07-17T07:03:33+00:00", "type": "item_shown", "url": "https://blog.lyc8503.net/en/post/llm-classifier/"}
 {"errors": 0, "fetched": 35, "run_id": "2026-07-17", "surfaced": 8, "ts": "2026-07-17T07:03:33+00:00", "type": "run_completed"}
+{"external_id": "48947717", "rank_score": 0.6235063765725752, "run_id": "2026-07-18", "source": "hackernews", "ts": "2026-07-18T06:56:30+00:00", "type": "item_shown", "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/"}
+{"errors": 0, "fetched": 20, "run_id": "2026-07-18", "surfaced": 1, "ts": "2026-07-18T06:56:30+00:00", "type": "run_completed"}
