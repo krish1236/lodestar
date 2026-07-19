@@ -24,3 +24,7 @@
 {"errors": 0, "fetched": 35, "run_id": "2026-07-17", "surfaced": 8, "ts": "2026-07-17T07:03:33+00:00", "type": "run_completed"}
 {"external_id": "48947717", "rank_score": 0.6235063765725752, "run_id": "2026-07-18", "source": "hackernews", "ts": "2026-07-18T06:56:30+00:00", "type": "item_shown", "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/"}
 {"errors": 0, "fetched": 20, "run_id": "2026-07-18", "surfaced": 1, "ts": "2026-07-18T06:56:30+00:00", "type": "run_completed"}
+{"external_id": "48957779", "rank_score": 0.6355541741887272, "run_id": "2026-07-19", "source": "hackernews", "ts": "2026-07-19T07:08:34+00:00", "type": "item_shown", "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/"}
+{"external_id": "48956879", "rank_score": 0.5829396408008211, "run_id": "2026-07-19", "source": "hackernews", "ts": "2026-07-19T07:08:34+00:00", "type": "item_shown", "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/"}
+{"external_id": "48959392", "rank_score": 0.58001206515009, "run_id": "2026-07-19", "source": "hackernews", "ts": "2026-07-19T07:08:34+00:00", "type": "item_shown", "url": "https://ykdojo.github.io/claude-controls-mac/"}
+{"errors": 0, "fetched": 20, "run_id": "2026-07-19", "surfaced": 3, "ts": "2026-07-19T07:08:34+00:00", "type": "run_completed"}
