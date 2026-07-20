@@ -46,3 +46,17 @@ https://simonwillison.net/2026/Jul/16/kimi-k3
 https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a
 https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal
 https://ykdojo.github.io/claude-controls-mac
+https://arxiv.org/abs/2607.15280
+https://arxiv.org/abs/2607.15281
+https://arxiv.org/abs/2607.15314
+https://arxiv.org/abs/2607.15367
+https://arxiv.org/abs/2607.15388
+https://arxiv.org/abs/2607.15418
+https://arxiv.org/abs/2607.15439
+https://arxiv.org/abs/2607.15442
+https://arxiv.org/abs/2607.15459
+https://arxiv.org/abs/2607.15480
+https://arxiv.org/abs/2607.15532
+https://arxiv.org/abs/2607.15550
+https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust
+https://xcancel.com/__alpoge__/status/2079028340955197566

@@ -28,3 +28,18 @@
 {"external_id": "48956879", "rank_score": 0.5829396408008211, "run_id": "2026-07-19", "source": "hackernews", "ts": "2026-07-19T07:08:34+00:00", "type": "item_shown", "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/"}
 {"external_id": "48959392", "rank_score": 0.58001206515009, "run_id": "2026-07-19", "source": "hackernews", "ts": "2026-07-19T07:08:34+00:00", "type": "item_shown", "url": "https://ykdojo.github.io/claude-controls-mac/"}
 {"errors": 0, "fetched": 20, "run_id": "2026-07-19", "surfaced": 3, "ts": "2026-07-19T07:08:34+00:00", "type": "run_completed"}
+{"external_id": "oai:arXiv.org:2607.15280v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15280"}
+{"external_id": "oai:arXiv.org:2607.15281v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15281"}
+{"external_id": "oai:arXiv.org:2607.15314v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15314"}
+{"external_id": "oai:arXiv.org:2607.15367v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15367"}
+{"external_id": "oai:arXiv.org:2607.15388v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15388"}
+{"external_id": "oai:arXiv.org:2607.15418v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15418"}
+{"external_id": "oai:arXiv.org:2607.15439v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15439"}
+{"external_id": "oai:arXiv.org:2607.15442v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15442"}
+{"external_id": "oai:arXiv.org:2607.15459v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15459"}
+{"external_id": "oai:arXiv.org:2607.15480v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15480"}
+{"external_id": "oai:arXiv.org:2607.15532v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15532"}
+{"external_id": "oai:arXiv.org:2607.15550v1", "rank_score": 0.5, "run_id": "2026-07-20", "source": "arxiv", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.15550"}
+{"external_id": "48966569", "rank_score": 0.65, "run_id": "2026-07-20", "source": "hackernews", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/"}
+{"external_id": "48973869", "rank_score": 0.5884756712482961, "run_id": "2026-07-20", "source": "hackernews", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://xcancel.com/__alpoge__/status/2079028340955197566"}
+{"errors": 0, "fetched": 35, "run_id": "2026-07-20", "surfaced": 14, "ts": "2026-07-20T07:22:16+00:00", "type": "run_completed"}
