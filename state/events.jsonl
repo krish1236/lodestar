@@ -43,3 +43,17 @@
 {"external_id": "48966569", "rank_score": 0.65, "run_id": "2026-07-20", "source": "hackernews", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/"}
 {"external_id": "48973869", "rank_score": 0.5884756712482961, "run_id": "2026-07-20", "source": "hackernews", "ts": "2026-07-20T07:22:16+00:00", "type": "item_shown", "url": "https://xcancel.com/__alpoge__/status/2079028340955197566"}
 {"errors": 0, "fetched": 35, "run_id": "2026-07-20", "surfaced": 14, "ts": "2026-07-20T07:22:16+00:00", "type": "run_completed"}
+{"external_id": "oai:arXiv.org:2607.16195v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16195"}
+{"external_id": "oai:arXiv.org:2607.16196v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16196"}
+{"external_id": "oai:arXiv.org:2607.16197v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16197"}
+{"external_id": "oai:arXiv.org:2607.16198v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16198"}
+{"external_id": "oai:arXiv.org:2607.16199v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16199"}
+{"external_id": "oai:arXiv.org:2607.16200v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16200"}
+{"external_id": "oai:arXiv.org:2607.16201v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16201"}
+{"external_id": "oai:arXiv.org:2607.16202v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16202"}
+{"external_id": "oai:arXiv.org:2607.16204v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16204"}
+{"external_id": "oai:arXiv.org:2607.16205v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16205"}
+{"external_id": "oai:arXiv.org:2607.16206v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16206"}
+{"external_id": "oai:arXiv.org:2607.16207v1", "rank_score": 0.5, "run_id": "2026-07-21", "source": "arxiv", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.16207"}
+{"external_id": "langchain-ai/langchain@langchain-core==1.5.0", "rank_score": 0.9, "run_id": "2026-07-21", "source": "github", "ts": "2026-07-21T07:09:47+00:00", "type": "item_shown", "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.0"}
+{"errors": 0, "fetched": 35, "run_id": "2026-07-21", "surfaced": 13, "ts": "2026-07-21T07:09:47+00:00", "type": "run_completed"}

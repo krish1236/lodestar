@@ -60,3 +60,16 @@ https://arxiv.org/abs/2607.15532
 https://arxiv.org/abs/2607.15550
 https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust
 https://xcancel.com/__alpoge__/status/2079028340955197566
+https://arxiv.org/abs/2607.16195
+https://arxiv.org/abs/2607.16196
+https://arxiv.org/abs/2607.16197
+https://arxiv.org/abs/2607.16198
+https://arxiv.org/abs/2607.16199
+https://arxiv.org/abs/2607.16200
+https://arxiv.org/abs/2607.16201
+https://arxiv.org/abs/2607.16202
+https://arxiv.org/abs/2607.16204
+https://arxiv.org/abs/2607.16205
+https://arxiv.org/abs/2607.16206
+https://arxiv.org/abs/2607.16207
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.0
