@@ -42,6 +42,7 @@ def test_graph_runs_end_to_end(monkeypatch, tmp_path):
     monkeypatch.setattr(events, "EVENTS_PATH", tmp_path / "events.jsonl")
     monkeypatch.setattr(behavior_model, "BM_PATH", tmp_path / "bm.json")
     monkeypatch.setattr(g, "load_constitution", lambda: "mission")
+    monkeypatch.setattr(g, "verify_items", lambda findings: findings)  # no net/LLM
     monkeypatch.setattr(g, "score_relevance", _fake_score)
     monkeypatch.setattr(g, "overview", lambda highlights, constitution: None)
     written: dict = {}

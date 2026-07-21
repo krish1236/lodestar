@@ -24,6 +24,7 @@ class RunState(TypedDict, total=False):
     constitution: str
     findings: Annotated[list[Finding], operator.add]  # fan-out target -> reducer
     errors: Annotated[list[SourceError], operator.add]  # fan-out target -> reducer
-    deduped: list[Finding]  # single writer (dedup) — the reduced set downstream uses
+    deduped: list[Finding]  # single writer (dedup/prefilter) — the considered set
+    verified: list[Finding]  # single writer (verify) — survivors of reachability+substance
     surfaced: list[Finding]  # single writer (synthesize) — the ranked items in the digest
     digest_md: str  # single writer (synthesize)

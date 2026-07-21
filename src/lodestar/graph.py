@@ -37,6 +37,7 @@ from .sources.github import GitHubAdapter
 from .sources.hackernews import HackerNewsAdapter
 from .state import RunState
 from .synthesize import overview, score_relevance
+from .verifier import verify as verify_items
 
 # Per-source candidate caps (Phase 1.4 refines the cheap pre-filter for arXiv).
 _DEFAULT_CAP = 10
@@ -86,7 +87,10 @@ def prefilter_node(state: RunState) -> dict:
 
 
 def verify(state: RunState) -> dict:
-    return {}  # pass-through — adversarial verifier in Phase 2.1
+    # Per-item, concurrent: drop dead links and on-topic hype. Writes a separate
+    # key so `consolidate` still marks the full considered set seen (we don't
+    # want to re-verify dropped items every day).
+    return {"verified": verify_items(state.get("deduped", []))}
 
 
 def judge(state: RunState) -> dict:
@@ -95,7 +99,8 @@ def judge(state: RunState) -> dict:
 
 def synthesize(state: RunState) -> dict:
     constitution = state.get("constitution", "")
-    scored = score_relevance(state.get("deduped", []), constitution)  # Haiku, per item
+    candidates = state.get("verified", state.get("deduped", []))
+    scored = score_relevance(candidates, constitution)  # Haiku, per item
     ranked = rank(scored)  # formula: relevance gate x credibility boost
     highlights, sections = build_sections(ranked)
     coverage = dict(Counter(f.source for f in state.get("findings", [])))
