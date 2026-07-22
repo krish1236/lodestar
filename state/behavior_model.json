@@ -1,11 +1,11 @@
 {
   "by_source": {
-    "arxiv": 37,
-    "github": 4,
-    "hackernews": 11
+    "arxiv": 49,
+    "github": 8,
+    "hackernews": 16
   },
-  "last_run_id": "2026-07-21",
-  "runs": 7,
+  "last_run_id": "2026-07-22",
+  "runs": 8,
   "topics": {},
-  "updated": "2026-07-21"
+  "updated": "2026-07-22"
 }
