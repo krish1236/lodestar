@@ -94,3 +94,11 @@ https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3
 https://ads.openai.com
 https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git
 https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63
+https://arxiv.org/abs/2607.18256
+https://arxiv.org/abs/2607.18258
+https://arxiv.org/abs/2607.18259
+https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.7
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.118.0
+https://github.com/openai/openai-python/releases/tag/v2.47.0
+https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56
+https://github.com/marcelroed/gigatoken
