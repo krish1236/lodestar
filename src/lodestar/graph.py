@@ -27,6 +27,7 @@ from .config import (
 )
 from .credibility import mark_trusted
 from .digest import render, write_digest
+from .judge import assess
 from .memory import behavior_model, events, seen_keys, watermark
 from .prefilter import prefilter
 from .ranking import build_sections, rank
@@ -41,6 +42,9 @@ from .verifier import verify as verify_items
 
 # Per-source candidate caps (Phase 1.4 refines the cheap pre-filter for arXiv).
 _DEFAULT_CAP = 10
+
+SOURCE_NAMES = ("hackernews", "arxiv", "github", "exa")
+MAX_ITERATIONS = 2  # initial sweep + at most one targeted coverage re-dispatch
 
 
 def _adapters() -> list[tuple[SourceAdapter, int]]:
@@ -94,7 +98,26 @@ def verify(state: RunState) -> dict:
 
 
 def judge(state: RunState) -> dict:
-    return {}  # pass-through — sufficiency loop + conditional edge in Phase 2.2
+    findings = state.get("findings", [])
+    coverage = dict(Counter(f.source for f in findings))
+    # A source is only "errored" if it also returned nothing (a later retry that
+    # succeeded clears the gap).
+    effective_errors = [e for e in state.get("errors", []) if e.source not in coverage]
+    verdict = assess(coverage, effective_errors, set(SOURCE_NAMES))
+    return {"verdict": verdict, "iteration": state.get("iteration", 0) + 1}
+
+
+def route_after_judge(state: RunState):
+    """Deterministic router: re-dispatch only the gap sources, or move on. Hard-
+    bounded by MAX_ITERATIONS regardless of the verdict."""
+    verdict = state.get("verdict", {})
+    if (
+        verdict.get("sufficient", True)
+        or not verdict.get("gaps")
+        or state.get("iteration", 0) >= MAX_ITERATIONS
+    ):
+        return "synthesize"
+    return [f"gather_{s}" for s in verdict["gaps"]]  # targeted, additive re-dispatch
 
 
 def synthesize(state: RunState) -> dict:
@@ -151,7 +174,13 @@ def build_graph():
     g.add_edge("dedup", "prefilter")
     g.add_edge("prefilter", "verify")
     g.add_edge("verify", "judge")
-    g.add_edge("judge", "synthesize")  # Phase 2.2 makes this a conditional edge
+    # Judged loop: re-dispatch gap sources (which re-flow through dedup->judge) or
+    # proceed to synthesis. Bounded by MAX_ITERATIONS in route_after_judge.
+    g.add_conditional_edges(
+        "judge",
+        route_after_judge,
+        ["synthesize"] + [f"gather_{a.name}" for a, _ in adapters],
+    )
     g.add_edge("synthesize", "consolidate")
     g.add_edge("consolidate", END)
     return g.compile()

@@ -16,7 +16,7 @@ def run() -> None:
     run_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     start = time.monotonic()
     graph = build_graph()
-    final = graph.invoke({"run_date": run_date, "findings": [], "errors": []})
+    final = graph.invoke({"run_date": run_date, "findings": [], "errors": [], "iteration": 0})
     metrics = write_metrics(run_date, final, time.monotonic() - start)
 
     errors = final.get("errors", [])
