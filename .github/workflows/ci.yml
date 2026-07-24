@@ -20,3 +20,5 @@ jobs:
         run: pytest -q
       - name: No-repeat eval
         run: python -m evals.no_repeat
+      - name: Judge-gating eval
+        run: python -m evals.judge_gating
