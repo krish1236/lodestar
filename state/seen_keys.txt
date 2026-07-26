@@ -135,3 +135,5 @@ https://arxiv.org/abs/2607.20436
 https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.2
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.0
 https://www.anthropic.com/news/claude-opus-5
+https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models
+https://spectrum.ieee.org/sodium-ion-battery-peak-energy

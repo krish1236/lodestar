@@ -123,3 +123,6 @@
 {"external_id": "anthropics/anthropic-sdk-python@v0.120.0", "rank_score": 0.874737635576917, "run_id": "2026-07-25", "source": "github", "ts": "2026-07-25T07:03:05+00:00", "type": "item_shown", "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.0"}
 {"external_id": "49038433", "rank_score": 0.8824007949954831, "run_id": "2026-07-25", "source": "hackernews", "ts": "2026-07-25T07:03:05+00:00", "type": "item_shown", "url": "https://www.anthropic.com/news/claude-opus-5"}
 {"errors": 0, "fetched": 35, "run_id": "2026-07-25", "surfaced": 15, "ts": "2026-07-25T07:03:05+00:00", "type": "run_completed"}
+{"external_id": "49051361", "rank_score": 0.65, "run_id": "2026-07-26", "source": "hackernews", "ts": "2026-07-26T07:10:22+00:00", "type": "item_shown", "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models"}
+{"external_id": "49051947", "rank_score": 0.65, "run_id": "2026-07-26", "source": "hackernews", "ts": "2026-07-26T07:10:22+00:00", "type": "item_shown", "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy"}
+{"errors": 0, "fetched": 20, "run_id": "2026-07-26", "surfaced": 2, "ts": "2026-07-26T07:10:22+00:00", "type": "run_completed"}
