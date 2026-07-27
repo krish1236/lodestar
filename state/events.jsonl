@@ -126,3 +126,16 @@
 {"external_id": "49051361", "rank_score": 0.65, "run_id": "2026-07-26", "source": "hackernews", "ts": "2026-07-26T07:10:22+00:00", "type": "item_shown", "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models"}
 {"external_id": "49051947", "rank_score": 0.65, "run_id": "2026-07-26", "source": "hackernews", "ts": "2026-07-26T07:10:22+00:00", "type": "item_shown", "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy"}
 {"errors": 0, "fetched": 20, "run_id": "2026-07-26", "surfaced": 2, "ts": "2026-07-26T07:10:22+00:00", "type": "run_completed"}
+{"external_id": "oai:arXiv.org:2607.21596v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21596"}
+{"external_id": "oai:arXiv.org:2607.21597v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21597"}
+{"external_id": "oai:arXiv.org:2607.21600v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21600"}
+{"external_id": "oai:arXiv.org:2607.21601v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21601"}
+{"external_id": "oai:arXiv.org:2607.21602v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21602"}
+{"external_id": "oai:arXiv.org:2607.21604v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21604"}
+{"external_id": "oai:arXiv.org:2607.21606v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21606"}
+{"external_id": "oai:arXiv.org:2607.21607v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21607"}
+{"external_id": "oai:arXiv.org:2607.21609v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21609"}
+{"external_id": "oai:arXiv.org:2607.21610v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21610"}
+{"external_id": "oai:arXiv.org:2607.21612v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21612"}
+{"external_id": "oai:arXiv.org:2607.21613v1", "rank_score": 0.5, "run_id": "2026-07-27", "source": "arxiv", "ts": "2026-07-27T07:25:58+00:00", "type": "item_shown", "url": "https://arxiv.org/abs/2607.21613"}
+{"errors": 5, "fetched": 28, "run_id": "2026-07-27", "surfaced": 12, "ts": "2026-07-27T07:25:58+00:00", "type": "run_completed"}

@@ -137,3 +137,15 @@ https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.0
 https://www.anthropic.com/news/claude-opus-5
 https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models
 https://spectrum.ieee.org/sodium-ion-battery-peak-energy
+https://arxiv.org/abs/2607.21596
+https://arxiv.org/abs/2607.21597
+https://arxiv.org/abs/2607.21600
+https://arxiv.org/abs/2607.21601
+https://arxiv.org/abs/2607.21602
+https://arxiv.org/abs/2607.21604
+https://arxiv.org/abs/2607.21606
+https://arxiv.org/abs/2607.21607
+https://arxiv.org/abs/2607.21609
+https://arxiv.org/abs/2607.21610
+https://arxiv.org/abs/2607.21612
+https://arxiv.org/abs/2607.21613
