@@ -14,6 +14,7 @@ from __future__ import annotations
 import math
 
 from .models import Finding
+from .topics import topics_of
 
 SECTION_OF = {
     "arxiv": "Papers",
@@ -44,13 +45,31 @@ def credibility_boost(signals: dict) -> float:
     return min(boost, 2.0)
 
 
-def rank(findings: list[Finding], threshold: float = RELEVANCE_THRESHOLD) -> list[Finding]:
+def _topic_multiplier(finding: Finding, weights: dict[str, float]) -> float:
+    """Taste multiplier from learned topic weights, in [0.5, 1.5] (neutral 1.0).
+    A topic you've engaged with lifts the item; one you've thumbed-down dampens
+    it. Never gates — the raw relevance threshold still decides inclusion."""
+    if not weights:
+        return 1.0
+    tops = topics_of(finding)
+    if not tops:
+        return 1.0
+    return 0.5 + max(weights.get(t, 0.5) for t in tops)
+
+
+def rank(
+    findings: list[Finding],
+    weights: dict[str, float] | None = None,
+    threshold: float = RELEVANCE_THRESHOLD,
+) -> list[Finding]:
+    weights = weights or {}
     kept: list[Finding] = []
     for f in findings:
         r = f.relevance if f.relevance is not None else 0.5
         if r < threshold:
-            continue  # off-mission — dropped from the digest
-        f.rank_score = r * credibility_boost(f.credibility_signals)
+            continue  # off-mission — dropped (gate on RAW relevance, not taste)
+        adjusted = r * _topic_multiplier(f, weights)
+        f.rank_score = adjusted * credibility_boost(f.credibility_signals)
         kept.append(f)
     return kept
 

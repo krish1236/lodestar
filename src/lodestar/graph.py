@@ -124,7 +124,8 @@ def synthesize(state: RunState) -> dict:
     constitution = state.get("constitution", "")
     candidates = state.get("verified", state.get("deduped", []))
     scored = score_relevance(candidates, constitution)  # Haiku, per item
-    ranked = rank(scored)  # formula: relevance gate x credibility boost
+    # relevance_final = llm_relevance x topic_weight (taste) x credibility
+    ranked = rank(scored, behavior_model.topic_weights())
     highlights, sections = build_sections(ranked)
     coverage = dict(Counter(f.source for f in state.get("findings", [])))
     markdown = render(
@@ -144,7 +145,7 @@ def consolidate(state: RunState) -> dict:
     seen_keys.append(deduped)
     watermark.save(watermark.advance(state.get("findings", []), watermark.load()))
     events.emit_run(run_id, surfaced, len(state.get("findings", [])), len(state.get("errors", [])))
-    behavior_model.update(surfaced, run_id)
+    behavior_model.rebuild(events.load())  # materialized view over the event log
     return {}
 
 

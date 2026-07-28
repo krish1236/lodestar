@@ -22,6 +22,20 @@ def test_rank_drops_off_mission_and_scores_survivors():
     assert kept[0].rank_score is not None
 
 
+def test_topic_weights_lift_ranking_without_gating():
+    # Two equally-relevant items; the one on a liked topic must score higher.
+    liked = _f("arxiv", 0.6)
+    liked.title = "an agent paper"
+    other = _f("arxiv", 0.6)
+    other.title = "a rag paper"
+    rank([other, liked], weights={"agent": 1.0, "rag": 0.5})
+    assert liked.rank_score > other.rank_score
+    # An off-mission item is still gated out regardless of topic weight.
+    off = _f("arxiv", 0.1)
+    off.title = "an agent paper"
+    assert rank([off], weights={"agent": 1.0}) == []
+
+
 def test_highlights_by_relevance_sections_present():
     ranked = rank([
         _f("arxiv", 0.9),

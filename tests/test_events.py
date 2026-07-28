@@ -27,10 +27,30 @@ def test_emit_run_is_idempotent_per_run(tmp_path):
     assert [e["type"] for e in log].count("item_shown") == 1
 
 
-def test_behavior_model_aggregates_and_is_idempotent(tmp_path):
-    path = tmp_path / "bm.json"
-    behavior_model.update([_f("a"), _f("b")], "2026-01-01", path=path)
-    behavior_model.update([_f("c")], "2026-01-01", path=path)  # same day -> no double count
-    model = behavior_model.load(path)
+def test_emit_feedback_appends(tmp_path):
+    path = tmp_path / "events.jsonl"
+    events.emit_feedback("https://x/a", "up", path=path)
+    log = events.load(path)
+    assert log[-1]["type"] == "feedback" and log[-1]["signal"] == "up"
+
+
+def test_behavior_rebuild_folds_topics_and_feedback(tmp_path):
+    evs = [
+        {"type": "item_shown", "source": "arxiv", "url": "https://x/a", "topics": ["agent", "llm"]},
+        {"type": "item_shown", "source": "arxiv", "url": "https://x/b", "topics": ["agent"]},
+        {"type": "feedback", "url": "https://x/a", "signal": "up"},
+        {"type": "run_completed", "run_id": "2026-01-01"},
+    ]
+    model = behavior_model.rebuild(evs, path=tmp_path / "bm.json")
     assert model["runs"] == 1
     assert model["by_source"]["arxiv"] == 2
+    assert model["topics"]["agent"]["shown"] == 2
+    assert model["topics"]["agent"]["liked"] == 1  # feedback on /a joined by URL
+    assert model["topics"]["agent"]["weight"] > behavior_model.NEUTRAL_WEIGHT
+
+
+def test_behavior_rebuild_is_pure_recompute(tmp_path):
+    evs = [{"type": "run_completed", "run_id": "d1"}, {"type": "run_completed", "run_id": "d2"}]
+    p = tmp_path / "bm.json"
+    assert behavior_model.rebuild(evs, path=p)["runs"] == 2
+    assert behavior_model.rebuild(evs, path=p)["runs"] == 2  # idempotent
