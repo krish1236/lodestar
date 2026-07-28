@@ -24,6 +24,7 @@ dev = [
 
 [project.scripts]
 lodestar = "lodestar.main:run"
+lodestar-feedback = "lodestar.cli:feedback"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/lodestar"]

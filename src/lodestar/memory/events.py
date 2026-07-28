@@ -16,6 +16,7 @@ from pathlib import Path
 
 from ..config import REPO_ROOT
 from ..models import Finding
+from ..topics import topics_of
 
 EVENTS_PATH = REPO_ROOT / "state" / "events.jsonl"
 
@@ -57,7 +58,7 @@ def emit_run(
         records.append({
             "ts": ts, "type": "item_shown", "run_id": run_id,
             "source": f.source, "external_id": f.external_id, "url": f.url,
-            "rank_score": f.rank_score,
+            "rank_score": f.rank_score, "topics": topics_of(f),
         })
     if not have_run:
         records.append({
@@ -65,3 +66,11 @@ def emit_run(
             "surfaced": len(surfaced), "fetched": fetched, "errors": errors,
         })
     _append(records, path)
+
+
+def emit_feedback(url: str, signal: str, path: Path | None = None) -> None:
+    """Append a feedback event (signal: 'up' or 'down'). The latest signal per
+    URL wins when folded."""
+    path = path or EVENTS_PATH
+    ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    _append([{"ts": ts, "type": "feedback", "url": url, "signal": signal}], path)
