@@ -22,3 +22,5 @@ jobs:
         run: python -m evals.no_repeat
       - name: Judge-gating eval
         run: python -m evals.judge_gating
+      - name: Continuity eval
+        run: python -m evals.continuity
