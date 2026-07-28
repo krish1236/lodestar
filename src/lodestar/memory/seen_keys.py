@@ -17,14 +17,17 @@ from ..models import Finding
 SEEN_PATH = REPO_ROOT / "state" / "seen_keys.txt"
 
 
+def normalize_url(url: str) -> str:
+    """Scheme+host lowercased, query/fragment dropped, trailing slash stripped.
+    Shared by the seen-index and the feedback/fold join so keys line up."""
+    p = urlsplit(url)
+    return urlunsplit(((p.scheme or "https").lower(), p.netloc.lower(), p.path.rstrip("/"), "", ""))
+
+
 def normalize_key(finding: Finding) -> str:
-    """URL-based key (scheme+host lowercased, query/fragment dropped, trailing
-    slash stripped); falls back to source:external_id when there is no URL."""
+    """URL-based key; falls back to source:external_id when there is no URL."""
     if finding.url:
-        p = urlsplit(finding.url)
-        return urlunsplit(
-            ((p.scheme or "https").lower(), p.netloc.lower(), p.path.rstrip("/"), "", "")
-        )
+        return normalize_url(finding.url)
     return f"{finding.source}:{finding.external_id}"
 
 
