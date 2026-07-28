@@ -1,11 +1,84 @@
 {
   "by_source": {
-    "arxiv": 88,
-    "github": 18,
-    "hackernews": 22
+    "arxiv": 91,
+    "github": 20,
+    "hackernews": 24
   },
-  "last_run_id": "2026-07-27",
-  "runs": 13,
-  "topics": {},
-  "updated": "2026-07-27"
+  "last_run_id": "2026-07-28",
+  "runs": 14,
+  "topics": {
+    "benchmark": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 3,
+      "weight": 0.5
+    },
+    "embedding": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
+    "eval": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 2,
+      "weight": 0.5
+    },
+    "fine-tun": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
+    "langchain": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
+    "language model": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 2,
+      "weight": 0.5
+    },
+    "llm": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
+    "openai": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
+    "prompt": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
+    "reasoning": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 2,
+      "weight": 0.5
+    },
+    "retrieval": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
+    "semantic": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    }
+  },
+  "updated": "2026-07-28"
 }

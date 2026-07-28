@@ -149,3 +149,10 @@ https://arxiv.org/abs/2607.21609
 https://arxiv.org/abs/2607.21610
 https://arxiv.org/abs/2607.21612
 https://arxiv.org/abs/2607.21613
+https://arxiv.org/abs/2607.21614
+https://arxiv.org/abs/2607.21615
+https://arxiv.org/abs/2607.21616
+https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.2
+https://github.com/openai/openai-python/releases/tag/v2.49.0
+https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md
+https://fermisense.com/when-machines-take-the-wheel
