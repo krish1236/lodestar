@@ -175,3 +175,16 @@ https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.2
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.120.1
 https://github.com/openai/openai-python/releases/tag/v2.50.0
 https://www.anthropic.com/research/discovering-cryptographic-weaknesses
+https://arxiv.org/abs/2607.26119
+https://arxiv.org/abs/2607.26120
+https://arxiv.org/abs/2607.26155
+https://arxiv.org/abs/2607.26159
+https://arxiv.org/abs/2607.26160
+https://arxiv.org/abs/2607.26181
+https://arxiv.org/abs/2607.26191
+https://arxiv.org/abs/2607.26307
+https://arxiv.org/abs/2607.26367
+https://arxiv.org/abs/2607.26393
+https://arxiv.org/abs/2607.26452
+https://arxiv.org/abs/2607.26465
+https://llm2human.pages.dev
