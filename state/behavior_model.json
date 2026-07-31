@@ -1,22 +1,22 @@
 {
   "by_source": {
-    "arxiv": 115,
-    "github": 26,
-    "hackernews": 26
+    "arxiv": 118,
+    "github": 30,
+    "hackernews": 29
   },
-  "last_run_id": "2026-07-30",
-  "runs": 16,
+  "last_run_id": "2026-07-31",
+  "runs": 17,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 18,
       "weight": 0.5
     },
     "agentic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 6,
+      "shown": 7,
       "weight": 0.5
     },
     "alignment": {
@@ -37,10 +37,16 @@
       "shown": 1,
       "weight": 0.5
     },
+    "autonomous": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
     "benchmark": {
       "disliked": 0,
       "liked": 0,
-      "shown": 14,
+      "shown": 15,
       "weight": 0.5
     },
     "chain-of-thought": {
@@ -70,7 +76,7 @@
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 21,
+      "shown": 23,
       "weight": 0.5
     },
     "fine-tun": {
@@ -88,43 +94,43 @@
     "gemini": {
       "disliked": 0,
       "liked": 0,
-      "shown": 1,
+      "shown": 2,
       "weight": 0.5
     },
     "gpt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 2,
+      "shown": 3,
       "weight": 0.5
     },
     "inference": {
       "disliked": 0,
       "liked": 0,
-      "shown": 4,
+      "shown": 5,
       "weight": 0.5
     },
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 4,
+      "shown": 7,
       "weight": 0.5
     },
     "langgraph": {
       "disliked": 0,
       "liked": 0,
-      "shown": 1,
+      "shown": 3,
       "weight": 0.5
     },
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 14,
+      "shown": 16,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 17,
+      "shown": 19,
       "weight": 0.5
     },
     "mcp": {
@@ -136,7 +142,7 @@
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 2,
+      "shown": 3,
       "weight": 0.5
     },
     "multi-agent": {
@@ -148,7 +154,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 2,
+      "shown": 3,
       "weight": 0.5
     },
     "prompt": {
@@ -166,7 +172,7 @@
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 13,
+      "shown": 14,
       "weight": 0.5
     },
     "retrieval": {
@@ -182,5 +188,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-07-30"
+  "updated": "2026-07-31"
 }

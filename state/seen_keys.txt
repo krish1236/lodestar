@@ -188,3 +188,13 @@ https://arxiv.org/abs/2607.26393
 https://arxiv.org/abs/2607.26452
 https://arxiv.org/abs/2607.26465
 https://llm2human.pages.dev
+https://arxiv.org/abs/2607.26490
+https://arxiv.org/abs/2607.26512
+https://arxiv.org/abs/2607.26588
+https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1
+https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.1
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.3
+https://github.com/openai/openai-python/releases/tag/v2.51.0
+https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
+https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots
+https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
