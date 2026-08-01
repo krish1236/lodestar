@@ -192,3 +192,7 @@
 {"external_id": "49111237", "rank_score": 0.8467384268776006, "run_id": "2026-07-31", "source": "hackernews", "topics": ["gemini"], "ts": "2026-07-31T07:16:02+00:00", "type": "item_shown", "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"}
 {"external_id": "49116922", "rank_score": 0.9, "run_id": "2026-07-31", "source": "hackernews", "topics": ["eval"], "ts": "2026-07-31T07:16:02+00:00", "type": "item_shown", "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"}
 {"errors": 0, "fetched": 35, "run_id": "2026-07-31", "surfaced": 10, "ts": "2026-07-31T07:16:02+00:00", "type": "run_completed"}
+{"external_id": "openai/openai-python@v2.52.0", "rank_score": 0.9, "run_id": "2026-08-01", "source": "github", "topics": ["openai"], "ts": "2026-08-01T07:07:00+00:00", "type": "item_shown", "url": "https://github.com/openai/openai-python/releases/tag/v2.52.0"}
+{"external_id": "49126604", "rank_score": 0.65, "run_id": "2026-08-01", "source": "hackernews", "topics": ["agent"], "ts": "2026-08-01T07:07:00+00:00", "type": "item_shown", "url": "https://github.com/yc-software/qm"}
+{"external_id": "49124358", "rank_score": 0.624597333754186, "run_id": "2026-08-01", "source": "hackernews", "topics": ["reasoning"], "ts": "2026-08-01T07:07:00+00:00", "type": "item_shown", "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/"}
+{"errors": 0, "fetched": 20, "run_id": "2026-08-01", "surfaced": 3, "ts": "2026-08-01T07:07:00+00:00", "type": "run_completed"}

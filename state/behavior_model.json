@@ -1,16 +1,16 @@
 {
   "by_source": {
     "arxiv": 118,
-    "github": 30,
-    "hackernews": 29
+    "github": 31,
+    "hackernews": 31
   },
-  "last_run_id": "2026-07-31",
-  "runs": 17,
+  "last_run_id": "2026-08-01",
+  "runs": 18,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 18,
+      "shown": 19,
       "weight": 0.5
     },
     "agentic": {
@@ -154,7 +154,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 3,
+      "shown": 4,
       "weight": 0.5
     },
     "prompt": {
@@ -172,7 +172,7 @@
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 14,
+      "shown": 15,
       "weight": 0.5
     },
     "retrieval": {
@@ -188,5 +188,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-07-31"
+  "updated": "2026-08-01"
 }

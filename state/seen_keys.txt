@@ -198,3 +198,6 @@ https://github.com/openai/openai-python/releases/tag/v2.51.0
 https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
 https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots
 https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+https://github.com/openai/openai-python/releases/tag/v2.52.0
+https://github.com/yc-software/qm
+https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731
