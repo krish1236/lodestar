@@ -1,28 +1,28 @@
 {
   "by_source": {
-    "arxiv": 118,
+    "arxiv": 130,
     "github": 31,
     "hackernews": 31
   },
-  "last_run_id": "2026-08-02",
-  "runs": 19,
+  "last_run_id": "2026-08-03",
+  "runs": 20,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 19,
+      "shown": 22,
       "weight": 0.5
     },
     "agentic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 7,
+      "shown": 9,
       "weight": 0.5
     },
     "alignment": {
       "disliked": 0,
       "liked": 0,
-      "shown": 3,
+      "shown": 5,
       "weight": 0.5
     },
     "anthropic": {
@@ -34,28 +34,34 @@
     "assistant": {
       "disliked": 0,
       "liked": 0,
-      "shown": 1,
+      "shown": 2,
       "weight": 0.5
     },
     "autonomous": {
       "disliked": 0,
       "liked": 0,
-      "shown": 1,
+      "shown": 4,
       "weight": 0.5
     },
     "benchmark": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 22,
       "weight": 0.5
     },
     "chain-of-thought": {
       "disliked": 0,
       "liked": 0,
-      "shown": 1,
+      "shown": 3,
       "weight": 0.5
     },
     "claude": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 2,
+      "weight": 0.5
+    },
+    "context window": {
       "disliked": 0,
       "liked": 0,
       "shown": 1,
@@ -70,19 +76,19 @@
     "embedding": {
       "disliked": 0,
       "liked": 0,
-      "shown": 1,
+      "shown": 2,
       "weight": 0.5
     },
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 23,
+      "shown": 31,
       "weight": 0.5
     },
     "fine-tun": {
       "disliked": 0,
       "liked": 0,
-      "shown": 3,
+      "shown": 4,
       "weight": 0.5
     },
     "foundation model": {
@@ -94,19 +100,25 @@
     "gemini": {
       "disliked": 0,
       "liked": 0,
-      "shown": 2,
+      "shown": 3,
       "weight": 0.5
     },
     "gpt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 3,
+      "shown": 4,
+      "weight": 0.5
+    },
+    "hallucinat": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
       "weight": 0.5
     },
     "inference": {
       "disliked": 0,
       "liked": 0,
-      "shown": 5,
+      "shown": 8,
       "weight": 0.5
     },
     "langchain": {
@@ -124,13 +136,13 @@
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 16,
+      "shown": 22,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 19,
+      "shown": 25,
       "weight": 0.5
     },
     "mcp": {
@@ -142,13 +154,13 @@
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 3,
+      "shown": 5,
       "weight": 0.5
     },
     "multi-agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 2,
+      "shown": 5,
       "weight": 0.5
     },
     "openai": {
@@ -157,36 +169,60 @@
       "shown": 4,
       "weight": 0.5
     },
+    "orchestrat": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
     "prompt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 2,
+      "shown": 4,
       "weight": 0.5
     },
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 6,
+      "shown": 9,
       "weight": 0.5
     },
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 22,
       "weight": 0.5
     },
     "retrieval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 3,
+      "shown": 4,
       "weight": 0.5
     },
     "semantic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 4,
+      "shown": 8,
+      "weight": 0.5
+    },
+    "tool use": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
+    "transformer": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
+    "vector": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 2,
       "weight": 0.5
     }
   },
-  "updated": "2026-08-02"
+  "updated": "2026-08-03"
 }

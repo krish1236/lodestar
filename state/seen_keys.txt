@@ -201,3 +201,15 @@ https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
 https://github.com/openai/openai-python/releases/tag/v2.52.0
 https://github.com/yc-software/qm
 https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731
+https://arxiv.org/abs/2607.28629
+https://arxiv.org/abs/2607.28631
+https://arxiv.org/abs/2607.28632
+https://arxiv.org/abs/2607.28642
+https://arxiv.org/abs/2607.28657
+https://arxiv.org/abs/2607.28659
+https://arxiv.org/abs/2607.28662
+https://arxiv.org/abs/2607.28674
+https://arxiv.org/abs/2607.28677
+https://arxiv.org/abs/2607.28678
+https://arxiv.org/abs/2607.28679
+https://arxiv.org/abs/2607.28684
