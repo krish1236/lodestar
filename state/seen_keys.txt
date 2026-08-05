@@ -228,3 +228,7 @@ https://arxiv.org/abs/2608.00054
 https://github.com/openai/openai-python/releases/tag/v2.53.0
 https://www.seangoedecke.com/llms-reward-expertise
 https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code
+https://arxiv.org/abs/2608.00065
+https://arxiv.org/abs/2608.00101
+https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years
+https://mistral.ai/news/shieldstral
