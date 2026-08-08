@@ -264,3 +264,8 @@ https://arxiv.org/abs/2608.05228
 https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344
 https://scalex.dev/blog/ai-agent-permissions-stats
 https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
+https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2
+https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0
+https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.2
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.121.0
+https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out
