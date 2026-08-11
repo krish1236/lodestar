@@ -1,22 +1,22 @@
 {
   "by_source": {
-    "arxiv": 180,
-    "github": 37,
-    "hackernews": 47
+    "arxiv": 192,
+    "github": 38,
+    "hackernews": 51
   },
-  "last_run_id": "2026-08-10",
-  "runs": 27,
+  "last_run_id": "2026-08-11",
+  "runs": 28,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 46,
+      "shown": 53,
       "weight": 0.5
     },
     "agentic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 17,
       "weight": 0.5
     },
     "alignment": {
@@ -40,13 +40,13 @@
     "autonomous": {
       "disliked": 0,
       "liked": 0,
-      "shown": 10,
+      "shown": 12,
       "weight": 0.5
     },
     "benchmark": {
       "disliked": 0,
       "liked": 0,
-      "shown": 39,
+      "shown": 45,
       "weight": 0.5
     },
     "chain-of-thought": {
@@ -88,7 +88,7 @@
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 57,
+      "shown": 65,
       "weight": 0.5
     },
     "fine-tun": {
@@ -118,19 +118,19 @@
     "hallucinat": {
       "disliked": 0,
       "liked": 0,
-      "shown": 3,
+      "shown": 5,
       "weight": 0.5
     },
     "inference": {
       "disliked": 0,
       "liked": 0,
-      "shown": 17,
+      "shown": 21,
       "weight": 0.5
     },
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 12,
+      "shown": 13,
       "weight": 0.5
     },
     "langgraph": {
@@ -142,13 +142,13 @@
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 42,
+      "shown": 47,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 56,
+      "shown": 64,
       "weight": 0.5
     },
     "mcp": {
@@ -172,13 +172,13 @@
     "multi-agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 7,
+      "shown": 8,
       "weight": 0.5
     },
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 6,
+      "shown": 8,
       "weight": 0.5
     },
     "orchestrat": {
@@ -190,7 +190,7 @@
     "prompt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 14,
+      "shown": 16,
       "weight": 0.5
     },
     "quantization": {
@@ -202,13 +202,13 @@
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 32,
+      "shown": 36,
       "weight": 0.5
     },
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 34,
+      "shown": 36,
       "weight": 0.5
     },
     "retrieval": {
@@ -220,7 +220,7 @@
     "semantic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 17,
       "weight": 0.5
     },
     "tool use": {
@@ -248,5 +248,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-08-10"
+  "updated": "2026-08-11"
 }
