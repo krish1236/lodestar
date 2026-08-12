@@ -1,0 +1,12 @@
+{
+  "by_source": {
+    "arxiv": 1,
+    "github": 5,
+    "hackernews": 2
+  },
+  "duration_seconds": 7.84,
+  "errors": [],
+  "fetched": 35,
+  "run_date": "2026-08-12",
+  "surfaced": 8
+}
