@@ -1,16 +1,16 @@
 {
   "by_source": {
-    "arxiv": 205,
-    "github": 44,
-    "hackernews": 53
+    "arxiv": 208,
+    "github": 46,
+    "hackernews": 56
   },
-  "last_run_id": "2026-08-13",
-  "runs": 30,
+  "last_run_id": "2026-08-14",
+  "runs": 31,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 64,
+      "shown": 65,
       "weight": 0.5
     },
     "agentic": {
@@ -28,7 +28,7 @@
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 7,
+      "shown": 8,
       "weight": 0.5
     },
     "assistant": {
@@ -106,13 +106,13 @@
     "gemini": {
       "disliked": 0,
       "liked": 0,
-      "shown": 3,
+      "shown": 4,
       "weight": 0.5
     },
     "gpt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 12,
+      "shown": 13,
       "weight": 0.5
     },
     "hallucinat": {
@@ -130,25 +130,25 @@
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 18,
+      "shown": 19,
       "weight": 0.5
     },
     "langgraph": {
       "disliked": 0,
       "liked": 0,
-      "shown": 6,
+      "shown": 7,
       "weight": 0.5
     },
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 49,
+      "shown": 50,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 71,
+      "shown": 72,
       "weight": 0.5
     },
     "mcp": {
@@ -160,13 +160,13 @@
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 16,
       "weight": 0.5
     },
     "mistral": {
       "disliked": 0,
       "liked": 0,
-      "shown": 4,
+      "shown": 5,
       "weight": 0.5
     },
     "multi-agent": {
@@ -178,7 +178,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 11,
+      "shown": 12,
       "weight": 0.5
     },
     "orchestrat": {
@@ -248,5 +248,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-08-13"
+  "updated": "2026-08-14"
 }

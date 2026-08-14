@@ -323,3 +323,11 @@ https://arxiv.org/abs/2608.11221
 https://arxiv.org/abs/2608.11224
 https://arxiv.org/abs/2608.11225
 https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.6
+https://arxiv.org/abs/2608.11226
+https://arxiv.org/abs/2608.11227
+https://arxiv.org/abs/2608.11229
+https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.0
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.122.0
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash
+https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai
+https://docs.mistral.ai/models/ocr-4-1
