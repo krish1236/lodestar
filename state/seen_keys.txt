@@ -381,3 +381,17 @@ https://github.com/openai/openai-python/releases/tag/v3.2.0
 https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug
 https://blog.roboflow.com/openai-gpt-5-6
 https://openrouter.ai/openai/gpt-5.6-sol
+https://arxiv.org/abs/2608.16890
+https://arxiv.org/abs/2608.16891
+https://arxiv.org/abs/2608.16956
+https://arxiv.org/abs/2608.16971
+https://arxiv.org/abs/2608.16977
+https://arxiv.org/abs/2608.17007
+https://arxiv.org/abs/2608.17053
+https://arxiv.org/abs/2608.17067
+https://arxiv.org/abs/2608.17071
+https://arxiv.org/abs/2608.17124
+https://arxiv.org/abs/2608.17128
+https://arxiv.org/abs/2608.17150
+https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2
+https://github.com/openai/openai-python/releases/tag/v3.3.0
