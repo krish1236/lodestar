@@ -1,11 +1,11 @@
 {
   "by_source": {
-    "arxiv": 268,
-    "github": 63,
+    "arxiv": 270,
+    "github": 67,
     "hackernews": 63
   },
-  "last_run_id": "2026-08-20",
-  "runs": 37,
+  "last_run_id": "2026-08-21",
+  "runs": 38,
   "topics": {
     "agent": {
       "disliked": 0,
@@ -22,19 +22,19 @@
     "alignment": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 16,
       "weight": 0.5
     },
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 13,
+      "shown": 15,
       "weight": 0.5
     },
     "assistant": {
       "disliked": 0,
       "liked": 0,
-      "shown": 7,
+      "shown": 8,
       "weight": 0.5
     },
     "autonomous": {
@@ -46,7 +46,7 @@
     "benchmark": {
       "disliked": 0,
       "liked": 0,
-      "shown": 67,
+      "shown": 68,
       "weight": 0.5
     },
     "chain-of-thought": {
@@ -88,7 +88,7 @@
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 104,
+      "shown": 105,
       "weight": 0.5
     },
     "fine-tun": {
@@ -130,7 +130,7 @@
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 29,
+      "shown": 32,
       "weight": 0.5
     },
     "langgraph": {
@@ -142,13 +142,13 @@
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 72,
+      "shown": 73,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 95,
+      "shown": 96,
       "weight": 0.5
     },
     "mcp": {
@@ -190,7 +190,7 @@
     "prompt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 34,
+      "shown": 35,
       "weight": 0.5
     },
     "quantization": {
@@ -202,7 +202,7 @@
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 52,
+      "shown": 54,
       "weight": 0.5
     },
     "reasoning": {
@@ -238,7 +238,7 @@
     "transformer": {
       "disliked": 0,
       "liked": 0,
-      "shown": 5,
+      "shown": 6,
       "weight": 0.5
     },
     "vector": {
@@ -254,5 +254,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-08-20"
+  "updated": "2026-08-21"
 }
