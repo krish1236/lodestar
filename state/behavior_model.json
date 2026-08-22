@@ -1,11 +1,11 @@
 {
   "by_source": {
     "arxiv": 270,
-    "github": 67,
-    "hackernews": 63
+    "github": 68,
+    "hackernews": 64
   },
-  "last_run_id": "2026-08-21",
-  "runs": 38,
+  "last_run_id": "2026-08-22",
+  "runs": 39,
   "topics": {
     "agent": {
       "disliked": 0,
@@ -58,7 +58,7 @@
     "claude": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 16,
       "weight": 0.5
     },
     "context window": {
@@ -130,7 +130,7 @@
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 32,
+      "shown": 33,
       "weight": 0.5
     },
     "langgraph": {
@@ -254,5 +254,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-08-21"
+  "updated": "2026-08-22"
 }
