@@ -2,15 +2,15 @@
   "by_source": {
     "arxiv": 270,
     "github": 68,
-    "hackernews": 64
+    "hackernews": 67
   },
-  "last_run_id": "2026-08-22",
-  "runs": 39,
+  "last_run_id": "2026-08-23",
+  "runs": 40,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 91,
+      "shown": 92,
       "weight": 0.5
     },
     "agentic": {
@@ -148,13 +148,13 @@
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 96,
+      "shown": 97,
       "weight": 0.5
     },
     "mcp": {
       "disliked": 0,
       "liked": 0,
-      "shown": 3,
+      "shown": 4,
       "weight": 0.5
     },
     "memory": {
@@ -254,5 +254,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-08-22"
+  "updated": "2026-08-23"
 }

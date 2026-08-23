@@ -439,3 +439,7 @@
 {"external_id": "langchain-ai/langchain@langchain-perplexity==1.4.1", "rank_score": 0.9, "run_id": "2026-08-22", "source": "github", "topics": ["langchain"], "ts": "2026-08-22T06:26:35+00:00", "type": "item_shown", "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.1"}
 {"external_id": "49388752", "rank_score": 0.6121804674498853, "run_id": "2026-08-22", "source": "hackernews", "topics": ["claude"], "ts": "2026-08-22T06:26:35+00:00", "type": "item_shown", "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md"}
 {"errors": 0, "fetched": 20, "run_id": "2026-08-22", "surfaced": 2, "ts": "2026-08-22T06:26:35+00:00", "type": "run_completed"}
+{"external_id": "49398152", "rank_score": 0.65, "run_id": "2026-08-23", "source": "hackernews", "topics": ["agent"], "ts": "2026-08-23T06:26:37+00:00", "type": "item_shown", "url": "https://munderdiffl.in/"}
+{"external_id": "49402232", "rank_score": 0.6371802570807419, "run_id": "2026-08-23", "source": "hackernews", "topics": ["llm"], "ts": "2026-08-23T06:26:37+00:00", "type": "item_shown", "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"}
+{"external_id": "49399591", "rank_score": 0.65, "run_id": "2026-08-23", "source": "hackernews", "topics": ["mcp"], "ts": "2026-08-23T06:26:37+00:00", "type": "item_shown", "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/"}
+{"errors": 0, "fetched": 20, "run_id": "2026-08-23", "surfaced": 3, "ts": "2026-08-23T06:26:37+00:00", "type": "run_completed"}

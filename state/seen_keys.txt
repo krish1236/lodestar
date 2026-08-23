@@ -423,3 +423,6 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0
 https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.1
 https://github.com/adnanakil/nobuzz/blob/main/README.md
+https://munderdiffl.in
+https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917
+https://blog.modelcontextprotocol.io/posts/mcp-roadmap
