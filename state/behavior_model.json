@@ -1,34 +1,34 @@
 {
   "by_source": {
-    "arxiv": 270,
+    "arxiv": 282,
     "github": 68,
     "hackernews": 67
   },
-  "last_run_id": "2026-08-23",
-  "runs": 40,
+  "last_run_id": "2026-08-24",
+  "runs": 41,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 92,
+      "shown": 100,
       "weight": 0.5
     },
     "agentic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 25,
+      "shown": 29,
       "weight": 0.5
     },
     "alignment": {
       "disliked": 0,
       "liked": 0,
-      "shown": 16,
+      "shown": 17,
       "weight": 0.5
     },
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 16,
       "weight": 0.5
     },
     "assistant": {
@@ -40,13 +40,13 @@
     "autonomous": {
       "disliked": 0,
       "liked": 0,
-      "shown": 22,
+      "shown": 23,
       "weight": 0.5
     },
     "benchmark": {
       "disliked": 0,
       "liked": 0,
-      "shown": 68,
+      "shown": 71,
       "weight": 0.5
     },
     "chain-of-thought": {
@@ -58,13 +58,13 @@
     "claude": {
       "disliked": 0,
       "liked": 0,
-      "shown": 16,
+      "shown": 18,
       "weight": 0.5
     },
     "context window": {
       "disliked": 0,
       "liked": 0,
-      "shown": 1,
+      "shown": 4,
       "weight": 0.5
     },
     "copilot": {
@@ -82,13 +82,13 @@
     "embedding": {
       "disliked": 0,
       "liked": 0,
-      "shown": 7,
+      "shown": 9,
       "weight": 0.5
     },
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 105,
+      "shown": 111,
       "weight": 0.5
     },
     "fine-tun": {
@@ -112,7 +112,7 @@
     "gpt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 20,
+      "shown": 21,
       "weight": 0.5
     },
     "hallucinat": {
@@ -124,7 +124,7 @@
     "inference": {
       "disliked": 0,
       "liked": 0,
-      "shown": 31,
+      "shown": 33,
       "weight": 0.5
     },
     "langchain": {
@@ -142,25 +142,25 @@
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 73,
+      "shown": 79,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 97,
+      "shown": 102,
       "weight": 0.5
     },
     "mcp": {
       "disliked": 0,
       "liked": 0,
-      "shown": 4,
+      "shown": 5,
       "weight": 0.5
     },
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 27,
+      "shown": 31,
       "weight": 0.5
     },
     "mistral": {
@@ -169,28 +169,34 @@
       "shown": 5,
       "weight": 0.5
     },
+    "model context protocol": {
+      "disliked": 0,
+      "liked": 0,
+      "shown": 1,
+      "weight": 0.5
+    },
     "multi-agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 18,
+      "shown": 19,
       "weight": 0.5
     },
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 24,
+      "shown": 25,
       "weight": 0.5
     },
     "orchestrat": {
       "disliked": 0,
       "liked": 0,
-      "shown": 5,
+      "shown": 8,
       "weight": 0.5
     },
     "prompt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 35,
+      "shown": 38,
       "weight": 0.5
     },
     "quantization": {
@@ -202,25 +208,25 @@
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 54,
+      "shown": 56,
       "weight": 0.5
     },
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 60,
+      "shown": 63,
       "weight": 0.5
     },
     "retrieval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 16,
+      "shown": 21,
       "weight": 0.5
     },
     "semantic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 23,
+      "shown": 27,
       "weight": 0.5
     },
     "tool use": {
@@ -238,7 +244,7 @@
     "transformer": {
       "disliked": 0,
       "liked": 0,
-      "shown": 6,
+      "shown": 7,
       "weight": 0.5
     },
     "vector": {
@@ -254,5 +260,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-08-23"
+  "updated": "2026-08-24"
 }
