@@ -451,3 +451,16 @@ https://arxiv.org/abs/2608.21412
 https://arxiv.org/abs/2608.21417
 https://arxiv.org/abs/2608.21418
 https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.17
+https://arxiv.org/abs/2608.23568
+https://arxiv.org/abs/2608.23569
+https://arxiv.org/abs/2608.23622
+https://arxiv.org/abs/2608.23626
+https://arxiv.org/abs/2608.23631
+https://arxiv.org/abs/2608.23632
+https://arxiv.org/abs/2608.23640
+https://arxiv.org/abs/2608.23641
+https://arxiv.org/abs/2608.23642
+https://arxiv.org/abs/2608.23643
+https://arxiv.org/abs/2608.23644
+https://arxiv.org/abs/2608.23646
+https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia
