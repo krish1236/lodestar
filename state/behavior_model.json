@@ -1,16 +1,16 @@
 {
   "by_source": {
-    "arxiv": 306,
-    "github": 69,
+    "arxiv": 309,
+    "github": 71,
     "hackernews": 68
   },
-  "last_run_id": "2026-08-26",
-  "runs": 43,
+  "last_run_id": "2026-08-27",
+  "runs": 44,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 107,
+      "shown": 109,
       "weight": 0.5
     },
     "agentic": {
@@ -28,7 +28,7 @@
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 16,
+      "shown": 17,
       "weight": 0.5
     },
     "assistant": {
@@ -40,7 +40,7 @@
     "autonomous": {
       "disliked": 0,
       "liked": 0,
-      "shown": 23,
+      "shown": 24,
       "weight": 0.5
     },
     "benchmark": {
@@ -88,7 +88,7 @@
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 126,
+      "shown": 127,
       "weight": 0.5
     },
     "fine-tun": {
@@ -118,13 +118,13 @@
     "hallucinat": {
       "disliked": 0,
       "liked": 0,
-      "shown": 5,
+      "shown": 6,
       "weight": 0.5
     },
     "inference": {
       "disliked": 0,
       "liked": 0,
-      "shown": 35,
+      "shown": 36,
       "weight": 0.5
     },
     "langchain": {
@@ -142,13 +142,13 @@
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 89,
+      "shown": 90,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 115,
+      "shown": 117,
       "weight": 0.5
     },
     "mcp": {
@@ -160,7 +160,7 @@
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 34,
+      "shown": 35,
       "weight": 0.5
     },
     "mistral": {
@@ -178,13 +178,13 @@
     "multi-agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 20,
+      "shown": 21,
       "weight": 0.5
     },
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 26,
+      "shown": 27,
       "weight": 0.5
     },
     "orchestrat": {
@@ -196,7 +196,7 @@
     "prompt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 45,
+      "shown": 46,
       "weight": 0.5
     },
     "quantization": {
@@ -260,5 +260,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-08-26"
+  "updated": "2026-08-27"
 }

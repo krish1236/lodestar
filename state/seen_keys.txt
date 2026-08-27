@@ -464,3 +464,8 @@ https://arxiv.org/abs/2608.23643
 https://arxiv.org/abs/2608.23644
 https://arxiv.org/abs/2608.23646
 https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia
+https://arxiv.org/abs/2608.23666
+https://arxiv.org/abs/2608.23670
+https://arxiv.org/abs/2608.23691
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0
+https://github.com/openai/openai-python/releases/tag/v3.5.0
