@@ -490,3 +490,5 @@ https://blog.cloudflare.com/dns-cache-memory-optimization-1111
 https://louisabraham.github.io/load-bearing
 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe
 https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash
+https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2
+https://github.com/openai/openai-python/releases/tag/v3.6.0
