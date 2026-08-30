@@ -515,3 +515,5 @@
 {"external_id": "langchain-ai/langchain@langchain==1.4.0a2", "rank_score": 0.9, "run_id": "2026-08-29", "source": "github", "topics": ["agent", "mcp", "langchain"], "ts": "2026-08-29T06:34:25+00:00", "type": "item_shown", "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2"}
 {"external_id": "openai/openai-python@v3.6.0", "rank_score": 0.9, "run_id": "2026-08-29", "source": "github", "topics": ["openai"], "ts": "2026-08-29T06:34:25+00:00", "type": "item_shown", "url": "https://github.com/openai/openai-python/releases/tag/v3.6.0"}
 {"errors": 0, "fetched": 20, "run_id": "2026-08-29", "surfaced": 2, "ts": "2026-08-29T06:34:25+00:00", "type": "run_completed"}
+{"external_id": "49487341", "rank_score": 0.65, "run_id": "2026-08-30", "source": "hackernews", "topics": ["memory"], "ts": "2026-08-30T06:35:28+00:00", "type": "item_shown", "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing"}
+{"errors": 0, "fetched": 20, "run_id": "2026-08-30", "surfaced": 1, "ts": "2026-08-30T06:35:28+00:00", "type": "run_completed"}

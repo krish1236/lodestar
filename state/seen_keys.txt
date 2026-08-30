@@ -492,3 +492,4 @@ https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3
 https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash
 https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2
 https://github.com/openai/openai-python/releases/tag/v3.6.0
+https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing
