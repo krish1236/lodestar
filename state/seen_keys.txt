@@ -493,3 +493,16 @@ https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gem
 https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2
 https://github.com/openai/openai-python/releases/tag/v3.6.0
 https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing
+https://arxiv.org/abs/2608.27459
+https://arxiv.org/abs/2608.27463
+https://arxiv.org/abs/2608.27464
+https://arxiv.org/abs/2608.27471
+https://arxiv.org/abs/2608.27472
+https://arxiv.org/abs/2608.27475
+https://arxiv.org/abs/2608.27476
+https://arxiv.org/abs/2608.27477
+https://arxiv.org/abs/2608.27482
+https://arxiv.org/abs/2608.27484
+https://arxiv.org/abs/2608.27506
+https://arxiv.org/abs/2608.27508
+https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work
