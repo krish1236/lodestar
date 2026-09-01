@@ -506,3 +506,6 @@ https://arxiv.org/abs/2608.27484
 https://arxiv.org/abs/2608.27506
 https://arxiv.org/abs/2608.27508
 https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work
+https://arxiv.org/abs/2608.27524
+https://arxiv.org/abs/2608.27548
+https://codex-tool-reference.simonw.chatgpt.site

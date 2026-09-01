@@ -1,22 +1,22 @@
 {
   "by_source": {
-    "arxiv": 333,
+    "arxiv": 335,
     "github": 78,
-    "hackernews": 74
+    "hackernews": 75
   },
-  "last_run_id": "2026-08-31",
-  "runs": 48,
+  "last_run_id": "2026-09-01",
+  "runs": 49,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 120,
+      "shown": 121,
       "weight": 0.5
     },
     "agentic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 34,
+      "shown": 35,
       "weight": 0.5
     },
     "alignment": {
@@ -34,7 +34,7 @@
     "assistant": {
       "disliked": 0,
       "liked": 0,
-      "shown": 10,
+      "shown": 11,
       "weight": 0.5
     },
     "autonomous": {
@@ -88,7 +88,7 @@
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 141,
+      "shown": 143,
       "weight": 0.5
     },
     "fine-tun": {
@@ -112,7 +112,7 @@
     "gpt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 28,
+      "shown": 29,
       "weight": 0.5
     },
     "hallucinat": {
@@ -190,13 +190,13 @@
     "orchestrat": {
       "disliked": 0,
       "liked": 0,
-      "shown": 10,
+      "shown": 11,
       "weight": 0.5
     },
     "prompt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 49,
+      "shown": 50,
       "weight": 0.5
     },
     "quantization": {
@@ -208,13 +208,13 @@
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 73,
+      "shown": 74,
       "weight": 0.5
     },
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 72,
+      "shown": 73,
       "weight": 0.5
     },
     "retrieval": {
@@ -260,5 +260,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-08-31"
+  "updated": "2026-09-01"
 }
