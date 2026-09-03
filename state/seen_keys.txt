@@ -527,3 +527,16 @@ https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.3.0
 https://github.com/openai/openai-python/releases/tag/v3.7.0
 https://www.anthropic.com/claude-fable-and-mythos-5-1
 https://simonwillison.net/2026/Sep/1/codex-libreoffice
+https://arxiv.org/abs/2609.01611
+https://arxiv.org/abs/2609.01685
+https://arxiv.org/abs/2609.01741
+https://arxiv.org/abs/2609.01814
+https://arxiv.org/abs/2609.01815
+https://arxiv.org/abs/2609.01834
+https://arxiv.org/abs/2609.01849
+https://arxiv.org/abs/2609.01852
+https://arxiv.org/abs/2609.01861
+https://arxiv.org/abs/2609.01873
+https://arxiv.org/abs/2609.01924
+https://arxiv.org/abs/2609.01962
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber
