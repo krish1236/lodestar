@@ -557,3 +557,10 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D
 https://github.com/openai/openai-python/releases/tag/v3.8.0
 https://openai.com/index/gpt-6-astra
 https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot
+https://arxiv.org/abs/2609.03494
+https://arxiv.org/abs/2609.03503
+https://arxiv.org/abs/2609.03515
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0
+https://collusion.wiki
+https://openrouter.ai/openai/gpt-6-astra
