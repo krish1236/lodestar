@@ -564,3 +564,16 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0
 https://collusion.wiki
 https://openrouter.ai/openai/gpt-6-astra
+https://arxiv.org/abs/2609.04239
+https://arxiv.org/abs/2609.04286
+https://arxiv.org/abs/2609.04298
+https://arxiv.org/abs/2609.04300
+https://arxiv.org/abs/2609.04304
+https://arxiv.org/abs/2609.04343
+https://arxiv.org/abs/2609.04373
+https://arxiv.org/abs/2609.04377
+https://arxiv.org/abs/2609.04444
+https://arxiv.org/abs/2609.04476
+https://arxiv.org/abs/2609.04490
+https://arxiv.org/abs/2609.04495
+https://openai.com/index/research-acceleration-view-inside-openai

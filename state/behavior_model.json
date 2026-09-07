@@ -1,22 +1,22 @@
 {
   "by_source": {
-    "arxiv": 374,
+    "arxiv": 386,
     "github": 87,
-    "hackernews": 82
+    "hackernews": 83
   },
-  "last_run_id": "2026-09-06",
-  "runs": 54,
+  "last_run_id": "2026-09-07",
+  "runs": 55,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 140,
+      "shown": 146,
       "weight": 0.5
     },
     "agentic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 38,
+      "shown": 40,
       "weight": 0.5
     },
     "alignment": {
@@ -46,7 +46,7 @@
     "benchmark": {
       "disliked": 0,
       "liked": 0,
-      "shown": 104,
+      "shown": 109,
       "weight": 0.5
     },
     "chain-of-thought": {
@@ -88,7 +88,7 @@
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 162,
+      "shown": 169,
       "weight": 0.5
     },
     "fine-tun": {
@@ -100,7 +100,7 @@
     "foundation model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 7,
+      "shown": 8,
       "weight": 0.5
     },
     "gemini": {
@@ -112,7 +112,7 @@
     "gpt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 36,
+      "shown": 39,
       "weight": 0.5
     },
     "hallucinat": {
@@ -124,7 +124,7 @@
     "inference": {
       "disliked": 0,
       "liked": 0,
-      "shown": 46,
+      "shown": 49,
       "weight": 0.5
     },
     "langchain": {
@@ -142,13 +142,13 @@
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 111,
+      "shown": 115,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 142,
+      "shown": 148,
       "weight": 0.5
     },
     "mcp": {
@@ -160,7 +160,7 @@
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 46,
+      "shown": 48,
       "weight": 0.5
     },
     "mistral": {
@@ -184,7 +184,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 32,
+      "shown": 33,
       "weight": 0.5
     },
     "orchestrat": {
@@ -196,31 +196,31 @@
     "prompt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 54,
+      "shown": 57,
       "weight": 0.5
     },
     "quantization": {
       "disliked": 0,
       "liked": 0,
-      "shown": 4,
+      "shown": 5,
       "weight": 0.5
     },
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 87,
+      "shown": 91,
       "weight": 0.5
     },
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 83,
+      "shown": 89,
       "weight": 0.5
     },
     "retrieval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 30,
+      "shown": 31,
       "weight": 0.5
     },
     "semantic": {
@@ -250,7 +250,7 @@
     "vector": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 16,
       "weight": 0.5
     },
     "vllm": {
@@ -260,5 +260,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-09-06"
+  "updated": "2026-09-07"
 }
