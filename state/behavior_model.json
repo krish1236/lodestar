@@ -1,16 +1,16 @@
 {
   "by_source": {
-    "arxiv": 410,
-    "github": 91,
-    "hackernews": 89
+    "arxiv": 411,
+    "github": 94,
+    "hackernews": 92
   },
-  "last_run_id": "2026-09-10",
-  "runs": 58,
+  "last_run_id": "2026-09-11",
+  "runs": 59,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 162,
+      "shown": 165,
       "weight": 0.5
     },
     "agentic": {
@@ -28,7 +28,7 @@
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 23,
+      "shown": 25,
       "weight": 0.5
     },
     "assistant": {
@@ -112,7 +112,7 @@
     "gpt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 47,
+      "shown": 48,
       "weight": 0.5
     },
     "hallucinat": {
@@ -130,7 +130,7 @@
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 47,
+      "shown": 48,
       "weight": 0.5
     },
     "langgraph": {
@@ -142,7 +142,7 @@
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 122,
+      "shown": 123,
       "weight": 0.5
     },
     "llm": {
@@ -160,7 +160,7 @@
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 51,
+      "shown": 52,
       "weight": 0.5
     },
     "mistral": {
@@ -184,13 +184,13 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 37,
+      "shown": 40,
       "weight": 0.5
     },
     "orchestrat": {
       "disliked": 0,
       "liked": 0,
-      "shown": 14,
+      "shown": 15,
       "weight": 0.5
     },
     "prompt": {
@@ -214,7 +214,7 @@
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 97,
+      "shown": 98,
       "weight": 0.5
     },
     "retrieval": {
@@ -226,13 +226,13 @@
     "semantic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 35,
+      "shown": 36,
       "weight": 0.5
     },
     "tool use": {
       "disliked": 0,
       "liked": 0,
-      "shown": 3,
+      "shown": 4,
       "weight": 0.5
     },
     "tool-calling": {
@@ -260,5 +260,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-09-10"
+  "updated": "2026-09-11"
 }

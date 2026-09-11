@@ -611,3 +611,10 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6
 https://github.com/openai/openai-python/releases/tag/v3.11.0
 https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and
 https://spectrum.ieee.org/are-self-driving-cars-safe
+https://arxiv.org/abs/2609.09625
+https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.2
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.5.0
+https://github.com/openai/openai-python/releases/tag/v3.13.0
+https://mathstodon.xyz/@andreasthom/117240535270608201
+https://cognition.com/blog/swe-2
+https://developers.openai.com/api/docs/guides/agents-api/overview
