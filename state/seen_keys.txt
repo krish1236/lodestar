@@ -634,3 +634,4 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.3
 https://mathandai.org
 https://support.claude.com/en/articles/15171100-age-assurance-on-claude
 https://www.rubyhack.ai
+https://withspecific.com/benchmarks/real-swe

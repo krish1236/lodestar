@@ -671,3 +671,5 @@
 {"external_id": "49656225", "rank_score": 0.615546456536365, "run_id": "2026-09-12", "source": "hackernews", "topics": ["claude"], "ts": "2026-09-12T06:35:28+00:00", "type": "item_shown", "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude"}
 {"external_id": "49666735", "rank_score": 0.6409061399473491, "run_id": "2026-09-12", "source": "hackernews", "topics": ["agent", "openai"], "ts": "2026-09-12T06:35:28+00:00", "type": "item_shown", "url": "https://www.rubyhack.ai/"}
 {"errors": 0, "fetched": 35, "run_id": "2026-09-12", "surfaced": 16, "ts": "2026-09-12T06:35:28+00:00", "type": "run_completed"}
+{"external_id": "49676820", "rank_score": 0.65, "run_id": "2026-09-13", "source": "hackernews", "topics": ["benchmark"], "ts": "2026-09-13T06:40:13+00:00", "type": "item_shown", "url": "https://withspecific.com/benchmarks/real-swe"}
+{"errors": 0, "fetched": 20, "run_id": "2026-09-13", "surfaced": 1, "ts": "2026-09-13T06:40:13+00:00", "type": "run_completed"}
