@@ -635,3 +635,16 @@ https://mathandai.org
 https://support.claude.com/en/articles/15171100-age-assurance-on-claude
 https://www.rubyhack.ai
 https://withspecific.com/benchmarks/real-swe
+https://arxiv.org/abs/2609.11977
+https://arxiv.org/abs/2609.11987
+https://arxiv.org/abs/2609.12035
+https://arxiv.org/abs/2609.12101
+https://arxiv.org/abs/2609.12105
+https://arxiv.org/abs/2609.12115
+https://arxiv.org/abs/2609.12116
+https://arxiv.org/abs/2609.12139
+https://arxiv.org/abs/2609.12162
+https://arxiv.org/abs/2609.12165
+https://arxiv.org/abs/2609.12171
+https://arxiv.org/abs/2609.12247
+https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment
