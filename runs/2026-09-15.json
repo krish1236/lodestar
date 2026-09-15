@@ -1,0 +1,24 @@
+{
+  "by_source": {
+    "arxiv": 12,
+    "hackernews": 2
+  },
+  "duration_seconds": 8.04,
+  "errors": [
+    {
+      "message": "openai/openai-python: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/openai/openai-python/releases?per_page=3'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+      "source": "github"
+    },
+    {
+      "message": "modelcontextprotocol/python-sdk: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/modelcontextprotocol/python-sdk/releases?per_page=3'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+      "source": "github"
+    },
+    {
+      "message": "vllm-project/vllm: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/vllm-project/vllm/releases?per_page=3'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+      "source": "github"
+    }
+  ],
+  "fetched": 34,
+  "run_date": "2026-09-15",
+  "surfaced": 14
+}
