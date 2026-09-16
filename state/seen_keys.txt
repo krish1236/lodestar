@@ -662,3 +662,9 @@ https://arxiv.org/abs/2609.13475
 https://arxiv.org/abs/2609.13491
 https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive
 https://andonlabs.com/blog/why-we-built-pion
+https://arxiv.org/abs/2609.13519
+https://arxiv.org/abs/2609.13543
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.6.0
+https://github.com/openai/openai-python/releases/tag/v3.14.1
+https://www.effort.news/irregular
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking

@@ -1,16 +1,16 @@
 {
   "by_source": {
-    "arxiv": 447,
-    "github": 95,
-    "hackernews": 99
+    "arxiv": 449,
+    "github": 97,
+    "hackernews": 101
   },
-  "last_run_id": "2026-09-15",
-  "runs": 63,
+  "last_run_id": "2026-09-16",
+  "runs": 64,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 185,
+      "shown": 187,
       "weight": 0.5
     },
     "agentic": {
@@ -28,7 +28,7 @@
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 26,
+      "shown": 28,
       "weight": 0.5
     },
     "assistant": {
@@ -46,7 +46,7 @@
     "benchmark": {
       "disliked": 0,
       "liked": 0,
-      "shown": 134,
+      "shown": 136,
       "weight": 0.5
     },
     "chain-of-thought": {
@@ -82,13 +82,13 @@
     "embedding": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 16,
       "weight": 0.5
     },
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 204,
+      "shown": 205,
       "weight": 0.5
     },
     "fine-tun": {
@@ -106,7 +106,7 @@
     "gemini": {
       "disliked": 0,
       "liked": 0,
-      "shown": 14,
+      "shown": 15,
       "weight": 0.5
     },
     "gpt": {
@@ -124,7 +124,7 @@
     "inference": {
       "disliked": 0,
       "liked": 0,
-      "shown": 53,
+      "shown": 54,
       "weight": 0.5
     },
     "langchain": {
@@ -148,7 +148,7 @@
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 170,
+      "shown": 171,
       "weight": 0.5
     },
     "mcp": {
@@ -184,7 +184,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 43,
+      "shown": 45,
       "weight": 0.5
     },
     "orchestrat": {
@@ -208,7 +208,7 @@
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 103,
+      "shown": 104,
       "weight": 0.5
     },
     "reasoning": {
@@ -220,7 +220,7 @@
     "retrieval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 35,
+      "shown": 36,
       "weight": 0.5
     },
     "semantic": {
@@ -260,5 +260,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-09-15"
+  "updated": "2026-09-16"
 }
