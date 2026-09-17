@@ -668,3 +668,16 @@ https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.6.0
 https://github.com/openai/openai-python/releases/tag/v3.14.1
 https://www.effort.news/irregular
 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking
+https://arxiv.org/abs/2609.17631
+https://arxiv.org/abs/2609.17632
+https://arxiv.org/abs/2609.17633
+https://arxiv.org/abs/2609.17688
+https://arxiv.org/abs/2609.17695
+https://arxiv.org/abs/2609.17696
+https://arxiv.org/abs/2609.17699
+https://arxiv.org/abs/2609.17731
+https://arxiv.org/abs/2609.17757
+https://arxiv.org/abs/2609.17775
+https://arxiv.org/abs/2609.17786
+https://arxiv.org/abs/2609.17804
+https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.1
