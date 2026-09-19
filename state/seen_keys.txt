@@ -698,3 +698,7 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0
 https://github.com/openai/openai-python/releases/tag/v3.15.0
 https://www.hacktron.ai/blog/hacking-openai
 https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities
+https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.2
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.7.0
+https://github.com/openai/openai-python/releases/tag/v3.16.2
+https://code.claude.com/docs/en/changelog

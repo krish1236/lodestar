@@ -1,16 +1,16 @@
 {
   "by_source": {
     "arxiv": 473,
-    "github": 101,
-    "hackernews": 103
+    "github": 104,
+    "hackernews": 104
   },
-  "last_run_id": "2026-09-18",
-  "runs": 66,
+  "last_run_id": "2026-09-19",
+  "runs": 67,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 199,
+      "shown": 200,
       "weight": 0.5
     },
     "agentic": {
@@ -28,7 +28,7 @@
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 28,
+      "shown": 29,
       "weight": 0.5
     },
     "assistant": {
@@ -58,7 +58,7 @@
     "claude": {
       "disliked": 0,
       "liked": 0,
-      "shown": 30,
+      "shown": 31,
       "weight": 0.5
     },
     "context window": {
@@ -130,7 +130,7 @@
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 52,
+      "shown": 53,
       "weight": 0.5
     },
     "langgraph": {
@@ -160,7 +160,7 @@
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 56,
+      "shown": 57,
       "weight": 0.5
     },
     "mistral": {
@@ -184,7 +184,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 47,
+      "shown": 48,
       "weight": 0.5
     },
     "orchestrat": {
@@ -260,5 +260,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-09-18"
+  "updated": "2026-09-19"
 }
