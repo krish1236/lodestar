@@ -718,3 +718,13 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0
 https://pirateface.co
 https://agentexecutor.io
 https://softwarecrisis.dev/letters/llmentalist
+https://arxiv.org/abs/2609.21208
+https://arxiv.org/abs/2609.21214
+https://arxiv.org/abs/2609.21221
+https://github.com/langchain-ai/langgraph/releases/tag/1.2.12
+https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.5
+https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9
+https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.2
+https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.1
+https://github.com/openai/openai-python/releases/tag/v3.17.0
+https://poloclub.github.io/transformer-explainer
