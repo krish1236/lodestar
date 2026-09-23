@@ -1,22 +1,22 @@
 {
   "by_source": {
-    "arxiv": 488,
-    "github": 111,
-    "hackernews": 108
+    "arxiv": 500,
+    "github": 114,
+    "hackernews": 113
   },
-  "last_run_id": "2026-09-22",
-  "runs": 70,
+  "last_run_id": "2026-09-23",
+  "runs": 71,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 204,
+      "shown": 209,
       "weight": 0.5
     },
     "agentic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 61,
+      "shown": 63,
       "weight": 0.5
     },
     "alignment": {
@@ -28,7 +28,7 @@
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 29,
+      "shown": 30,
       "weight": 0.5
     },
     "assistant": {
@@ -46,19 +46,19 @@
     "benchmark": {
       "disliked": 0,
       "liked": 0,
-      "shown": 150,
+      "shown": 154,
       "weight": 0.5
     },
     "chain-of-thought": {
       "disliked": 0,
       "liked": 0,
-      "shown": 6,
+      "shown": 7,
       "weight": 0.5
     },
     "claude": {
       "disliked": 0,
       "liked": 0,
-      "shown": 31,
+      "shown": 35,
       "weight": 0.5
     },
     "context window": {
@@ -76,43 +76,43 @@
     "distillation": {
       "disliked": 0,
       "liked": 0,
-      "shown": 5,
+      "shown": 6,
       "weight": 0.5
     },
     "embedding": {
       "disliked": 0,
       "liked": 0,
-      "shown": 18,
+      "shown": 21,
       "weight": 0.5
     },
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 232,
+      "shown": 240,
       "weight": 0.5
     },
     "fine-tun": {
       "disliked": 0,
       "liked": 0,
-      "shown": 19,
+      "shown": 20,
       "weight": 0.5
     },
     "foundation model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 12,
+      "shown": 13,
       "weight": 0.5
     },
     "gemini": {
       "disliked": 0,
       "liked": 0,
-      "shown": 15,
+      "shown": 17,
       "weight": 0.5
     },
     "gpt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 55,
+      "shown": 60,
       "weight": 0.5
     },
     "hallucinat": {
@@ -124,13 +124,13 @@
     "inference": {
       "disliked": 0,
       "liked": 0,
-      "shown": 60,
+      "shown": 61,
       "weight": 0.5
     },
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 59,
+      "shown": 60,
       "weight": 0.5
     },
     "langgraph": {
@@ -142,25 +142,25 @@
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 151,
+      "shown": 154,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 190,
+      "shown": 193,
       "weight": 0.5
     },
     "mcp": {
       "disliked": 0,
       "liked": 0,
-      "shown": 14,
+      "shown": 15,
       "weight": 0.5
     },
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 60,
+      "shown": 62,
       "weight": 0.5
     },
     "mistral": {
@@ -184,7 +184,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 50,
+      "shown": 55,
       "weight": 0.5
     },
     "orchestrat": {
@@ -196,7 +196,7 @@
     "prompt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 64,
+      "shown": 66,
       "weight": 0.5
     },
     "quantization": {
@@ -208,25 +208,25 @@
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 115,
+      "shown": 118,
       "weight": 0.5
     },
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 120,
+      "shown": 123,
       "weight": 0.5
     },
     "retrieval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 43,
+      "shown": 44,
       "weight": 0.5
     },
     "semantic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 44,
+      "shown": 47,
       "weight": 0.5
     },
     "tool use": {
@@ -244,7 +244,7 @@
     "transformer": {
       "disliked": 0,
       "liked": 0,
-      "shown": 22,
+      "shown": 24,
       "weight": 0.5
     },
     "vector": {
@@ -260,5 +260,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-09-22"
+  "updated": "2026-09-23"
 }
