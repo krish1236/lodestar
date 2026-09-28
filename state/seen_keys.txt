@@ -791,3 +791,15 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D
 https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html
 https://swarmtraces.org
 https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705
+https://arxiv.org/abs/2609.30291
+https://arxiv.org/abs/2609.30325
+https://arxiv.org/abs/2609.30328
+https://arxiv.org/abs/2609.30341
+https://arxiv.org/abs/2609.30383
+https://arxiv.org/abs/2609.30397
+https://arxiv.org/abs/2609.30446
+https://arxiv.org/abs/2609.30456
+https://arxiv.org/abs/2609.30469
+https://arxiv.org/abs/2609.30484
+https://arxiv.org/abs/2609.30489
+https://arxiv.org/abs/2609.30550
