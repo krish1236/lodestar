@@ -925,3 +925,7 @@
 {"external_id": "49923692", "rank_score": 0.65, "run_id": "2026-10-02", "source": "hackernews", "topics": ["fine-tun"], "ts": "2026-10-02T06:43:25+00:00", "type": "item_shown", "url": "https://blog.cloudflare.com/clef-decision-models/"}
 {"external_id": "49923466", "rank_score": 0.65, "run_id": "2026-10-02", "source": "hackernews", "topics": ["vector"], "ts": "2026-10-02T06:43:25+00:00", "type": "item_shown", "url": "https://turbopuffer.com/blog/rip-vector-database"}
 {"errors": 0, "fetched": 35, "run_id": "2026-10-02", "surfaced": 15, "ts": "2026-10-02T06:43:25+00:00", "type": "run_completed"}
+{"external_id": "langchain-ai/langchain@langchain-text-splitters==1.1.3", "rank_score": 0.9, "run_id": "2026-10-03", "source": "github", "topics": ["langchain"], "ts": "2026-10-03T06:47:15+00:00", "type": "item_shown", "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3"}
+{"external_id": "openai/openai-python@v3.24.0", "rank_score": 0.9, "run_id": "2026-10-03", "source": "github", "topics": ["agent", "openai"], "ts": "2026-10-03T06:47:15+00:00", "type": "item_shown", "url": "https://github.com/openai/openai-python/releases/tag/v3.24.0"}
+{"external_id": "49929391", "rank_score": 0.6156458137656214, "run_id": "2026-10-03", "source": "hackernews", "topics": ["llm"], "ts": "2026-10-03T06:47:15+00:00", "type": "item_shown", "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q"}
+{"errors": 0, "fetched": 20, "run_id": "2026-10-03", "surfaced": 3, "ts": "2026-10-03T06:47:15+00:00", "type": "run_completed"}
