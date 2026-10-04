@@ -929,3 +929,6 @@
 {"external_id": "openai/openai-python@v3.24.0", "rank_score": 0.9, "run_id": "2026-10-03", "source": "github", "topics": ["agent", "openai"], "ts": "2026-10-03T06:47:15+00:00", "type": "item_shown", "url": "https://github.com/openai/openai-python/releases/tag/v3.24.0"}
 {"external_id": "49929391", "rank_score": 0.6156458137656214, "run_id": "2026-10-03", "source": "hackernews", "topics": ["llm"], "ts": "2026-10-03T06:47:15+00:00", "type": "item_shown", "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q"}
 {"errors": 0, "fetched": 20, "run_id": "2026-10-03", "surfaced": 3, "ts": "2026-10-03T06:47:15+00:00", "type": "run_completed"}
+{"external_id": "49944227", "rank_score": 0.65, "run_id": "2026-10-04", "source": "hackernews", "topics": ["openai"], "ts": "2026-10-04T08:21:25+00:00", "type": "item_shown", "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA"}
+{"external_id": "49945933", "rank_score": 0.5764988536004741, "run_id": "2026-10-04", "source": "hackernews", "topics": ["agent", "memory"], "ts": "2026-10-04T08:21:25+00:00", "type": "item_shown", "url": "https://liao.gg/blog/agents-dont-need-memory"}
+{"errors": 0, "fetched": 20, "run_id": "2026-10-04", "surfaced": 2, "ts": "2026-10-04T08:21:25+00:00", "type": "run_completed"}
