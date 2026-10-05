@@ -873,3 +873,15 @@ https://github.com/openai/openai-python/releases/tag/v3.24.0
 https://www.youtube.com/watch
 https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881
 https://liao.gg/blog/agents-dont-need-memory
+https://arxiv.org/abs/2610.02267
+https://arxiv.org/abs/2610.02281
+https://arxiv.org/abs/2610.02300
+https://arxiv.org/abs/2610.02330
+https://arxiv.org/abs/2610.02331
+https://arxiv.org/abs/2610.02342
+https://arxiv.org/abs/2610.02351
+https://arxiv.org/abs/2610.02372
+https://arxiv.org/abs/2610.02378
+https://arxiv.org/abs/2610.02395
+https://arxiv.org/abs/2610.02405
+https://arxiv.org/abs/2610.02452
