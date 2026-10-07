@@ -901,3 +901,11 @@ https://github.com/langchain-ai/langgraph/releases/tag/1.2.13
 https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html
 https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons
 https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors
+https://arxiv.org/abs/2610.04012
+https://github.com/langchain-ai/langgraph/releases/tag/1.2.14
+https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.6
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.7
+https://github.com/openai/openai-python/releases/tag/v3.26.0
+https://mistral.ai/news/mistral-large-4/\
+https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2
+https://www.zohaib.cc/blog/smartest-claude-code-feature

@@ -1,11 +1,11 @@
 {
   "by_source": {
-    "arxiv": 611,
-    "github": 136,
-    "hackernews": 133
+    "arxiv": 612,
+    "github": 140,
+    "hackernews": 134
   },
-  "last_run_id": "2026-10-06",
-  "runs": 84,
+  "last_run_id": "2026-10-07",
+  "runs": 85,
   "topics": {
     "agent": {
       "disliked": 0,
@@ -34,7 +34,7 @@
     "assistant": {
       "disliked": 0,
       "liked": 0,
-      "shown": 20,
+      "shown": 21,
       "weight": 0.5
     },
     "autonomous": {
@@ -82,13 +82,13 @@
     "embedding": {
       "disliked": 0,
       "liked": 0,
-      "shown": 27,
+      "shown": 28,
       "weight": 0.5
     },
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 305,
+      "shown": 306,
       "weight": 0.5
     },
     "fine-tun": {
@@ -130,19 +130,19 @@
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 74,
+      "shown": 77,
       "weight": 0.5
     },
     "langgraph": {
       "disliked": 0,
       "liked": 0,
-      "shown": 14,
+      "shown": 16,
       "weight": 0.5
     },
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 186,
+      "shown": 187,
       "weight": 0.5
     },
     "llm": {
@@ -160,7 +160,7 @@
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 73,
+      "shown": 74,
       "weight": 0.5
     },
     "mistral": {
@@ -184,7 +184,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 67,
+      "shown": 69,
       "weight": 0.5
     },
     "orchestrat": {
@@ -208,7 +208,7 @@
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 153,
+      "shown": 154,
       "weight": 0.5
     },
     "reasoning": {
@@ -220,7 +220,7 @@
     "retrieval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 53,
+      "shown": 54,
       "weight": 0.5
     },
     "semantic": {
@@ -250,7 +250,7 @@
     "vector": {
       "disliked": 0,
       "liked": 0,
-      "shown": 22,
+      "shown": 23,
       "weight": 0.5
     },
     "vllm": {
@@ -260,5 +260,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-10-06"
+  "updated": "2026-10-07"
 }
