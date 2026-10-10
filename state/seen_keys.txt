@@ -946,3 +946,9 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7
 https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.9
 https://github.com/openai/openai-python/releases/tag/v3.26.1
 https://twitter.com/danintheory/status/2108065033070789090
+https://arxiv.org/abs/2610.10954
+https://arxiv.org/abs/2610.11005
+https://arxiv.org/abs/2610.11007
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0
+https://github.com/openai/openai-python/releases/tag/v3.28.0
+https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051
