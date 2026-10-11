@@ -1,28 +1,13 @@
-# Daily Digest — 2026-10-10
+# Daily Digest — 2026-10-11
 
 ## Highlights
 
-- [Learning How to Search for Plans with Exponentially Less Space](https://arxiv.org/abs/2610.10954) · @Dominik Drexler, Simon St{\aa}hlberg, Markus Fritzsche, Blai Bonet
-- [How Narrative Wrapping Affects LLM Refusal: A Cross-Language Benchmark and Defense](https://arxiv.org/abs/2610.11005) · @Zhankai Ye, Yanning Wang, Yukai Jin, Bo Mei, Fangyi Li, Wei Wang, Shangqian Gao, Xin Liu
-- [Curating Always-Loaded Context for LLM Agents: A Capacitated Assortment Model with Censored Feedback](https://arxiv.org/abs/2610.11007) · @Zexuan Liu, Yuning Yang, Tiancheng Zhao
-- [anthropics/anthropic-sdk-python v1.13.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0) · @anthropic-sdks-releaser[bot] · ★3951 · trusted
-- [openai/openai-python v3.28.0](https://github.com/openai/openai-python/releases/tag/v3.28.0) · @openai-sdks[bot] · ★31789 · trusted
-
-## Papers
-
-- [Learning How to Search for Plans with Exponentially Less Space](https://arxiv.org/abs/2610.10954) · @Dominik Drexler, Simon St{\aa}hlberg, Markus Fritzsche, Blai Bonet
-- [How Narrative Wrapping Affects LLM Refusal: A Cross-Language Benchmark and Defense](https://arxiv.org/abs/2610.11005) · @Zhankai Ye, Yanning Wang, Yukai Jin, Bo Mei, Fangyi Li, Wei Wang, Shangqian Gao, Xin Liu
-- [Curating Always-Loaded Context for LLM Agents: A Capacitated Assortment Model with Censored Feedback](https://arxiv.org/abs/2610.11007) · @Zexuan Liu, Yuning Yang, Tiancheng Zhao
-
-## Releases
-
-- [openai/openai-python v3.28.0](https://github.com/openai/openai-python/releases/tag/v3.28.0) · @openai-sdks[bot] · ★31789 · trusted
-- [anthropics/anthropic-sdk-python v1.13.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0) · @anthropic-sdks-releaser[bot] · ★3951 · trusted
+- [Talorys – A self-hosted personal AI agent on Cloudflare's free tier](https://github.com/rociiu/talorys) · @rociiu · 275 pts · 134 karma
 
 ## Discussion
 
-- [Anthropic AI model submits false tip on unsolved Philly murder](https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/) · @Zambyte · 143 pts · 5033 karma
+- [Talorys – A self-hosted personal AI agent on Cloudflare's free tier](https://github.com/rociiu/talorys) · @rociiu · 275 pts · 134 karma
 
 ---
-_Coverage: arxiv 15 · github 10 · hackernews 10_
-_Generated 2026-10-10T06:41:03+00:00 · Lodestar_
+_Coverage: github 10 · hackernews 10_
+_Generated 2026-10-11T06:41:56+00:00 · Lodestar_

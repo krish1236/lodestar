@@ -1015,3 +1015,5 @@
 {"external_id": "openai/openai-python@v3.28.0", "rank_score": 0.9, "run_id": "2026-10-10", "source": "github", "topics": ["agent", "openai"], "ts": "2026-10-10T06:41:03+00:00", "type": "item_shown", "url": "https://github.com/openai/openai-python/releases/tag/v3.28.0"}
 {"external_id": "50027118", "rank_score": 0.65, "run_id": "2026-10-10", "source": "hackernews", "topics": ["anthropic"], "ts": "2026-10-10T06:41:03+00:00", "type": "item_shown", "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/"}
 {"errors": 0, "fetched": 35, "run_id": "2026-10-10", "surfaced": 6, "ts": "2026-10-10T06:41:03+00:00", "type": "run_completed"}
+{"external_id": "50031614", "rank_score": 0.5863869028888788, "run_id": "2026-10-11", "source": "hackernews", "topics": ["agent"], "ts": "2026-10-11T06:41:56+00:00", "type": "item_shown", "url": "https://github.com/rociiu/talorys"}
+{"errors": 0, "fetched": 20, "run_id": "2026-10-11", "surfaced": 1, "ts": "2026-10-11T06:41:56+00:00", "type": "run_completed"}

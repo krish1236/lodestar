@@ -952,3 +952,4 @@ https://arxiv.org/abs/2610.11007
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0
 https://github.com/openai/openai-python/releases/tag/v3.28.0
 https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051
+https://github.com/rociiu/talorys
