@@ -1,22 +1,22 @@
 {
   "by_source": {
-    "arxiv": 651,
-    "github": 158,
-    "hackernews": 142
+    "arxiv": 663,
+    "github": 160,
+    "hackernews": 145
   },
-  "last_run_id": "2026-10-13",
-  "runs": 91,
+  "last_run_id": "2026-10-14",
+  "runs": 92,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 296,
+      "shown": 304,
       "weight": 0.5
     },
     "agentic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 80,
+      "shown": 81,
       "weight": 0.5
     },
     "alignment": {
@@ -28,7 +28,7 @@
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 45,
+      "shown": 46,
       "weight": 0.5
     },
     "assistant": {
@@ -46,7 +46,7 @@
     "benchmark": {
       "disliked": 0,
       "liked": 0,
-      "shown": 207,
+      "shown": 214,
       "weight": 0.5
     },
     "chain-of-thought": {
@@ -88,7 +88,7 @@
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 331,
+      "shown": 340,
       "weight": 0.5
     },
     "fine-tun": {
@@ -106,13 +106,13 @@
     "gemini": {
       "disliked": 0,
       "liked": 0,
-      "shown": 22,
+      "shown": 24,
       "weight": 0.5
     },
     "gpt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 74,
+      "shown": 75,
       "weight": 0.5
     },
     "hallucinat": {
@@ -124,31 +124,31 @@
     "inference": {
       "disliked": 0,
       "liked": 0,
-      "shown": 84,
+      "shown": 87,
       "weight": 0.5
     },
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 89,
+      "shown": 90,
       "weight": 0.5
     },
     "langgraph": {
       "disliked": 0,
       "liked": 0,
-      "shown": 24,
+      "shown": 25,
       "weight": 0.5
     },
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 202,
+      "shown": 206,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 261,
+      "shown": 266,
       "weight": 0.5
     },
     "mcp": {
@@ -184,7 +184,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 76,
+      "shown": 78,
       "weight": 0.5
     },
     "orchestrat": {
@@ -196,7 +196,7 @@
     "prompt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 97,
+      "shown": 98,
       "weight": 0.5
     },
     "quantization": {
@@ -208,13 +208,13 @@
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 164,
+      "shown": 167,
       "weight": 0.5
     },
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 157,
+      "shown": 158,
       "weight": 0.5
     },
     "retrieval": {
@@ -260,5 +260,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-10-13"
+  "updated": "2026-10-14"
 }
