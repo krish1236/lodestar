@@ -991,3 +991,13 @@ https://github.com/openai/openai-python/releases/tag/v3.31.0
 https://deepmind.google/models/gemini
 https://www.anthropic.com/engineering/redesigning-source-control
 https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room
+https://arxiv.org/abs/2610.14294
+https://arxiv.org/abs/2610.14307
+https://arxiv.org/abs/2610.14334
+https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1
+https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.35
+https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.0
+https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.6
+https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0
+https://sunshowers.io/posts/anthropic-mononoke
