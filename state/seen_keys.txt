@@ -1001,3 +1001,17 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.6
 https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0
 https://sunshowers.io/posts/anthropic-mononoke
+https://arxiv.org/abs/2610.20665
+https://arxiv.org/abs/2610.20667
+https://arxiv.org/abs/2610.20669
+https://arxiv.org/abs/2610.20675
+https://arxiv.org/abs/2610.20676
+https://arxiv.org/abs/2610.20679
+https://arxiv.org/abs/2610.20681
+https://arxiv.org/abs/2610.20685
+https://arxiv.org/abs/2610.20764
+https://arxiv.org/abs/2610.20780
+https://arxiv.org/abs/2610.20782
+https://arxiv.org/abs/2610.20786
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.11
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0
