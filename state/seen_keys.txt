@@ -1015,3 +1015,15 @@ https://arxiv.org/abs/2610.20782
 https://arxiv.org/abs/2610.20786
 https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.11
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0
+https://arxiv.org/abs/2610.20805
+https://arxiv.org/abs/2610.20809
+https://arxiv.org/abs/2610.20822
+https://github.com/langchain-ai/langgraph/releases/tag/1.2.16
+https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.8
+https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.36
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12
+https://github.com/openai/openai-python/releases/tag/v3.33.0
+https://www.anthropic.com/research/ecdsa-curve-origins
+https://www.mercor.com/research/labor-index/benchmark-map
+https://claude.dev/blog/solving-code-review-at-anthropic
+https://alexwang.ai/posts/associative-memory

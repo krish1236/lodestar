@@ -1,33 +1,34 @@
-# Daily Digest — 2026-10-16
+# Daily Digest — 2026-10-17
 
 ## Highlights
 
-- [The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock](https://arxiv.org/abs/2610.20665) · @Ningxin Pan, Hanyu Li, Yeqing Shen, Ning Ding, Yehui Tang, Wentao Zhang
-- [Evaluating Model Capabilities After Benchmark Saturation](https://arxiv.org/abs/2610.20667) · @Morio Hamada, Jehyeok Yeon, Matteo Migliarini, Justin Olive, Magda Dubois
-- [Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion](https://arxiv.org/abs/2610.20669) · @Jaehyeon Kim, Ziseok Lee, Siyoung Choi, Kyungsu Kim
-- [AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks](https://arxiv.org/abs/2610.20675) · @Zhanke Zhou, Zongze Li, Weikai Huang, Xuan Li, Chentao Cao, Xiao Feng, Xiangyu Lu, Jinbo Hu, Yi Xie, Nico Pelleriti, Shiyang Liu, Menghan Lu, Max Zimmer, Brando Miranda, Jiangchao Yao, Bo Liu, Sanmi Koyejo, Sebastian Pokutta, Bo Han
-- [When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus](https://arxiv.org/abs/2610.20676) · @Adarsh Agrawal (Independent Researcher)
+- [When Reasoning Traces Conflict with Evidence: How Answer Configuration Shapes Evidence Following](https://arxiv.org/abs/2610.20805) · @Shaoang Li, Yanhang Shi, Jian Li
+- [A Self-Improving Agent that Grows its Own DSL: Oracle-Free Operator Induction for Exact Question Answering](https://arxiv.org/abs/2610.20809) · @Yun-Shiuan Chuang, Yirou Ge, Yixi Li, Yiming Bian, Zijie Pan, Jenna L. Ballard, Uma Kona, Linsey Pang, Prakhar Mehrotra
+- [Temporal Specification Guidance for Text-to-Video Generation](https://arxiv.org/abs/2610.20822) · @Avishree Khare, Hideki Okamoto, Bardh Hoxha, Georgios Fainekos, Rajeev Alur
+- [langchain-ai/langgraph langgraph==1.2.16](https://github.com/langchain-ai/langgraph/releases/tag/1.2.16) · @github-actions[bot] · ★43386 · trusted
+- [langchain-ai/langgraph langgraph-sdk==0.4.8](https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.8) · @github-actions[bot] · ★43386 · trusted
 
 ## Papers
 
-- [The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock](https://arxiv.org/abs/2610.20665) · @Ningxin Pan, Hanyu Li, Yeqing Shen, Ning Ding, Yehui Tang, Wentao Zhang
-- [Evaluating Model Capabilities After Benchmark Saturation](https://arxiv.org/abs/2610.20667) · @Morio Hamada, Jehyeok Yeon, Matteo Migliarini, Justin Olive, Magda Dubois
-- [Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion](https://arxiv.org/abs/2610.20669) · @Jaehyeon Kim, Ziseok Lee, Siyoung Choi, Kyungsu Kim
-- [AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks](https://arxiv.org/abs/2610.20675) · @Zhanke Zhou, Zongze Li, Weikai Huang, Xuan Li, Chentao Cao, Xiao Feng, Xiangyu Lu, Jinbo Hu, Yi Xie, Nico Pelleriti, Shiyang Liu, Menghan Lu, Max Zimmer, Brando Miranda, Jiangchao Yao, Bo Liu, Sanmi Koyejo, Sebastian Pokutta, Bo Han
-- [When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus](https://arxiv.org/abs/2610.20676) · @Adarsh Agrawal (Independent Researcher)
-- [Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models](https://arxiv.org/abs/2610.20679) · @Tianshi Wang, Jingsong Wang, Fengling Li, Jingjing Li, Xin Li, Lei Zhu
-- [IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation](https://arxiv.org/abs/2610.20681) · @Gaolei He, Jinhui Li, Ruobing Zuo, Xia Zeng, Zhengfeng Yang
-- [L2G-SR: Learning to Guide LLM-based Symbolic Regression](https://arxiv.org/abs/2610.20685) · @Letian Huang, Xiangyu Wang, Haowei Lin, Di He
-- [When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence](https://arxiv.org/abs/2610.20764) · @Ahsan Adeel, Talha Bin Riaz
-- [ARIA: Runtime Inspection and Amendment for Multi-Agent Systems](https://arxiv.org/abs/2610.20780) · @Bolin Shen, Yushun Dong
-- [Open-world AI: a Tale of Three Requirements](https://arxiv.org/abs/2610.20782) · @Jianyu Zhang, L\'eon Bottou
-- [EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds](https://arxiv.org/abs/2610.20786) · @Runxuan Liu, Jingqi Shi, Baoxin Wang, Honghong Zhao, Haoyuan Xu, Yueqing Sun, Jiafeng Liang, Tao He, Dayong Wu, Qi Gu, Shijin Wang, Ming Liu, Bing Qin
+- [When Reasoning Traces Conflict with Evidence: How Answer Configuration Shapes Evidence Following](https://arxiv.org/abs/2610.20805) · @Shaoang Li, Yanhang Shi, Jian Li
+- [A Self-Improving Agent that Grows its Own DSL: Oracle-Free Operator Induction for Exact Question Answering](https://arxiv.org/abs/2610.20809) · @Yun-Shiuan Chuang, Yirou Ge, Yixi Li, Yiming Bian, Zijie Pan, Jenna L. Ballard, Uma Kona, Linsey Pang, Prakhar Mehrotra
+- [Temporal Specification Guidance for Text-to-Video Generation](https://arxiv.org/abs/2610.20822) · @Avishree Khare, Hideki Okamoto, Bardh Hoxha, Georgios Fainekos, Rajeev Alur
 
 ## Releases
 
-- [langchain-ai/langchain langchain-core==1.6.11](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.11) · @github-actions[bot] · ★147902 · trusted
-- [anthropics/anthropic-sdk-python v1.15.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.15.0) · @anthropic-sdks-releaser[bot] · ★3973 · trusted
+- [langchain-ai/langgraph langgraph==1.2.16](https://github.com/langchain-ai/langgraph/releases/tag/1.2.16) · @github-actions[bot] · ★43386 · trusted
+- [langchain-ai/langgraph langgraph-sdk==0.4.8](https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.8) · @github-actions[bot] · ★43386 · trusted
+- [langchain-ai/langgraph langgraph-cli==0.4.36](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.36) · @github-actions[bot] · ★43386 · trusted
+- [langchain-ai/langchain langchain-core==1.6.12](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12) · @github-actions[bot] · ★147957 · trusted
+- [openai/openai-python v3.33.0](https://github.com/openai/openai-python/releases/tag/v3.33.0) · @openai-sdks[bot] · ★31865 · trusted
+
+## Discussion
+
+- [Claude reveals ECDSA curve origins](https://www.anthropic.com/research/ecdsa-curve-origins) · @ahlCVA · 807 pts · 2118 karma · trusted
+- [90% of US working hours are spent on tasks not covered well by AI benchmarks](https://www.mercor.com/research/labor-index/benchmark-map/) · @speckx · 462 pts · 64395 karma
+- [You could have invented transformers from memory](https://alexwang.ai/posts/associative-memory/) · @speckx · 236 pts · 64395 karma
+- [How the Claude Code team does code review](https://claude.dev/blog/solving-code-review-at-anthropic/) · @pretext · 308 pts · 3866 karma
 
 ---
 _Coverage: arxiv 15 · github 10 · hackernews 10_
-_Generated 2026-10-16T06:40:24+00:00 · Lodestar_
+_Generated 2026-10-17T06:36:10+00:00 · Lodestar_
