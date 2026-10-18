@@ -1097,3 +1097,6 @@
 {"external_id": "50122951", "rank_score": 0.6454711692655941, "run_id": "2026-10-17", "source": "hackernews", "topics": ["claude"], "ts": "2026-10-17T06:36:10+00:00", "type": "item_shown", "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"}
 {"external_id": "50122878", "rank_score": 0.65, "run_id": "2026-10-17", "source": "hackernews", "topics": ["transformer", "memory"], "ts": "2026-10-17T06:36:10+00:00", "type": "item_shown", "url": "https://alexwang.ai/posts/associative-memory/"}
 {"errors": 0, "fetched": 35, "run_id": "2026-10-17", "surfaced": 12, "ts": "2026-10-17T06:36:10+00:00", "type": "run_completed"}
+{"external_id": "openai/openai-python@v3.35.1", "rank_score": 0.9, "run_id": "2026-10-18", "source": "github", "topics": ["openai"], "ts": "2026-10-18T06:36:21+00:00", "type": "item_shown", "url": "https://github.com/openai/openai-python/releases/tag/v3.35.1"}
+{"external_id": "50127979", "rank_score": 0.5857222571359478, "run_id": "2026-10-18", "source": "hackernews", "topics": ["llm"], "ts": "2026-10-18T06:36:21+00:00", "type": "item_shown", "url": "https://llmspeed.dev/"}
+{"errors": 0, "fetched": 20, "run_id": "2026-10-18", "surfaced": 2, "ts": "2026-10-18T06:36:21+00:00", "type": "run_completed"}

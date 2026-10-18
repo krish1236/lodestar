@@ -1027,3 +1027,5 @@ https://www.anthropic.com/research/ecdsa-curve-origins
 https://www.mercor.com/research/labor-index/benchmark-map
 https://claude.dev/blog/solving-code-review-at-anthropic
 https://alexwang.ai/posts/associative-memory
+https://github.com/openai/openai-python/releases/tag/v3.35.1
+https://llmspeed.dev

@@ -1,11 +1,11 @@
 {
   "by_source": {
     "arxiv": 681,
-    "github": 173,
-    "hackernews": 150
+    "github": 174,
+    "hackernews": 151
   },
-  "last_run_id": "2026-10-17",
-  "runs": 95,
+  "last_run_id": "2026-10-18",
+  "runs": 96,
   "topics": {
     "agent": {
       "disliked": 0,
@@ -148,7 +148,7 @@
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 271,
+      "shown": 272,
       "weight": 0.5
     },
     "mcp": {
@@ -184,7 +184,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 80,
+      "shown": 81,
       "weight": 0.5
     },
     "orchestrat": {
@@ -260,5 +260,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-10-17"
+  "updated": "2026-10-18"
 }
