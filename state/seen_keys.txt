@@ -1029,3 +1029,17 @@ https://claude.dev/blog/solving-code-review-at-anthropic
 https://alexwang.ai/posts/associative-memory
 https://github.com/openai/openai-python/releases/tag/v3.35.1
 https://llmspeed.dev
+https://arxiv.org/abs/2610.22428
+https://arxiv.org/abs/2610.22454
+https://arxiv.org/abs/2610.22468
+https://arxiv.org/abs/2610.22507
+https://arxiv.org/abs/2610.22511
+https://arxiv.org/abs/2610.22515
+https://arxiv.org/abs/2610.22518
+https://arxiv.org/abs/2610.22525
+https://arxiv.org/abs/2610.22526
+https://arxiv.org/abs/2610.22529
+https://arxiv.org/abs/2610.22542
+https://arxiv.org/abs/2610.22545
+https://arxiv.org/abs/2610.18861
+https://blog.picheta.me/post/killswitch-lang
