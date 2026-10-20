@@ -1043,3 +1043,17 @@ https://arxiv.org/abs/2610.22542
 https://arxiv.org/abs/2610.22545
 https://arxiv.org/abs/2610.18861
 https://blog.picheta.me/post/killswitch-lang
+https://arxiv.org/abs/2610.23866
+https://arxiv.org/abs/2610.23921
+https://arxiv.org/abs/2610.23962
+https://arxiv.org/abs/2610.24006
+https://arxiv.org/abs/2610.24010
+https://arxiv.org/abs/2610.24024
+https://arxiv.org/abs/2610.24051
+https://arxiv.org/abs/2610.24061
+https://arxiv.org/abs/2610.24090
+https://arxiv.org/abs/2610.24107
+https://arxiv.org/abs/2610.24108
+https://arxiv.org/abs/2610.24133
+https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37
+https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions

@@ -1,33 +1,36 @@
-# Daily Digest — 2026-10-19
+# Daily Digest — 2026-10-20
 
 ## Highlights
 
-- [Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models](https://arxiv.org/abs/2610.22428) · @Sai Kiran Bathula
-- [Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss](https://arxiv.org/abs/2610.22454) · @Zhiyuan Wang
-- [From Parallels to Divergence: Language Models' Learning of Action Nominal Constructions](https://arxiv.org/abs/2610.22468) · @Iskar Deng, Shane Steinert-Threlkeld
-- [RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents](https://arxiv.org/abs/2610.22507) · @Yunqi Liu, Peiyu Wang, Bingli Wang, Leo Luo, Xuanwu Song, Xudong Ma, Hongxin Li, Yaxin Du, Weicheng Gu, Fanglin Xu, Yi Xing, XiangLong Liu, Jujie He, Zhange Zhang, Huatong Song, Zhaoyi Li, Deyang Kong, Chuan Hao, Peihao Wu, Mingjie Tang, Ran Tao, Jian Yang, Wayne Xin Zhao, Bryan Dai
-- [AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems](https://arxiv.org/abs/2610.22511) · @Shreeyans Arora, Utsav Avaiya, Zera Lyngkhoi, Hem Gosalia, Ram Mohan Rao Kadiyala, Vinay Kumar Sankarapu, Pratinav Seth
+- [GardenBench: A lightweight, daily evaluation of LLM capabilities](https://arxiv.org/abs/2610.23866) · @Benedict Cummins-Mburu, Mariana Garcia Mejia, Oscar Heath, Sabrina Kreyzerman, Ellie Murray, Arusan Surendiran, Rohan Alexander
+- [Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices](https://arxiv.org/abs/2610.23921) · @Ritvik Garimella, Biplav Srivastava, Amit Sheth
+- [A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences](https://arxiv.org/abs/2610.23962) · @Hanqing Dou, Zijia Cao
+- [What Social Media Teaches Us About Accumulative AI Risks](https://arxiv.org/abs/2610.24006) · @Dawei Li, Bohan Jiang, Huan Liu
+- [Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation](https://arxiv.org/abs/2610.24010) · @Renye Yan, Jialun Zhong, Jikang Cheng, Yi Gao, Yanzeng Li, Ling Liang
 
 ## Papers
 
-- [Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models](https://arxiv.org/abs/2610.22428) · @Sai Kiran Bathula
-- [Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss](https://arxiv.org/abs/2610.22454) · @Zhiyuan Wang
-- [From Parallels to Divergence: Language Models' Learning of Action Nominal Constructions](https://arxiv.org/abs/2610.22468) · @Iskar Deng, Shane Steinert-Threlkeld
-- [RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents](https://arxiv.org/abs/2610.22507) · @Yunqi Liu, Peiyu Wang, Bingli Wang, Leo Luo, Xuanwu Song, Xudong Ma, Hongxin Li, Yaxin Du, Weicheng Gu, Fanglin Xu, Yi Xing, XiangLong Liu, Jujie He, Zhange Zhang, Huatong Song, Zhaoyi Li, Deyang Kong, Chuan Hao, Peihao Wu, Mingjie Tang, Ran Tao, Jian Yang, Wayne Xin Zhao, Bryan Dai
-- [AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems](https://arxiv.org/abs/2610.22511) · @Shreeyans Arora, Utsav Avaiya, Zera Lyngkhoi, Hem Gosalia, Ram Mohan Rao Kadiyala, Vinay Kumar Sankarapu, Pratinav Seth
-- [alkhder at ImageEval 2026 Shared Tasks: Constrained Selection and Rotation-Averaged Logit Scoring for Multimodal Hallucination Detection](https://arxiv.org/abs/2610.22515) · @Maher Pasa, Maria Hanini, Amro Najjar, Hasan Alkhder
-- [Learning User Representations to Improve Simulation Fidelity](https://arxiv.org/abs/2610.22518) · @Shuhaib Mehri, Philippe Laban, Michel Galley, Dilek T\"ur, Jennifer Neville, Jianfeng Gao
-- [alkhder at AlexandriaX-2026: Context-Aware English-to-Dialectal Arabic Dialogue Translation with QLoRA-Fine-Tuned NileChat-3B](https://arxiv.org/abs/2610.22525) · @Hasan Alkhder, Maher Pasa, Maria Hanini, Amro Najjar, Ahmet Zengin
-- [Literal Lock-In: How Test Language Shifts Literal Attraction in Typed Decision Models on Bengali Idioms](https://arxiv.org/abs/2610.22526) · @Adib Sakhawat, Syed Rifat Raiyan
-- [Pearl-Chat: Engineering a native Luganda language model from first principles in JAX and Flax NNX](https://arxiv.org/abs/2610.22529) · @Wesley Kambale, Roland Sankara
-- [HeRE: A Novel Benchmark for Hebrew Relation Extraction via LLM-Guided Denoising of Knowledge Graph Alignments](https://arxiv.org/abs/2610.22542) · @Ron Keinan, Amir David Nissan Cohen, Reut Tsarfaty
-- [Cultural (In)Competence: Investigating Culture-Specific Stereotype Detection Capabilities of LLMs](https://arxiv.org/abs/2610.22545) · @Maximilian Splieth\"over, Jannes L\"otfering, Dominik Bachmann, Alexander Espig, Willem Zuidema, Katrin Schulz, Henning Wachsmuth
+- [GardenBench: A lightweight, daily evaluation of LLM capabilities](https://arxiv.org/abs/2610.23866) · @Benedict Cummins-Mburu, Mariana Garcia Mejia, Oscar Heath, Sabrina Kreyzerman, Ellie Murray, Arusan Surendiran, Rohan Alexander
+- [Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices](https://arxiv.org/abs/2610.23921) · @Ritvik Garimella, Biplav Srivastava, Amit Sheth
+- [A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences](https://arxiv.org/abs/2610.23962) · @Hanqing Dou, Zijia Cao
+- [What Social Media Teaches Us About Accumulative AI Risks](https://arxiv.org/abs/2610.24006) · @Dawei Li, Bohan Jiang, Huan Liu
+- [Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation](https://arxiv.org/abs/2610.24010) · @Renye Yan, Jialun Zhong, Jikang Cheng, Yi Gao, Yanzeng Li, Ling Liang
+- [Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis](https://arxiv.org/abs/2610.24024) · @Jian Yang, Peiling Liu, Songda Li, Yu Cao, Yuqing Feng, Lan Yu, Jiarong Pan, Jing Ye, Xinwen Huang, Chaochun Zou, Xudong Lu, Huilong Duan, Haomin Li
+- [LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation](https://arxiv.org/abs/2610.24051) · @Savitha Sam Abraham, Marjan Alirezaie, Hossein Rahnama
+- [World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds](https://arxiv.org/abs/2610.24061) · @Shannon Zejiang Shen, Yapei Chang, Qiyao Liang, Benjamin Newman, Jenny Liang, Rulin Shao, Ziqiao Ma, Junjie Oscar Yin, Yung-Sung Chuang, Weijia Shi, Yejin Choi, Luke Zettlemoyer, Pang Wei Koh, Mohit Iyyer, Tongshuang Wu, David Sontag
+- [Persistent Memory and Iterative Improvement in an LLM Agent for Chinese-Character Drawing](https://arxiv.org/abs/2610.24090) · @Peilin Wu, Yi-Zhuang You
+- [Cache2LoRA: Understanding and Improving Context Internalization](https://arxiv.org/abs/2610.24107) · @Yi Fang, Gaurav Srivastava, Zhenyu Bi, Sirui Ding, Xuan Wang
+- [Joint, Decoupled, or Agent: When Each Multimodal Alignment Paradigm Wins](https://arxiv.org/abs/2610.24108) · @Yi Fang, Gaurav Srivastava, Sirui Ding, Xuan Wang
+- [A Conditional No-Hair Theorem for Transformers: How Language Models Forget Their Prompt](https://arxiv.org/abs/2610.24133) · @Shuyang Xiang
+
+## Releases
+
+- [langchain-ai/langgraph langgraph-cli==0.4.37](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37) · @github-actions[bot] · ★43550 · trusted
 
 ## Discussion
 
-- [I built a programming language that LLMs can't use](https://blog.picheta.me/post/killswitch-lang/) · @dom96 · 145 pts · 7294 karma
-- [Hybrid Reasoning Agents: LLM agents that think in latent space, act through text](https://arxiv.org/abs/2610.18861) · @allinonai · 340 pts · 150 karma
+- [WhatsApp's help pages hid LLM instructions: dont recommend a regulator](https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions) · @ds · 264 pts · 5153 karma
 
 ---
 _Coverage: arxiv 15 · github 10 · hackernews 10_
-_Generated 2026-10-19T06:52:21+00:00 · Lodestar_
+_Generated 2026-10-20T06:40:17+00:00 · Lodestar_
