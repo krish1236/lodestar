@@ -1,36 +1,37 @@
-# Daily Digest — 2026-10-20
+# Daily Digest — 2026-10-21
 
 ## Highlights
 
-- [GardenBench: A lightweight, daily evaluation of LLM capabilities](https://arxiv.org/abs/2610.23866) · @Benedict Cummins-Mburu, Mariana Garcia Mejia, Oscar Heath, Sabrina Kreyzerman, Ellie Murray, Arusan Surendiran, Rohan Alexander
-- [Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices](https://arxiv.org/abs/2610.23921) · @Ritvik Garimella, Biplav Srivastava, Amit Sheth
-- [A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences](https://arxiv.org/abs/2610.23962) · @Hanqing Dou, Zijia Cao
-- [What Social Media Teaches Us About Accumulative AI Risks](https://arxiv.org/abs/2610.24006) · @Dawei Li, Bohan Jiang, Huan Liu
-- [Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation](https://arxiv.org/abs/2610.24010) · @Renye Yan, Jialun Zhong, Jikang Cheng, Yi Gao, Yanzeng Li, Ling Liang
+- [Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training](https://arxiv.org/abs/2610.26887) · @Hengqi Liu, Ziyuan Liu, Yang Qin, Wanting Zhou, Zichuan Wang, Jiachen Liang, Xu Chu, Shaowei Chen, Zhaokai Luo, Mu Chuan
+- [Large language model and reinforcement learning based autonomous construction and progress updates](https://arxiv.org/abs/2610.26899) · @Yifei Xiao, Huasheng Lin, T. Y. Yang
+- [Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models](https://arxiv.org/abs/2610.26904) · @Koki Takeshita, Kenji Uebayashi, Hikaru Tomonari, Masaya Tsunokake, Koichiro Yawata, Tatsuya Sasaki, Yusuke Ohtsubo, Kota Dohi, Yasuhiro Sogawa
+- [MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring](https://arxiv.org/abs/2610.26913) · @Shrish Shrinath Vaidya, Minmini Selvam, Ganapathy Krishnamurthi
+- [DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution](https://arxiv.org/abs/2610.26924) · @Nan Jia, Wenxuan Shi, Jingqing Ruan, Zhizhao Zeng, Tianyi Zhai, Zhongda Su, Feng Hong, Zhengyu Chen, Wenhao Yan, Haojin Yang, Siqi Dai, Weipeng Zhang, Ke Zeng, Xunliang Cai
 
 ## Papers
 
-- [GardenBench: A lightweight, daily evaluation of LLM capabilities](https://arxiv.org/abs/2610.23866) · @Benedict Cummins-Mburu, Mariana Garcia Mejia, Oscar Heath, Sabrina Kreyzerman, Ellie Murray, Arusan Surendiran, Rohan Alexander
-- [Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices](https://arxiv.org/abs/2610.23921) · @Ritvik Garimella, Biplav Srivastava, Amit Sheth
-- [A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences](https://arxiv.org/abs/2610.23962) · @Hanqing Dou, Zijia Cao
-- [What Social Media Teaches Us About Accumulative AI Risks](https://arxiv.org/abs/2610.24006) · @Dawei Li, Bohan Jiang, Huan Liu
-- [Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation](https://arxiv.org/abs/2610.24010) · @Renye Yan, Jialun Zhong, Jikang Cheng, Yi Gao, Yanzeng Li, Ling Liang
-- [Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis](https://arxiv.org/abs/2610.24024) · @Jian Yang, Peiling Liu, Songda Li, Yu Cao, Yuqing Feng, Lan Yu, Jiarong Pan, Jing Ye, Xinwen Huang, Chaochun Zou, Xudong Lu, Huilong Duan, Haomin Li
-- [LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation](https://arxiv.org/abs/2610.24051) · @Savitha Sam Abraham, Marjan Alirezaie, Hossein Rahnama
-- [World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds](https://arxiv.org/abs/2610.24061) · @Shannon Zejiang Shen, Yapei Chang, Qiyao Liang, Benjamin Newman, Jenny Liang, Rulin Shao, Ziqiao Ma, Junjie Oscar Yin, Yung-Sung Chuang, Weijia Shi, Yejin Choi, Luke Zettlemoyer, Pang Wei Koh, Mohit Iyyer, Tongshuang Wu, David Sontag
-- [Persistent Memory and Iterative Improvement in an LLM Agent for Chinese-Character Drawing](https://arxiv.org/abs/2610.24090) · @Peilin Wu, Yi-Zhuang You
-- [Cache2LoRA: Understanding and Improving Context Internalization](https://arxiv.org/abs/2610.24107) · @Yi Fang, Gaurav Srivastava, Zhenyu Bi, Sirui Ding, Xuan Wang
-- [Joint, Decoupled, or Agent: When Each Multimodal Alignment Paradigm Wins](https://arxiv.org/abs/2610.24108) · @Yi Fang, Gaurav Srivastava, Sirui Ding, Xuan Wang
-- [A Conditional No-Hair Theorem for Transformers: How Language Models Forget Their Prompt](https://arxiv.org/abs/2610.24133) · @Shuyang Xiang
+- [Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training](https://arxiv.org/abs/2610.26887) · @Hengqi Liu, Ziyuan Liu, Yang Qin, Wanting Zhou, Zichuan Wang, Jiachen Liang, Xu Chu, Shaowei Chen, Zhaokai Luo, Mu Chuan
+- [Large language model and reinforcement learning based autonomous construction and progress updates](https://arxiv.org/abs/2610.26899) · @Yifei Xiao, Huasheng Lin, T. Y. Yang
+- [Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models](https://arxiv.org/abs/2610.26904) · @Koki Takeshita, Kenji Uebayashi, Hikaru Tomonari, Masaya Tsunokake, Koichiro Yawata, Tatsuya Sasaki, Yusuke Ohtsubo, Kota Dohi, Yasuhiro Sogawa
+- [MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring](https://arxiv.org/abs/2610.26913) · @Shrish Shrinath Vaidya, Minmini Selvam, Ganapathy Krishnamurthi
+- [DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution](https://arxiv.org/abs/2610.26924) · @Nan Jia, Wenxuan Shi, Jingqing Ruan, Zhizhao Zeng, Tianyi Zhai, Zhongda Su, Feng Hong, Zhengyu Chen, Wenhao Yan, Haojin Yang, Siqi Dai, Weipeng Zhang, Ke Zeng, Xunliang Cai
+- [Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing](https://arxiv.org/abs/2610.26941) · @Lei Ren, Haiteng Wang, Shixiang Li, Jing Zhang, Yuqing Wang, Jingwei Guo, Yunfei Zhu, Yuanjun Laili, Yang Tang, Lihui Wang
+- [Fix, Not Just Resample: Bounded Compiler-Guided Repair in Lean 4](https://arxiv.org/abs/2610.26942) · @Haotian Deng, Chris Farber, Sonal Narasimha, Samskrithi Sivakumar, Yexiang Xue
+- [MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning](https://arxiv.org/abs/2610.26943) · @Xinping Wang, Jie Ma, Rui Xing, Wensong Guo, Xiayi Zhang, Jianhao Deng, Zihao Zhou, Boqian Yang, Feijuan He
+- [LightCRS: Lightweight Multi-Domain Conversational Recommendation System](https://arxiv.org/abs/2610.26948) · @He Ma, Lan You, Qiyang Wu, Chen Liu
+- [When Planning Problems Become Hard for LLMs: Separating Structural Complexity from Semantic Interpretability](https://arxiv.org/abs/2610.26964) · @Mayukh Debnath, Adeyinka Adedigba, Rammohan Mallipeddi
+- [SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents](https://arxiv.org/abs/2610.26995) · @Ran Zhou, Zehui Kong, Fanyu Lin, Jiaheng Liu, Zhen Zhang, Yuxiang Ren
+- [Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?](https://arxiv.org/abs/2610.27027) · @Won Seok Jang, Harry Bhaskar Joshi, Hong Yu
 
 ## Releases
 
-- [langchain-ai/langgraph langgraph-cli==0.4.37](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37) · @github-actions[bot] · ★43550 · trusted
+- [anthropics/anthropic-sdk-python v1.17.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.17.0) · @anthropic-sdks-releaser[bot] · ★3988 · trusted
+- [anthropics/anthropic-sdk-python v1.16.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.16.0) · @anthropic-sdks-releaser[bot] · ★3988 · trusted
 
 ## Discussion
 
-- [WhatsApp's help pages hid LLM instructions: dont recommend a regulator](https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions) · @ds · 264 pts · 5153 karma
+- [DeepInfer: High-performance inference framework for DeepSeek models](https://github.com/deepseek-ai/DeepInfer) · @ggcr · 2207 pts · 1127 karma
 
 ---
 _Coverage: arxiv 15 · github 10 · hackernews 10_
-_Generated 2026-10-20T06:40:17+00:00 · Lodestar_
+_Generated 2026-10-21T06:40:46+00:00 · Lodestar_
