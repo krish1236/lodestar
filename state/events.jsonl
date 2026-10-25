@@ -1201,3 +1201,4 @@
 {"external_id": "anthropics/anthropic-sdk-python@v2.3.0", "rank_score": 0.8756338856096223, "run_id": "2026-10-24", "source": "github", "topics": ["claude", "anthropic"], "ts": "2026-10-24T06:37:02+00:00", "type": "item_shown", "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.3.0"}
 {"external_id": "anthropics/anthropic-sdk-python@v2.2.0", "rank_score": 0.8756338856096223, "run_id": "2026-10-24", "source": "github", "topics": ["anthropic"], "ts": "2026-10-24T06:37:02+00:00", "type": "item_shown", "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0"}
 {"errors": 0, "fetched": 35, "run_id": "2026-10-24", "surfaced": 17, "ts": "2026-10-24T06:37:02+00:00", "type": "run_completed"}
+{"errors": 0, "fetched": 20, "run_id": "2026-10-25", "surfaced": 0, "ts": "2026-10-25T06:37:16+00:00", "type": "run_completed"}
