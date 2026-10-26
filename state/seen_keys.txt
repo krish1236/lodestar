@@ -1124,3 +1124,17 @@ https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9
 https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.38
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.3.0
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0
+https://arxiv.org/abs/2610.31701
+https://arxiv.org/abs/2610.31789
+https://arxiv.org/abs/2610.31808
+https://arxiv.org/abs/2610.31810
+https://arxiv.org/abs/2610.31846
+https://arxiv.org/abs/2610.31882
+https://arxiv.org/abs/2610.31916
+https://arxiv.org/abs/2610.31918
+https://arxiv.org/abs/2610.31937
+https://arxiv.org/abs/2610.31971
+https://arxiv.org/abs/2610.31972
+https://arxiv.org/abs/2610.31985
+https://lynchlab.net/llm-skin-cancer
+https://minimaxir.com/2026/10/cheap-llms
