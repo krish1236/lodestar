@@ -1138,3 +1138,14 @@ https://arxiv.org/abs/2610.31972
 https://arxiv.org/abs/2610.31985
 https://lynchlab.net/llm-skin-cancer
 https://minimaxir.com/2026/10/cheap-llms
+https://arxiv.org/abs/2610.32022
+https://arxiv.org/abs/2610.32024
+https://arxiv.org/abs/2610.32026
+https://github.com/langchain-ai/langgraph/releases/tag/1.2.18
+https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.10
+https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.40
+https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.3
+https://github.com/openai/openai-python/releases/tag/v3.39.0
+https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm
+https://magazine.sebastianraschka.com/p/building-reasoning-models
+https://openai.com/index/introducing-gpt-6-1-terra

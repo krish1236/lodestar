@@ -1,16 +1,16 @@
 {
   "by_source": {
-    "arxiv": 765,
-    "github": 190,
-    "hackernews": 160
+    "arxiv": 768,
+    "github": 195,
+    "hackernews": 163
   },
-  "last_run_id": "2026-10-26",
-  "runs": 104,
+  "last_run_id": "2026-10-27",
+  "runs": 105,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 358,
+      "shown": 361,
       "weight": 0.5
     },
     "agentic": {
@@ -28,7 +28,7 @@
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 56,
+      "shown": 57,
       "weight": 0.5
     },
     "assistant": {
@@ -40,13 +40,13 @@
     "autonomous": {
       "disliked": 0,
       "liked": 0,
-      "shown": 64,
+      "shown": 65,
       "weight": 0.5
     },
     "benchmark": {
       "disliked": 0,
       "liked": 0,
-      "shown": 256,
+      "shown": 258,
       "weight": 0.5
     },
     "chain-of-thought": {
@@ -88,7 +88,7 @@
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 394,
+      "shown": 397,
       "weight": 0.5
     },
     "fine-tun": {
@@ -118,7 +118,7 @@
     "gpt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 86,
+      "shown": 90,
       "weight": 0.5
     },
     "hallucinat": {
@@ -136,25 +136,25 @@
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 108,
+      "shown": 112,
       "weight": 0.5
     },
     "langgraph": {
       "disliked": 0,
       "liked": 0,
-      "shown": 36,
+      "shown": 39,
       "weight": 0.5
     },
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 248,
+      "shown": 249,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 313,
+      "shown": 315,
       "weight": 0.5
     },
     "mcp": {
@@ -190,7 +190,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 84,
+      "shown": 86,
       "weight": 0.5
     },
     "orchestrat": {
@@ -202,7 +202,7 @@
     "prompt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 112,
+      "shown": 114,
       "weight": 0.5
     },
     "quantization": {
@@ -214,13 +214,13 @@
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 194,
+      "shown": 196,
       "weight": 0.5
     },
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 181,
+      "shown": 183,
       "weight": 0.5
     },
     "retrieval": {
@@ -266,5 +266,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-10-26"
+  "updated": "2026-10-27"
 }
