@@ -1,16 +1,16 @@
 {
   "by_source": {
-    "arxiv": 780,
-    "github": 197,
-    "hackernews": 165
+    "arxiv": 781,
+    "github": 199,
+    "hackernews": 167
   },
-  "last_run_id": "2026-10-28",
-  "runs": 106,
+  "last_run_id": "2026-10-29",
+  "runs": 107,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 365,
+      "shown": 367,
       "weight": 0.5
     },
     "agentic": {
@@ -46,7 +46,7 @@
     "benchmark": {
       "disliked": 0,
       "liked": 0,
-      "shown": 262,
+      "shown": 263,
       "weight": 0.5
     },
     "chain-of-thought": {
@@ -88,7 +88,7 @@
     "eval": {
       "disliked": 0,
       "liked": 0,
-      "shown": 405,
+      "shown": 406,
       "weight": 0.5
     },
     "fine-tun": {
@@ -112,7 +112,7 @@
     "gemini": {
       "disliked": 0,
       "liked": 0,
-      "shown": 25,
+      "shown": 26,
       "weight": 0.5
     },
     "gpt": {
@@ -124,19 +124,19 @@
     "hallucinat": {
       "disliked": 0,
       "liked": 0,
-      "shown": 21,
+      "shown": 22,
       "weight": 0.5
     },
     "inference": {
       "disliked": 0,
       "liked": 0,
-      "shown": 102,
+      "shown": 103,
       "weight": 0.5
     },
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 113,
+      "shown": 114,
       "weight": 0.5
     },
     "langgraph": {
@@ -148,13 +148,13 @@
     "language model": {
       "disliked": 0,
       "liked": 0,
-      "shown": 253,
+      "shown": 254,
       "weight": 0.5
     },
     "llm": {
       "disliked": 0,
       "liked": 0,
-      "shown": 318,
+      "shown": 319,
       "weight": 0.5
     },
     "mcp": {
@@ -184,13 +184,13 @@
     "multi-agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 57,
+      "shown": 58,
       "weight": 0.5
     },
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 87,
+      "shown": 88,
       "weight": 0.5
     },
     "orchestrat": {
@@ -220,7 +220,7 @@
     "reasoning": {
       "disliked": 0,
       "liked": 0,
-      "shown": 184,
+      "shown": 185,
       "weight": 0.5
     },
     "retrieval": {
@@ -266,5 +266,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-10-28"
+  "updated": "2026-10-29"
 }

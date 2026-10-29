@@ -1165,3 +1165,8 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D
 https://github.com/openai/openai-python/releases/tag/v3.40.0
 https://www.brangus.io/survival-llm
 https://www.anthropic.com/research/early-progress-drug-development
+https://arxiv.org/abs/2610.36325
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1
+https://github.com/openai/openai-python/releases/tag/v3.41.0
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon
+https://surgehq.ai/blog/dayjob-tax
