@@ -1170,3 +1170,8 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1
 https://github.com/openai/openai-python/releases/tag/v3.41.0
 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon
 https://surgehq.ai/blog/dayjob-tax
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.3
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.2
+https://mistral.ai/news/mistral-large-4-oss
+https://martinfowler.com/bliki/LLM-Voice.html
+https://labs.ycombinator.com/projects/games/index.html
