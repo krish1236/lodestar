@@ -1276,3 +1276,7 @@
 {"external_id": "openai/openai-python@v3.42.0", "rank_score": 0.9, "run_id": "2026-10-31", "source": "github", "topics": ["agent", "openai"], "ts": "2026-10-31T06:23:58+00:00", "type": "item_shown", "url": "https://github.com/openai/openai-python/releases/tag/v3.42.0"}
 {"external_id": "50300683", "rank_score": 0.6059935785521617, "run_id": "2026-10-31", "source": "hackernews", "topics": ["claude"], "ts": "2026-10-31T06:23:58+00:00", "type": "item_shown", "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"}
 {"errors": 0, "fetched": 35, "run_id": "2026-10-31", "surfaced": 17, "ts": "2026-10-31T06:23:58+00:00", "type": "run_completed"}
+{"external_id": "50314699", "rank_score": 0.6360042449792445, "run_id": "2026-11-01", "source": "hackernews", "topics": ["gpt"], "ts": "2026-11-01T06:24:50+00:00", "type": "item_shown", "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"}
+{"external_id": "50319358", "rank_score": 0.6467870179938038, "run_id": "2026-11-01", "source": "hackernews", "topics": ["anthropic"], "ts": "2026-11-01T06:24:50+00:00", "type": "item_shown", "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088"}
+{"external_id": "50318720", "rank_score": 0.5778202999238874, "run_id": "2026-11-01", "source": "hackernews", "topics": ["memory"], "ts": "2026-11-01T06:24:50+00:00", "type": "item_shown", "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/"}
+{"errors": 0, "fetched": 20, "run_id": "2026-11-01", "surfaced": 3, "ts": "2026-11-01T06:24:50+00:00", "type": "run_completed"}

@@ -2,10 +2,10 @@
   "by_source": {
     "arxiv": 793,
     "github": 205,
-    "hackernews": 171
+    "hackernews": 174
   },
-  "last_run_id": "2026-10-31",
-  "runs": 109,
+  "last_run_id": "2026-11-01",
+  "runs": 110,
   "topics": {
     "agent": {
       "disliked": 0,
@@ -28,7 +28,7 @@
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 58,
+      "shown": 59,
       "weight": 0.5
     },
     "assistant": {
@@ -118,7 +118,7 @@
     "gpt": {
       "disliked": 0,
       "liked": 0,
-      "shown": 92,
+      "shown": 93,
       "weight": 0.5
     },
     "hallucinat": {
@@ -166,7 +166,7 @@
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 96,
+      "shown": 97,
       "weight": 0.5
     },
     "mistral": {
@@ -266,5 +266,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-10-31"
+  "updated": "2026-11-01"
 }
