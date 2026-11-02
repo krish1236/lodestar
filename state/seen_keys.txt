@@ -1195,3 +1195,16 @@ https://phorion.io/blog/offical-claude-code-vsx-compromise
 https://www.parameter.ai/labs/we-found-a-gap-at-openai
 https://twitter.com/jiahaoshao1/status/2116475922190922088
 https://pivotlake.io/blog/its-the-memory-latency-stupid
+https://arxiv.org/abs/2610.40758
+https://arxiv.org/abs/2610.40798
+https://arxiv.org/abs/2610.40831
+https://arxiv.org/abs/2610.40883
+https://arxiv.org/abs/2610.40890
+https://arxiv.org/abs/2610.40906
+https://arxiv.org/abs/2610.40917
+https://arxiv.org/abs/2610.40927
+https://arxiv.org/abs/2610.40938
+https://arxiv.org/abs/2610.40939
+https://arxiv.org/abs/2610.40940
+https://arxiv.org/abs/2610.40946
+https://github.com/openai/openai-python/releases/tag/v3.42.1
