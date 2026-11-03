@@ -1,11 +1,11 @@
 {
   "by_source": {
     "arxiv": 805,
-    "github": 206,
-    "hackernews": 174
+    "github": 210,
+    "hackernews": 175
   },
-  "last_run_id": "2026-11-02",
-  "runs": 111,
+  "last_run_id": "2026-11-03",
+  "runs": 112,
   "topics": {
     "agent": {
       "disliked": 0,
@@ -28,7 +28,7 @@
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 59,
+      "shown": 63,
       "weight": 0.5
     },
     "assistant": {
@@ -136,7 +136,7 @@
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 119,
+      "shown": 122,
       "weight": 0.5
     },
     "langgraph": {
@@ -266,5 +266,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-11-02"
+  "updated": "2026-11-03"
 }

@@ -1208,3 +1208,8 @@ https://arxiv.org/abs/2610.40939
 https://arxiv.org/abs/2610.40940
 https://arxiv.org/abs/2610.40946
 https://github.com/openai/openai-python/releases/tag/v3.42.1
+https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.8
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4
+https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.9
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.4.0
+https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public
