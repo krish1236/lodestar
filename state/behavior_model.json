@@ -2,10 +2,10 @@
   "by_source": {
     "arxiv": 841,
     "github": 225,
-    "hackernews": 180
+    "hackernews": 181
   },
-  "last_run_id": "2026-11-06",
-  "runs": 115,
+  "last_run_id": "2026-11-07",
+  "runs": 116,
   "topics": {
     "agent": {
       "disliked": 0,
@@ -112,7 +112,7 @@
     "gemini": {
       "disliked": 0,
       "liked": 0,
-      "shown": 28,
+      "shown": 29,
       "weight": 0.5
     },
     "gpt": {
@@ -266,5 +266,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-11-06"
+  "updated": "2026-11-07"
 }

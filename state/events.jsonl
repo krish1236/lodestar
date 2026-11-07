@@ -1359,3 +1359,5 @@
 {"external_id": "50385272", "rank_score": 0.6034139965942864, "run_id": "2026-11-06", "source": "hackernews", "topics": ["claude"], "ts": "2026-11-06T06:27:48+00:00", "type": "item_shown", "url": "https://github.com/anthropics/claude-code/issues/107757"}
 {"external_id": "50379249", "rank_score": 0.5992344046429153, "run_id": "2026-11-06", "source": "hackernews", "topics": ["mcp"], "ts": "2026-11-06T06:27:48+00:00", "type": "item_shown", "url": "https://mcp-explained.com/"}
 {"errors": 0, "fetched": 35, "run_id": "2026-11-06", "surfaced": 19, "ts": "2026-11-06T06:27:48+00:00", "type": "run_completed"}
+{"external_id": "50392118", "rank_score": 0.6258203132672392, "run_id": "2026-11-07", "source": "hackernews", "topics": ["gemini"], "ts": "2026-11-07T06:23:42+00:00", "type": "item_shown", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"}
+{"errors": 0, "fetched": 20, "run_id": "2026-11-07", "surfaced": 1, "ts": "2026-11-07T06:23:42+00:00", "type": "run_completed"}

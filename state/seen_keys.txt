@@ -1269,3 +1269,4 @@ https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.6.0
 https://github.com/openai/openai-python/releases/tag/v3.47.0
 https://github.com/anthropics/claude-code/issues/107757
 https://mcp-explained.com
+https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash
