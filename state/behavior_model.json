@@ -2,10 +2,10 @@
   "by_source": {
     "arxiv": 841,
     "github": 225,
-    "hackernews": 181
+    "hackernews": 182
   },
-  "last_run_id": "2026-11-07",
-  "runs": 116,
+  "last_run_id": "2026-11-08",
+  "runs": 117,
   "topics": {
     "agent": {
       "disliked": 0,
@@ -58,7 +58,7 @@
     "claude": {
       "disliked": 0,
       "liked": 0,
-      "shown": 65,
+      "shown": 66,
       "weight": 0.5
     },
     "context window": {
@@ -266,5 +266,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-11-07"
+  "updated": "2026-11-08"
 }

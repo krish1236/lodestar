@@ -1270,3 +1270,4 @@ https://github.com/openai/openai-python/releases/tag/v3.47.0
 https://github.com/anthropics/claude-code/issues/107757
 https://mcp-explained.com
 https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash
+https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again
