@@ -1271,3 +1271,17 @@ https://github.com/anthropics/claude-code/issues/107757
 https://mcp-explained.com
 https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash
 https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again
+https://arxiv.org/abs/2611.08572
+https://arxiv.org/abs/2611.08613
+https://arxiv.org/abs/2611.08626
+https://arxiv.org/abs/2611.08640
+https://arxiv.org/abs/2611.08644
+https://arxiv.org/abs/2611.08647
+https://arxiv.org/abs/2611.08666
+https://arxiv.org/abs/2611.08669
+https://arxiv.org/abs/2611.08682
+https://arxiv.org/abs/2611.08684
+https://arxiv.org/abs/2611.08718
+https://arxiv.org/abs/2611.08741
+https://caleb.software/posts/claude-to-pi.html
+https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers
