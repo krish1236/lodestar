@@ -1285,3 +1285,13 @@ https://arxiv.org/abs/2611.08718
 https://arxiv.org/abs/2611.08741
 https://caleb.software/posts/claude-to-pi.html
 https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers
+https://arxiv.org/abs/2611.08752
+https://arxiv.org/abs/2611.08756
+https://arxiv.org/abs/2611.08779
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7
+https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.7.0
+https://github.com/openai/openai-python/releases/tag/v3.48.0
+https://github.com/thisisme6598/gemini_files
+https://www.anthropic.com/claude-fable-and-mythos-5-2
+https://artificialanalysis.ai/models/claude-fable-5-2
