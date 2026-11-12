@@ -1313,3 +1313,6 @@ https://github.com/openai/openai-python/releases/tag/v3.49.0
 https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase
 https://www.vulncheck.com/blog/anthropic-glasswing-november-update
 https://github.com/GoogleChrome/modern-web-guidance
+https://pietromiotti.com/latest/maya-site
+https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights
+https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api

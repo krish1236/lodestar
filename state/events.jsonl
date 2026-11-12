@@ -1408,3 +1408,7 @@
 {"external_id": "50447074", "rank_score": 0.65, "run_id": "2026-11-11", "source": "hackernews", "topics": ["anthropic"], "ts": "2026-11-11T06:26:50+00:00", "type": "item_shown", "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"}
 {"external_id": "50443812", "rank_score": 0.65, "run_id": "2026-11-11", "source": "hackernews", "topics": ["agent"], "ts": "2026-11-11T06:26:50+00:00", "type": "item_shown", "url": "https://github.com/GoogleChrome/modern-web-guidance"}
 {"errors": 0, "fetched": 35, "run_id": "2026-11-11", "surfaced": 18, "ts": "2026-11-11T06:26:50+00:00", "type": "run_completed"}
+{"external_id": "50452455", "rank_score": 0.6189759962823018, "run_id": "2026-11-12", "source": "hackernews", "topics": ["agent"], "ts": "2026-11-12T06:27:18+00:00", "type": "item_shown", "url": "https://pietromiotti.com/latest/maya-site"}
+{"external_id": "50458900", "rank_score": 0.6409944454416086, "run_id": "2026-11-12", "source": "hackernews", "topics": ["agent"], "ts": "2026-11-12T06:27:18+00:00", "type": "item_shown", "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"}
+{"external_id": "50456791", "rank_score": 0.6084679654537873, "run_id": "2026-11-12", "source": "hackernews", "topics": ["gemini"], "ts": "2026-11-12T06:27:18+00:00", "type": "item_shown", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"}
+{"errors": 12, "fetched": 10, "run_id": "2026-11-12", "surfaced": 3, "ts": "2026-11-12T06:27:18+00:00", "type": "run_completed"}

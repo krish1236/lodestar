@@ -2,15 +2,15 @@
   "by_source": {
     "arxiv": 868,
     "github": 232,
-    "hackernews": 190
+    "hackernews": 193
   },
-  "last_run_id": "2026-11-11",
-  "runs": 120,
+  "last_run_id": "2026-11-12",
+  "runs": 121,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 424,
+      "shown": 426,
       "weight": 0.5
     },
     "agentic": {
@@ -112,7 +112,7 @@
     "gemini": {
       "disliked": 0,
       "liked": 0,
-      "shown": 30,
+      "shown": 31,
       "weight": 0.5
     },
     "gpt": {
@@ -266,5 +266,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
 }
