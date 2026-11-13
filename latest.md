@@ -1,41 +1,29 @@
-# Daily Digest — 2026-11-12
+# Daily Digest — 2026-11-13
 
 ## Highlights
 
-- [My AI agents found an unmapped Maya site?](https://pietromiotti.com/latest/maya-site) · @eyvindn · 963 pts · 858 karma
-- [United Airlines bans AI agents from booking flights on behalf of travelers](https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/) · @herpderperator · 503 pts · 2998 karma
-- [Gemini Decisions API](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/) · @iamdelirium · 363 pts · 472 karma
+- [langchain-ai/langgraph langgraph==1.2.21](https://github.com/langchain-ai/langgraph/releases/tag/1.2.21) · @github-actions[bot] · ★44882 · trusted
+- [langchain-ai/langgraph langgraph-cli==0.4.43](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.43) · @github-actions[bot] · ★44882 · trusted
+- [langchain-ai/langchain langchain==1.5.0](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0) · @github-actions[bot] · ★149429 · trusted
+- [langchain-ai/langchain langchain-typesafe==0.1.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0) · @github-actions[bot] · ★149429 · trusted
+- [langchain-ai/langchain langchain-core==1.8.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0) · @github-actions[bot] · ★149429 · trusted
+
+## Releases
+
+- [langchain-ai/langgraph langgraph==1.2.21](https://github.com/langchain-ai/langgraph/releases/tag/1.2.21) · @github-actions[bot] · ★44882 · trusted
+- [langchain-ai/langgraph langgraph-cli==0.4.43](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.43) · @github-actions[bot] · ★44882 · trusted
+- [langchain-ai/langchain langchain==1.5.0](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0) · @github-actions[bot] · ★149429 · trusted
+- [langchain-ai/langchain langchain-typesafe==0.1.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0) · @github-actions[bot] · ★149429 · trusted
+- [langchain-ai/langchain langchain-core==1.8.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0) · @github-actions[bot] · ★149429 · trusted
+- [openai/openai-python v3.50.0](https://github.com/openai/openai-python/releases/tag/v3.50.0) · @openai-sdks[bot] · ★32142 · trusted
 
 ## Discussion
 
-- [United Airlines bans AI agents from booking flights on behalf of travelers](https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/) · @herpderperator · 503 pts · 2998 karma
-- [My AI agents found an unmapped Maya site?](https://pietromiotti.com/latest/maya-site) · @eyvindn · 963 pts · 858 karma
-- [Gemini Decisions API](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/) · @iamdelirium · 363 pts · 472 karma
+- [Anthropic IPO](https://ipo.anthropic.com/us/) · @josephljohnston · 885 pts · 340 karma · trusted
+- [Gemini 4 Hydrogen and Orchestrator](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/) · @jonbaer · 373 pts · 69159 karma
+- [Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) · @dvaplima · 504 pts · 462 karma
+- [I'm making LLMs work on small and old devices](https://github.com/hyperionaidev/smolmaxxing/) · @mrashad74 · 327 pts · 200 karma
 
 ---
-_Coverage: hackernews 10_
-> ⚠️ source `github` unavailable: langchain-ai/langgraph: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/langchain-ai/langgraph/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-> ⚠️ source `github` unavailable: langchain-ai/langchain: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/langchain-ai/langchain/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-> ⚠️ source `github` unavailable: anthropics/anthropic-sdk-python: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/anthropics/anthropic-sdk-python/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-> ⚠️ source `github` unavailable: openai/openai-python: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/openai/openai-python/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-> ⚠️ source `github` unavailable: modelcontextprotocol/python-sdk: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/modelcontextprotocol/python-sdk/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-> ⚠️ source `github` unavailable: vllm-project/vllm: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/vllm-project/vllm/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-> ⚠️ source `github` unavailable: langchain-ai/langgraph: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/langchain-ai/langgraph/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-> ⚠️ source `github` unavailable: langchain-ai/langchain: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/langchain-ai/langchain/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-> ⚠️ source `github` unavailable: anthropics/anthropic-sdk-python: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/anthropics/anthropic-sdk-python/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-> ⚠️ source `github` unavailable: openai/openai-python: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/openai/openai-python/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-> ⚠️ source `github` unavailable: modelcontextprotocol/python-sdk: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/modelcontextprotocol/python-sdk/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-> ⚠️ source `github` unavailable: vllm-project/vllm: Client error '403 rate limit exceeded' for url 'https://api.github.com/repos/vllm-project/vllm/releases?per_page=3'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-_Generated 2026-11-12T06:27:18+00:00 · Lodestar_
+_Coverage: github 10 · hackernews 10_
+_Generated 2026-11-13T06:26:24+00:00 · Lodestar_

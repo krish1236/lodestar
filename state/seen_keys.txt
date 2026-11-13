@@ -1316,3 +1316,13 @@ https://github.com/GoogleChrome/modern-web-guidance
 https://pietromiotti.com/latest/maya-site
 https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights
 https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api
+https://github.com/langchain-ai/langgraph/releases/tag/1.2.21
+https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.43
+https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0
+https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0
+https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0
+https://github.com/openai/openai-python/releases/tag/v3.50.0
+https://ipo.anthropic.com/us
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen
+https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity
+https://github.com/hyperionaidev/smolmaxxing
