@@ -1326,3 +1326,8 @@ https://ipo.anthropic.com/us
 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen
 https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity
 https://github.com/hyperionaidev/smolmaxxing
+https://github.com/langchain-ai/langgraph/releases/tag/1.2.22
+https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.2
+https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.1
+https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0
+https://github.com/openai/openai-python/releases/tag/v3.51.0
