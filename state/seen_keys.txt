@@ -1346,3 +1346,9 @@ https://arxiv.org/abs/2611.17583
 https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0
 https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0
 https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0
+https://arxiv.org/abs/2611.17610
+https://arxiv.org/abs/2611.17616
+https://arxiv.org/abs/2611.17620
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.9.0
+https://github.com/openai/openai-python/releases/tag/v3.52.0
+https://xusheng.dev/posts/windows-coding-agent-telemetry

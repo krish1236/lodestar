@@ -1,34 +1,28 @@
-# Daily Digest — 2026-11-16
+# Daily Digest — 2026-11-17
 
 ## Highlights
 
-- [When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors](https://arxiv.org/abs/2611.17338) · @Samarth Vinayaka
-- [Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs](https://arxiv.org/abs/2611.17339) · @Shubhra Mittal, Gaurav Naresh Mittal
-- [LoRAWeaver: Directional Adapter Routing in LoRA Representation Space](https://arxiv.org/abs/2611.17340) · @Inish Melroy D Souza, Tom Jackson, Vitor Castro, Rebecca Higginson, Andrea Soltoggio
-- [Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction](https://arxiv.org/abs/2611.17341) · @Animesh Agarwal, Meysam Ghaffari, Nina Fatehi, Carlos Morato
-- [An Operationalization of Opaque Serial Depth](https://arxiv.org/abs/2611.17495) · @Nathan Sheffield, Alek Westover, Lukas Finnveden, Alexa Pan, Julian Stastny, Ryan Greenblatt
+- [More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs](https://arxiv.org/abs/2611.17610) · @Seyed Mahmoud Sajjadi Mohammadabadi
+- [LLM-Guided Cluster Lifecycle Management: Deciding When and How to Evolve Behavioral Clusters](https://arxiv.org/abs/2611.17616) · @Himanshu Kulkarni, Siddharth Krishnamurthy, Jianhong Xin
+- [Safety Side Effects of Preventative Persona Steering: An Empirical Audit](https://arxiv.org/abs/2611.17620) · @Sabrina Tang, Nikolai Vo, Carson Murillo, Chira Sukumarnpiti, Sarah Wilson
+- [anthropics/anthropic-sdk-python v2.9.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.9.0) · @anthropic-sdks-releaser[bot] · ★4079 · trusted
+- [openai/openai-python v3.52.0](https://github.com/openai/openai-python/releases/tag/v3.52.0) · @openai-sdks[bot] · ★32180 · trusted
 
 ## Papers
 
-- [When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors](https://arxiv.org/abs/2611.17338) · @Samarth Vinayaka
-- [Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs](https://arxiv.org/abs/2611.17339) · @Shubhra Mittal, Gaurav Naresh Mittal
-- [LoRAWeaver: Directional Adapter Routing in LoRA Representation Space](https://arxiv.org/abs/2611.17340) · @Inish Melroy D Souza, Tom Jackson, Vitor Castro, Rebecca Higginson, Andrea Soltoggio
-- [Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction](https://arxiv.org/abs/2611.17341) · @Animesh Agarwal, Meysam Ghaffari, Nina Fatehi, Carlos Morato
-- [An Operationalization of Opaque Serial Depth](https://arxiv.org/abs/2611.17495) · @Nathan Sheffield, Alek Westover, Lukas Finnveden, Alexa Pan, Julian Stastny, Ryan Greenblatt
-- [Advancing Quantization for R&R Models with Microscaling Formats](https://arxiv.org/abs/2611.17501) · @Yavuz Yetim, Bor-Yiing Su, Zhe Wang, Arthur Liu, Pranav Sharma, Ying Wang, Randy Shuai, Luke Pfister, Ruichao Xiao, Bill Zhao, Zihao Liu, Liyuan Li, Jiangyuan Li, Gaoxiang Liu, Nathan Yan, Geonhwa Jeong, Jatin Chhugani, Elias Ellison, Uladzimir Pashkevich
-- [A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent](https://arxiv.org/abs/2611.17515) · @Harrison C. Margolin
-- [Model Annealing: Data-Efficient Learning through Review and Consolidation](https://arxiv.org/abs/2611.17524) · @Ali Mohammadi Ruzbahani, Rezvan Abouzadeh
-- [Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation](https://arxiv.org/abs/2611.17532) · @Kate M. O'Neill, Ian Whitehouse, Adam N. McCaughan, Ryan O'Loughlin, Sonia Buckley, Wolfgang Losert
-- [Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents](https://arxiv.org/abs/2611.17539) · @Samuel Chen, Jiaru Bai, Austin Henry Cheng, Varinia Bernales, Al\'an Aspuru-Guzik
-- [AI-Voyager: A Public-Interest System for Human-AI Civic Reasoning to Contest and Shape the Rules That Govern AI](https://arxiv.org/abs/2611.17564) · @Snehalkumar `Neil' S. Gaikwad, Dhruv Dixit, Bryen Alvarez, Pratik Patekar, Anika Sharma, Akshara Kolipaka, Paritosh Pandey
-- [When Does Less Information Pay? An Exact Finite Atlas of Representation, Payoff, and Cost](https://arxiv.org/abs/2611.17583) · @Aleksandr M. Shtraukh-Adamsky, Vladimir M. Adamsky, Irina G. Voloshina, Artemiy D. Spitsyn
+- [More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs](https://arxiv.org/abs/2611.17610) · @Seyed Mahmoud Sajjadi Mohammadabadi
+- [LLM-Guided Cluster Lifecycle Management: Deciding When and How to Evolve Behavioral Clusters](https://arxiv.org/abs/2611.17616) · @Himanshu Kulkarni, Siddharth Krishnamurthy, Jianhong Xin
+- [Safety Side Effects of Preventative Persona Steering: An Empirical Audit](https://arxiv.org/abs/2611.17620) · @Sabrina Tang, Nikolai Vo, Carson Murillo, Chira Sukumarnpiti, Sarah Wilson
 
 ## Releases
 
-- [langchain-ai/langchain langchain-xai==1.4.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0) · @github-actions[bot] · ★149605 · trusted
-- [langchain-ai/langchain langchain-mistralai==1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0) · @github-actions[bot] · ★149605 · trusted
-- [langchain-ai/langchain langchain-groq==1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0) · @github-actions[bot] · ★149605 · trusted
+- [openai/openai-python v3.52.0](https://github.com/openai/openai-python/releases/tag/v3.52.0) · @openai-sdks[bot] · ★32180 · trusted
+- [anthropics/anthropic-sdk-python v2.9.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.9.0) · @anthropic-sdks-releaser[bot] · ★4079 · trusted
+
+## Discussion
+
+- [Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use](https://xusheng.dev/posts/windows-coding-agent-telemetry/) · @cwaffles · 449 pts · 1716 karma
 
 ---
 _Coverage: arxiv 15 · github 10 · hackernews 10_
-_Generated 2026-11-16T06:40:23+00:00 · Lodestar_
+_Generated 2026-11-17T06:28:05+00:00 · Lodestar_
