@@ -1,39 +1,43 @@
-# Daily Digest — 2026-11-18
+# Daily Digest — 2026-11-19
 
 ## Highlights
 
-- [NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models](https://arxiv.org/abs/2611.21682) · @Liyan Wang, Longze Li, Mohamed Hassan, Isshu Lee, Dajie Sun, Ruimin Feng, Aleksandar Vakanski
-- [Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability](https://arxiv.org/abs/2611.21799) · @Zheng-Xin Yong, Benjamin Arnav, Miles Wang, Tomek Korbak, Olivia Watkins
-- [How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR](https://arxiv.org/abs/2611.21827) · @Mousa Shaya
-- [Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research](https://arxiv.org/abs/2611.21832) · @Keshav Shenoy, Anthony Zang, Eric Gan, Jacqueline Tay, Amy Ngo, Sebastian Prasanna, Julian Stastny, Vivek Hebbar
-- [Language Models Can Rewrite Their Own Weights](https://arxiv.org/abs/2611.21885) · @Jiajun Fan, Neil He, Changyi Yang, Andy Mao, Xi Zhu, Chaoran Cheng, Kaiqu Liang, Shuaike Shen, Zetian Li, Ruihan Guo, Ge Liu
+- [Human-AI Mutualism Is Unstable under Capability Asymmetry](https://arxiv.org/abs/2611.23322) · @Aydin Mohseni
+- [Training Language Models for Introspective Oversight](https://arxiv.org/abs/2611.23365) · @Alex Lin Wang, Linus Yifeng Tang, Dami Choi, Neil Chowdhury
+- [Where the Tokens Go: Heat, Entropy and Error in Agentic Coding](https://arxiv.org/abs/2611.23375) · @Al\'an Aspuru-Guzik, Varinia Bernales
+- [HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs](https://arxiv.org/abs/2611.23398) · @Yuanlin Wen, Elan Markowitz, Zubo Gu, Sami Abu-El-Haija, Bryan Perozzi, Mikhail Galkin, Ali Parviz, Aayush Gupta, Venkata Chivukula, Griffin Hadfield, Aravind Akella, Daniel J. Frame, Vahab Mirrokni, Amin Vahdat
+- [RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding](https://arxiv.org/abs/2611.23410) · @Jiarui Cui, Boxun Yan
 
 ## Papers
 
-- [NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models](https://arxiv.org/abs/2611.21682) · @Liyan Wang, Longze Li, Mohamed Hassan, Isshu Lee, Dajie Sun, Ruimin Feng, Aleksandar Vakanski
-- [Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability](https://arxiv.org/abs/2611.21799) · @Zheng-Xin Yong, Benjamin Arnav, Miles Wang, Tomek Korbak, Olivia Watkins
-- [How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR](https://arxiv.org/abs/2611.21827) · @Mousa Shaya
-- [Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research](https://arxiv.org/abs/2611.21832) · @Keshav Shenoy, Anthony Zang, Eric Gan, Jacqueline Tay, Amy Ngo, Sebastian Prasanna, Julian Stastny, Vivek Hebbar
-- [Language Models Can Rewrite Their Own Weights](https://arxiv.org/abs/2611.21885) · @Jiajun Fan, Neil He, Changyi Yang, Andy Mao, Xi Zhu, Chaoran Cheng, Kaiqu Liang, Shuaike Shen, Zetian Li, Ruihan Guo, Ge Liu
-- [DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding](https://arxiv.org/abs/2611.21925) · @Jameson Sandler, Shane Bergsma, Mostafa Elhoushi, Bin Claire Zhang, Gavia Gray, Joel Hestness, Nolan Dey, Ferdinando Fioretto
-- [SLED: Sensor SLicing from Edge to Datacenter](https://arxiv.org/abs/2611.21937) · @Alan Subedi, Avhishek Biswas, Apala Pramanik, Amlan Balabantaray, Mikhail Titov, Santosh Pitla, Ozgur Kilic, Mehmet C. Vuran
-- [Conserved Verdicts, Drifting Commitments: Identifying Harmful Overthinking](https://arxiv.org/abs/2611.21946) · @Jianghong Zhou, Hao Rong, Chen Lin
-- [Honest Brokers in AI Regulation: How Public Comments Introduce Evidence to Regulators](https://arxiv.org/abs/2611.21948) · @Sarah Tran, Anna-Maria Gueorguieva, Eva Maxfield Brown, Nicholas Weber
-- [DiscoveryAgent: A Framework for Scientist-centric Agentic AI](https://arxiv.org/abs/2611.21950) · @Owen Queen, Ioana Ciuca, Emma Dann, Jean Somalwar, Carine You, Steven Dillmann, Viraj Manwadkar, Evan Gorrell, Harrison G Zhang, Jonathan K Pritchard, Risa H Wechsler, James Zou
-- [WebAgents: Unbundling Agent Creation, Hosting, and Execution for an Agent-Native Web](https://arxiv.org/abs/2611.21978) · @Dario Fenoglio, Martin Gjoreski, Marc Langheinrich, Pradyumna Chari, Ramesh Raskar
-- [KV-LTM: Persistent Per-Session KV Caches as Long-Term Memory for Personal Assistants](https://arxiv.org/abs/2611.21998) · @Ziv Kfir, Ido Kfir
+- [Human-AI Mutualism Is Unstable under Capability Asymmetry](https://arxiv.org/abs/2611.23322) · @Aydin Mohseni
+- [Training Language Models for Introspective Oversight](https://arxiv.org/abs/2611.23365) · @Alex Lin Wang, Linus Yifeng Tang, Dami Choi, Neil Chowdhury
+- [Where the Tokens Go: Heat, Entropy and Error in Agentic Coding](https://arxiv.org/abs/2611.23375) · @Al\'an Aspuru-Guzik, Varinia Bernales
+- [HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs](https://arxiv.org/abs/2611.23398) · @Yuanlin Wen, Elan Markowitz, Zubo Gu, Sami Abu-El-Haija, Bryan Perozzi, Mikhail Galkin, Ali Parviz, Aayush Gupta, Venkata Chivukula, Griffin Hadfield, Aravind Akella, Daniel J. Frame, Vahab Mirrokni, Amin Vahdat
+- [RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding](https://arxiv.org/abs/2611.23410) · @Jiarui Cui, Boxun Yan
+- [Why Sub-4-Bit Vision CNNs Collapse and Where Mixed-Precision Recovery Stops](https://arxiv.org/abs/2611.23445) · @Michael Schroeder
+- [LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese](https://arxiv.org/abs/2611.23454) · @Carla Teixeira Lopes, Daniel F\'elix
+- [VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items](https://arxiv.org/abs/2611.23456) · @Quy P. Nguyen, Duong Q. Nguyen, Dinh P. T. Nguyen, Truong-Giang T. Le, Truong A. Bui, Vi H. Vo, Quang-Thinh Bui, My-Phuong Ngo, Trong N. Do, Thao P. Le, Phuc M. Nguyen, H. Nguyen-Xuan
+- [GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance](https://arxiv.org/abs/2611.23476) · @Minghe Zhang, Xuetao Kang, Yifei Ming, Yanfei Chen, Han Yu, Yufan Zhuang, Chen-Yu Lee
+- [Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations](https://arxiv.org/abs/2611.23480) · @Jonathan Lichtle, Aymen Meddeb, Antonin Birot, Ibrahima Niang, Lisa Gastaud, Riyad Hanafi, Sofiane Dujardin, Corentin Selomme, Guillaume Cachard, Aghiles Hamroun, Gr\'egory Kuchcinski, Su Hwan Kim, Bastien Le Guellec
+- [SpecLook: Speculating Where to Look for Fast and Reliable Agentic MLLMs](https://arxiv.org/abs/2611.23483) · @Xi Ding, Jiawei Zhang
+- [BOS Summary: The First Token Matters](https://arxiv.org/abs/2611.23508) · @Hui Zhu, Saleh Zare Zade, Rafi Ibn Sultan, Deng Pan, Arun Ross, Dongxiao Zhu
 
 ## Releases
 
-- [langchain-ai/langchain langchain-openai==1.8.1](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.1) · @github-actions[bot] · ★149828 · trusted
-- [langchain-ai/langchain langchain-core==1.8.2](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.2) · @github-actions[bot] · ★149828 · trusted
-- [openai/openai-python v3.55.0](https://github.com/openai/openai-python/releases/tag/v3.55.0) · @openai-sdks[bot] · ★32186 · trusted
-- [anthropics/anthropic-sdk-python v2.10.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.10.0) · @anthropic-sdks-releaser[bot] · ★4084 · trusted
+- [langchain-ai/langgraph langgraph==1.2.23](https://github.com/langchain-ai/langgraph/releases/tag/1.2.23) · @github-actions[bot] · ★45142 · trusted
+- [langchain-ai/langgraph langgraph-prebuilt==1.1.3](https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.3) · @github-actions[bot] · ★45142 · trusted
+- [langchain-ai/langchain langchain-openai==1.8.3](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3) · @github-actions[bot] · ★149864 · trusted
+- [langchain-ai/langchain langchain==1.5.2](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.2) · @github-actions[bot] · ★149864 · trusted
+- [langchain-ai/langchain langchain==1.5.1](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.1) · @github-actions[bot] · ★149864 · trusted
+- [openai/openai-python v3.55.1](https://github.com/openai/openai-python/releases/tag/v3.55.1) · @openai-sdks[bot] · ★32189 · trusted
 
 ## Discussion
 
-- [GPT‑6.2 Astra and Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol/) · @jasondavies · 1200 pts · 7444 karma · trusted
+- [Gemini 4 Neon looks like an Opus 5.5 competitor](https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/) · @seizethecheese · 200 pts · 4936 karma
+- [AI agents ask better questions than KPMG accountants in audit trial](https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/) · @Betelbuddy · 433 pts · 3537 karma
+- [Gemini 4 Neon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/) · @yigitdemirag · 678 pts · 3181 karma
 
 ---
 _Coverage: arxiv 15 · github 10 · hackernews 10_
-_Generated 2026-11-18T06:27:57+00:00 · Lodestar_
+_Generated 2026-11-19T06:28:42+00:00 · Lodestar_
