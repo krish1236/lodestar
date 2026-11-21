@@ -1410,3 +1410,17 @@ https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.11.0
 https://github.com/openai/openai-python/releases/tag/v3.57.0
 https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19
 https://www.anthropic.com/research/claude-black-hole-physics
+https://arxiv.org/abs/2611.24999
+https://arxiv.org/abs/2611.25000
+https://arxiv.org/abs/2611.25001
+https://arxiv.org/abs/2611.25003
+https://arxiv.org/abs/2611.25004
+https://arxiv.org/abs/2611.25100
+https://arxiv.org/abs/2611.25108
+https://arxiv.org/abs/2611.25114
+https://arxiv.org/abs/2611.25119
+https://arxiv.org/abs/2611.25130
+https://arxiv.org/abs/2611.25151
+https://arxiv.org/abs/2611.25160
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.12.0
+https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off
