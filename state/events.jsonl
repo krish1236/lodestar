@@ -1529,3 +1529,5 @@
 {"external_id": "anthropics/anthropic-sdk-python@v2.12.0", "rank_score": 0.8759595403052237, "run_id": "2026-11-21", "source": "github", "topics": ["anthropic"], "ts": "2026-11-21T06:25:35+00:00", "type": "item_shown", "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.12.0"}
 {"external_id": "50574383", "rank_score": 0.65, "run_id": "2026-11-21", "source": "hackernews", "topics": ["anthropic"], "ts": "2026-11-21T06:25:35+00:00", "type": "item_shown", "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"}
 {"errors": 0, "fetched": 35, "run_id": "2026-11-21", "surfaced": 14, "ts": "2026-11-21T06:25:35+00:00", "type": "run_completed"}
+{"external_id": "50591853", "rank_score": 0.65, "run_id": "2026-11-22", "source": "hackernews", "topics": ["memory"], "ts": "2026-11-22T06:25:29+00:00", "type": "item_shown", "url": "https://github.com/ShinMegamiBoson/lookatmyquant"}
+{"errors": 0, "fetched": 20, "run_id": "2026-11-22", "surfaced": 1, "ts": "2026-11-22T06:25:29+00:00", "type": "run_completed"}

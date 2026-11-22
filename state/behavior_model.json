@@ -2,10 +2,10 @@
   "by_source": {
     "arxiv": 931,
     "github": 265,
-    "hackernews": 205
+    "hackernews": 206
   },
-  "last_run_id": "2026-11-21",
-  "runs": 130,
+  "last_run_id": "2026-11-22",
+  "runs": 131,
   "topics": {
     "agent": {
       "disliked": 0,
@@ -166,7 +166,7 @@
     "memory": {
       "disliked": 0,
       "liked": 0,
-      "shown": 111,
+      "shown": 112,
       "weight": 0.5
     },
     "mistral": {
@@ -266,5 +266,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
 }
