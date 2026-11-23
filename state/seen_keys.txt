@@ -1425,3 +1425,16 @@ https://arxiv.org/abs/2611.25160
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.12.0
 https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off
 https://github.com/ShinMegamiBoson/lookatmyquant
+https://arxiv.org/abs/2611.26663
+https://arxiv.org/abs/2611.26717
+https://arxiv.org/abs/2611.26722
+https://arxiv.org/abs/2611.26782
+https://arxiv.org/abs/2611.26794
+https://arxiv.org/abs/2611.26797
+https://arxiv.org/abs/2611.26870
+https://arxiv.org/abs/2611.26903
+https://arxiv.org/abs/2611.26906
+https://arxiv.org/abs/2611.26910
+https://arxiv.org/abs/2611.26912
+https://arxiv.org/abs/2611.26935
+https://github.com/gulivan/worker755
