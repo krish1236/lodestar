@@ -1,16 +1,16 @@
 {
   "by_source": {
     "arxiv": 943,
-    "github": 265,
-    "hackernews": 207
+    "github": 270,
+    "hackernews": 208
   },
-  "last_run_id": "2026-11-23",
-  "runs": 132,
+  "last_run_id": "2026-11-24",
+  "runs": 133,
   "topics": {
     "agent": {
       "disliked": 0,
       "liked": 0,
-      "shown": 464,
+      "shown": 465,
       "weight": 0.5
     },
     "agentic": {
@@ -28,7 +28,7 @@
     "anthropic": {
       "disliked": 0,
       "liked": 0,
-      "shown": 76,
+      "shown": 77,
       "weight": 0.5
     },
     "assistant": {
@@ -58,7 +58,7 @@
     "claude": {
       "disliked": 0,
       "liked": 0,
-      "shown": 77,
+      "shown": 78,
       "weight": 0.5
     },
     "context window": {
@@ -136,7 +136,7 @@
     "langchain": {
       "disliked": 0,
       "liked": 0,
-      "shown": 158,
+      "shown": 161,
       "weight": 0.5
     },
     "langgraph": {
@@ -190,7 +190,7 @@
     "openai": {
       "disliked": 0,
       "liked": 0,
-      "shown": 108,
+      "shown": 109,
       "weight": 0.5
     },
     "orchestrat": {
@@ -214,7 +214,7 @@
     "rag": {
       "disliked": 0,
       "liked": 0,
-      "shown": 236,
+      "shown": 237,
       "weight": 0.5
     },
     "reasoning": {
@@ -250,7 +250,7 @@
     "transformer": {
       "disliked": 0,
       "liked": 0,
-      "shown": 40,
+      "shown": 41,
       "weight": 0.5
     },
     "vector": {
@@ -266,5 +266,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-11-23"
+  "updated": "2026-11-24"
 }

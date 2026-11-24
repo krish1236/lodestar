@@ -1438,3 +1438,9 @@ https://arxiv.org/abs/2611.26910
 https://arxiv.org/abs/2611.26912
 https://arxiv.org/abs/2611.26935
 https://github.com/gulivan/worker755
+https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.2.0
+https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.2.0
+https://github.com/langchain-ai/langchain/releases/tag/langchain-qdrant%3D%3D1.2.0
+https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.13.0
+https://github.com/openai/openai-python/releases/tag/v3.58.0
+https://z.ai/blog/glm-5.4
