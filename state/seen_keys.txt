@@ -1477,3 +1477,8 @@ https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D
 https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.14.0
 https://github.com/openai/openai-python/releases/tag/v3.59.0
 https://github.com/lsernau/grh-lean
+https://arxiv.org/abs/2611.33497
+https://arxiv.org/abs/2611.33513
+https://arxiv.org/abs/2611.33555
+https://github.com/openai/openai-python/releases/tag/v3.60.0
+https://techstackups.com/articles/google-workspace-ai-agents-mcp
