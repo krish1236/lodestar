@@ -4,8 +4,8 @@
     "github": 276,
     "hackernews": 213
   },
-  "last_run_id": "2026-11-27",
-  "runs": 136,
+  "last_run_id": "2026-11-28",
+  "runs": 137,
   "topics": {
     "agent": {
       "disliked": 0,
@@ -266,5 +266,5 @@
       "weight": 0.5
     }
   },
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
 }

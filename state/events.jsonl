@@ -1593,3 +1593,4 @@
 {"external_id": "openai/openai-python@v3.60.0", "rank_score": 0.9, "run_id": "2026-11-27", "source": "github", "topics": ["openai"], "ts": "2026-11-27T06:28:43+00:00", "type": "item_shown", "url": "https://github.com/openai/openai-python/releases/tag/v3.60.0"}
 {"external_id": "50653477", "rank_score": 0.6320432475592798, "run_id": "2026-11-27", "source": "hackernews", "topics": ["agent", "mcp"], "ts": "2026-11-27T06:28:43+00:00", "type": "item_shown", "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/"}
 {"errors": 0, "fetched": 35, "run_id": "2026-11-27", "surfaced": 5, "ts": "2026-11-27T06:28:43+00:00", "type": "run_completed"}
+{"errors": 0, "fetched": 20, "run_id": "2026-11-28", "surfaced": 0, "ts": "2026-11-28T06:26:02+00:00", "type": "run_completed"}
